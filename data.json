@@ -1,0 +1,98 @@
+{
+ "edition": "sts1-text-model-only-ironclad-a0-v8.1-rule2",
+ "dimensions": {
+  "game": "Slay the Spire 1 (V2.2, GOG build 2020-12-15)",
+  "input": "text",
+  "track": "model only (track 1, fixed interface)",
+  "character": "Ironclad",
+  "ascension": "A0",
+  "interface": "v8.1",
+  "interface_sha256": "dd5104516def0764801168b41ebbdbfbdbc48f88826b2b7aebc722a6611a8db5",
+  "scoring_rule": 2,
+  "seed_set": "eval-v1",
+  "replicates": 2
+ },
+ "generated": "2026-10-10",
+ "rows": [
+  {
+   "configuration": "deepseek/deepseek-v4.1-flash (high)",
+   "mean_floor": 39.05,
+   "floor_interval": [
+    35.62857753995044,
+    42.47142246004955
+   ],
+   "win_rate": 0.175,
+   "win_interval": [
+    0.08745302996883066,
+    0.3195029205439244
+   ],
+   "cost_per_run": 1.0053967500000003,
+   "seconds_measured": 5.114,
+   "attempts": 40
+  },
+  {
+   "configuration": "z-ai/glm-5.3-flash (high)",
+   "mean_floor": 29.85,
+   "floor_interval": [
+    25.461590269168354,
+    34.23840973083165
+   ],
+   "win_rate": 0.05,
+   "win_interval": [
+    0.013820377146101098,
+    0.165041708179252
+   ],
+   "cost_per_run": 0.167873575,
+   "seconds_measured": 5.341,
+   "attempts": 40
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "mean_floor": 29.8,
+   "floor_interval": [
+    26.38574494955727,
+    33.21425505044273
+   ],
+   "win_rate": 0.025,
+   "win_interval": [
+    0.0044267174077949195,
+    0.1288165948800778
+   ],
+   "cost_per_run": 0.5324924249999998,
+   "seconds_measured": 1.924,
+   "attempts": 40
+  },
+  {
+   "configuration": "xiaomi/mimo-v2.6-flash (high)",
+   "mean_floor": 29.15,
+   "floor_interval": [
+    24.56440389903513,
+    33.73559610096487
+   ],
+   "win_rate": 0.05,
+   "win_interval": [
+    0.013820377146101098,
+    0.165041708179252
+   ],
+   "cost_per_run": 0.19637387499999998,
+   "seconds_measured": 9.7335,
+   "attempts": 40
+  },
+  {
+   "configuration": "openai/gpt-6-luna (high)",
+   "mean_floor": 20.625,
+   "floor_interval": [
+    15.556520910688999,
+    25.693479089311
+   ],
+   "win_rate": 0.05,
+   "win_interval": [
+    0.013820377146101098,
+    0.165041708179252
+   ],
+   "cost_per_run": 0.294904975,
+   "seconds_measured": 2.174,
+   "attempts": 40
+  }
+ ]
+}
