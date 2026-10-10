@@ -1,0 +1,7990 @@
+{
+ "rule": 2,
+ "rule_text": "rule 2 (from 2026-09-26, DECISIONS 40): a replicate is one attempt; death, victory and budget stop all score the floor reached, a budget stop as a loss at that floor; reruns only for infrastructure failures; win rate counts victories only",
+ "configurations": {
+  "deepseek/deepseek-v4.1-flash (high)": {
+   "model": "deepseek/deepseek-v4.1-flash",
+   "floors_by_seed": {
+    "E01": {
+     "1": 33,
+     "2": 33
+    },
+    "E02": {
+     "1": 16,
+     "2": 39
+    },
+    "E03": {
+     "1": 50,
+     "2": 27
+    },
+    "E04": {
+     "1": 39,
+     "2": 50
+    },
+    "E05": {
+     "1": 22,
+     "2": 40
+    },
+    "E06": {
+     "1": 51,
+     "2": 51
+    },
+    "E07": {
+     "1": 41,
+     "2": 16
+    },
+    "E08": {
+     "1": 47,
+     "2": 21
+    },
+    "E09": {
+     "1": 50,
+     "2": 50
+    },
+    "E10": {
+     "1": 16,
+     "2": 48
+    },
+    "E11": {
+     "1": 51,
+     "2": 50
+    },
+    "E12": {
+     "1": 39,
+     "2": 40
+    },
+    "E13": {
+     "1": 51,
+     "2": 33
+    },
+    "E14": {
+     "1": 23,
+     "2": 50
+    },
+    "E15": {
+     "1": 51,
+     "2": 47
+    },
+    "E16": {
+     "1": 45,
+     "2": 40
+    },
+    "E17": {
+     "1": 33,
+     "2": 51
+    },
+    "E18": {
+     "1": 28,
+     "2": 39
+    },
+    "E19": {
+     "1": 24,
+     "2": 50
+    },
+    "E20": {
+     "1": 44,
+     "2": 33
+    }
+   },
+   "ends_by_seed": {
+    "E01": {
+     "1": "death",
+     "2": "death"
+    },
+    "E02": {
+     "1": "death",
+     "2": "death"
+    },
+    "E03": {
+     "1": "death",
+     "2": "death"
+    },
+    "E04": {
+     "1": "death",
+     "2": "death"
+    },
+    "E05": {
+     "1": "death",
+     "2": "death"
+    },
+    "E06": {
+     "1": "victory",
+     "2": "victory"
+    },
+    "E07": {
+     "1": "death",
+     "2": "death"
+    },
+    "E08": {
+     "1": "victory",
+     "2": "death"
+    },
+    "E09": {
+     "1": "death",
+     "2": "death"
+    },
+    "E10": {
+     "1": "death",
+     "2": "death"
+    },
+    "E11": {
+     "1": "victory",
+     "2": "death"
+    },
+    "E12": {
+     "1": "death",
+     "2": "death"
+    },
+    "E13": {
+     "1": "victory",
+     "2": "death"
+    },
+    "E14": {
+     "1": "death",
+     "2": "death"
+    },
+    "E15": {
+     "1": "victory",
+     "2": "death"
+    },
+    "E16": {
+     "1": "death",
+     "2": "death"
+    },
+    "E17": {
+     "1": "death",
+     "2": "victory"
+    },
+    "E18": {
+     "1": "death",
+     "2": "death"
+    },
+    "E19": {
+     "1": "death",
+     "2": "death"
+    },
+    "E20": {
+     "1": "death",
+     "2": "death"
+    }
+   },
+   "wins": 7,
+   "deaths": 33,
+   "budget_stops_scored": 0,
+   "budget_stops_unresolved": 0,
+   "infrastructure_unresolved": 0,
+   "reruns_launched": 0,
+   "reruns_scored": 0,
+   "reruns_excluded_by_rule_2": 0,
+   "scored_runs": 40,
+   "seeds_scored": 20,
+   "seeds_fully_scored": 20,
+   "floor": {
+    "seeds": 20,
+    "runs": 40,
+    "mean": 39.05,
+    "mean_of_seed_means": 39.05,
+    "sd_between_seeds": 0.0,
+    "sd_within_seed": 12.415715847263902,
+    "se_mean": 1.963097042940058,
+    "t_interval_on_seed_means": [
+     35.62857753995044,
+     42.47142246004955
+    ],
+    "seed_means": {
+     "E01": 33,
+     "E02": 27.5,
+     "E03": 38.5,
+     "E04": 44.5,
+     "E05": 31,
+     "E06": 51,
+     "E07": 28.5,
+     "E08": 34,
+     "E09": 50,
+     "E10": 32,
+     "E11": 50.5,
+     "E12": 39.5,
+     "E13": 42,
+     "E14": 36.5,
+     "E15": 49,
+     "E16": 42.5,
+     "E17": 42,
+     "E18": 33.5,
+     "E19": 37,
+     "E20": 38.5
+    },
+    "bootstrap_interval": [
+     34.823750000000004,
+     43.15
+    ]
+   },
+   "win_rate": {
+    "wins": 7,
+    "scored": 40,
+    "rate": 0.175,
+    "wilson_interval": [
+     0.08745302996883066,
+     0.3195029205439244
+    ],
+    "cluster_bootstrap_interval": [
+     0.05,
+     0.325
+    ]
+   },
+   "per_request": {
+    "requests": 24415,
+    "cost_mean": 0.0017808990874872005,
+    "cost_median": 0.000785784,
+    "cost_p90": 0.004508670000000001,
+    "cost_max": 0.0196686,
+    "seconds_p50": 8.331,
+    "seconds_p90": 36.46340000000001,
+    "seconds_p95": 53.067,
+    "seconds_max": 784.888,
+    "model_seconds_p50": 5.114,
+    "model_seconds_p90": 34.74040000000001,
+    "model_seconds_p95": 51.065699999999985,
+    "reasoning_tokens_mean": 2381.102764693836,
+    "reasoning_tokens_p90": 6745.800000000007,
+    "invalid_replies": 101,
+    "actions": 24314,
+    "invalid_rate": 0.004136801146835962,
+    "providers_seen": {
+     "DeepSeek": 24415
+    },
+    "models_served": {
+     "deepseek/deepseek-v4.1-flash": 24415
+    },
+    "finish_reasons": {
+     "stop": 24366,
+     "length": 32,
+     "error": 17
+    },
+    "steps_with_note": 13293,
+    "steps": 24415,
+    "efforts_reported": null
+   },
+   "speed": {
+    "runs_with_stats": 0,
+    "runs_without_stats": 44,
+    "bases": [],
+    "nominal_seconds": {
+     "n": 0,
+     "mean": null,
+     "p50": null,
+     "p90": null
+    },
+    "measured_seconds_on_the_same_requests": {
+     "n": 0,
+     "mean": null,
+     "p50": null,
+     "p90": null
+    },
+    "measured_over_nominal_mean": null,
+    "observed_tokens_per_second": {
+     "n": 0,
+     "mean": null,
+     "p50": null
+    },
+    "start_p50_latency_ms": {
+     "min": null,
+     "max": null
+    },
+    "start_p50_throughput_tps": {
+     "min": null,
+     "max": null
+    }
+   },
+   "invalid_split": {
+    "total": 101,
+    "tool_call_block": 0,
+    "tool_call_block_naming_a_legal_action": 0,
+    "no_action_line": 79,
+    "non_legal_action": 22
+   },
+   "loops": {
+    "runs_with_loops": 6,
+    "loop_steps_total": 51,
+    "steps_total": 22539
+   },
+   "caps": {
+    "max_cost_usd": 4.99,
+    "cost_cap_source": "measured_rate",
+    "cost_rate": {
+     "usd_per_request": 0.001663,
+     "source": "results/campaign-002/phase0-high/BENCH1_<model> (Ironclad, effort high, natural deaths at floors 50 / 42 / 30, image sha256:5987a670), 2026-09-19",
+     "requests": 723,
+     "margin": 1.5,
+     "steps": 2000
+    },
+    "max_wall_seconds": 40890,
+    "wall_cap_source": "measured_latency",
+    "latency_rate": {
+     "seconds_per_request": 13.63,
+     "seconds_model": 11.76,
+     "seconds_game": 1.87,
+     "source": "results/campaign-002/phase0-high/BENCH1_<model> (Ironclad, effort high, natural deaths at floors 50 / 42 / 30, image sha256:5987a670), 2026-09-19",
+     "requests": 723,
+     "margin": 1.5,
+     "steps": 2000
+    },
+    "max_tokens": 32000
+   },
+   "sampling": {
+    "temperature": null,
+    "top_p": null,
+    "reasoning": "high",
+    "reasoning_sent": {
+     "effort": "high"
+    },
+    "max_tokens": 32000,
+    "source": "protocol"
+   },
+   "effort": {
+    "supported_efforts": [
+     "max",
+     "high",
+     "low"
+    ],
+    "default_effort": "high",
+    "listing": "openrouter",
+    "label": "high",
+    "send": {
+     "effort": "high"
+    },
+    "source": "protocol",
+    "note": null,
+    "requested": "protocol"
+   }
+  },
+  "openai/gpt-5.6-luna (high)": {
+   "model": "openai/gpt-5.6-luna",
+   "floors_by_seed": {
+    "E01": {
+     "1": 48,
+     "2": 19
+    },
+    "E02": {
+     "1": 16,
+     "2": 16
+    },
+    "E03": {
+     "1": 22,
+     "2": 30
+    },
+    "E04": {
+     "1": 33,
+     "2": 16
+    },
+    "E05": {
+     "1": 50,
+     "2": 22
+    },
+    "E06": {
+     "1": 39,
+     "2": 27
+    },
+    "E07": {
+     "1": 38,
+     "2": 44
+    },
+    "E08": {
+     "1": 10,
+     "2": 33
+    },
+    "E09": {
+     "1": 33,
+     "2": 33
+    },
+    "E10": {
+     "1": 30,
+     "2": 33
+    },
+    "E11": {
+     "1": 33,
+     "2": 33
+    },
+    "E12": {
+     "1": 41,
+     "2": 33
+    },
+    "E13": {
+     "1": 3,
+     "2": 24
+    },
+    "E14": {
+     "1": 23,
+     "2": 33
+    },
+    "E15": {
+     "1": 29,
+     "2": 16
+    },
+    "E16": {
+     "1": 33,
+     "2": 33
+    },
+    "E17": {
+     "1": 51,
+     "2": 16
+    },
+    "E18": {
+     "1": 50,
+     "2": 28
+    },
+    "E19": {
+     "1": 33,
+     "2": 33
+    },
+    "E20": {
+     "1": 22,
+     "2": 33
+    }
+   },
+   "ends_by_seed": {
+    "E01": {
+     "1": "action_budget",
+     "2": "action_budget"
+    },
+    "E02": {
+     "1": "death",
+     "2": "death"
+    },
+    "E03": {
+     "1": "action_budget",
+     "2": "death"
+    },
+    "E04": {
+     "1": "death",
+     "2": "death"
+    },
+    "E05": {
+     "1": "death",
+     "2": "action_budget"
+    },
+    "E06": {
+     "1": "action_budget",
+     "2": "action_budget"
+    },
+    "E07": {
+     "1": "death",
+     "2": "death"
+    },
+    "E08": {
+     "1": "action_budget",
+     "2": "action_budget"
+    },
+    "E09": {
+     "1": "death",
+     "2": "death"
+    },
+    "E10": {
+     "1": "action_budget",
+     "2": "action_budget"
+    },
+    "E11": {
+     "1": "death",
+     "2": "death"
+    },
+    "E12": {
+     "1": "action_budget",
+     "2": "death"
+    },
+    "E13": {
+     "1": "action_budget",
+     "2": "action_budget"
+    },
+    "E14": {
+     "1": "death",
+     "2": "death"
+    },
+    "E15": {
+     "1": "death",
+     "2": "death"
+    },
+    "E16": {
+     "1": "death",
+     "2": "death"
+    },
+    "E17": {
+     "1": "victory",
+     "2": "death"
+    },
+    "E18": {
+     "1": "death",
+     "2": "death"
+    },
+    "E19": {
+     "1": "death",
+     "2": "death"
+    },
+    "E20": {
+     "1": "action_budget",
+     "2": "death"
+    }
+   },
+   "wins": 1,
+   "deaths": 25,
+   "budget_stops_scored": 14,
+   "budget_stops_unresolved": 0,
+   "infrastructure_unresolved": 0,
+   "reruns_launched": 15,
+   "reruns_scored": 0,
+   "reruns_excluded_by_rule_2": 15,
+   "scored_runs": 40,
+   "seeds_scored": 20,
+   "seeds_fully_scored": 20,
+   "floor": {
+    "seeds": 20,
+    "runs": 40,
+    "mean": 29.8,
+    "mean_of_seed_means": 29.8,
+    "sd_between_seeds": 0.0,
+    "sd_within_seed": 11.510864433221338,
+    "se_mean": 1.8200274723201295,
+    "t_interval_on_seed_means": [
+     26.38574494955727,
+     33.21425505044273
+    ],
+    "seed_means": {
+     "E01": 33.5,
+     "E02": 16,
+     "E03": 26,
+     "E04": 24.5,
+     "E05": 36,
+     "E06": 33,
+     "E07": 41,
+     "E08": 21.5,
+     "E09": 33,
+     "E10": 31.5,
+     "E11": 33,
+     "E12": 37,
+     "E13": 13.5,
+     "E14": 28,
+     "E15": 22.5,
+     "E16": 33,
+     "E17": 33.5,
+     "E18": 39,
+     "E19": 33,
+     "E20": 27.5
+    },
+    "bootstrap_interval": [
+     25.674375,
+     33.75
+    ]
+   },
+   "win_rate": {
+    "wins": 1,
+    "scored": 40,
+    "rate": 0.025,
+    "wilson_interval": [
+     0.0044267174077949195,
+     0.1288165948800778
+    ],
+    "cluster_bootstrap_interval": [
+     0.0,
+     0.1
+    ]
+   },
+   "per_request": {
+    "requests": 51880,
+    "cost_mean": 0.0005467399244410177,
+    "cost_median": 0.00046445,
+    "cost_p90": 0.0008294149999999998,
+    "cost_max": 0.00899455,
+    "seconds_p50": 2.336,
+    "seconds_p90": 7.929,
+    "seconds_p95": 9.73,
+    "seconds_max": 192.535,
+    "model_seconds_p50": 1.924,
+    "model_seconds_p90": 4.908199999999997,
+    "model_seconds_p95": 7.123099999999991,
+    "reasoning_tokens_mean": 120.95828835774866,
+    "reasoning_tokens_p90": 342.0,
+    "invalid_replies": 19,
+    "actions": 51861,
+    "invalid_rate": 0.00036622976098689284,
+    "providers_seen": {
+     "OpenAI": 51880
+    },
+    "models_served": {
+     "openai/gpt-5.6-luna": 51880
+    },
+    "finish_reasons": {
+     "stop": 51877,
+     "error": 3
+    },
+    "steps_with_note": 170,
+    "steps": 51880,
+    "efforts_reported": null
+   },
+   "speed": {
+    "runs_with_stats": 0,
+    "runs_without_stats": 55,
+    "bases": [],
+    "nominal_seconds": {
+     "n": 0,
+     "mean": null,
+     "p50": null,
+     "p90": null
+    },
+    "measured_seconds_on_the_same_requests": {
+     "n": 0,
+     "mean": null,
+     "p50": null,
+     "p90": null
+    },
+    "measured_over_nominal_mean": null,
+    "observed_tokens_per_second": {
+     "n": 0,
+     "mean": null,
+     "p50": null
+    },
+    "start_p50_latency_ms": {
+     "min": null,
+     "max": null
+    },
+    "start_p50_throughput_tps": {
+     "min": null,
+     "max": null
+    }
+   },
+   "invalid_split": {
+    "total": 19,
+    "tool_call_block": 0,
+    "tool_call_block_naming_a_legal_action": 0,
+    "no_action_line": 6,
+    "non_legal_action": 13
+   },
+   "loops": {
+    "runs_with_loops": 35,
+    "loop_steps_total": 20625,
+    "steps_total": 38989
+   },
+   "caps": {
+    "max_cost_usd": 1.63,
+    "cost_cap_source": "measured_rate",
+    "cost_rate": {
+     "usd_per_request": 0.000544,
+     "source": "results/campaign-002/phase0-high/BENCH1_<model> (Ironclad, effort high, natural deaths at floors 50 / 42 / 30, image sha256:5987a670), 2026-09-19",
+     "requests": 849,
+     "margin": 1.5,
+     "steps": 2000
+    },
+    "max_wall_seconds": 13020,
+    "wall_cap_source": "measured_latency",
+    "latency_rate": {
+     "seconds_per_request": 4.34,
+     "seconds_model": 2.84,
+     "seconds_game": 1.5,
+     "source": "results/campaign-002/phase0-high/BENCH1_<model> (Ironclad, effort high, natural deaths at floors 50 / 42 / 30, image sha256:5987a670), 2026-09-19",
+     "requests": 849,
+     "margin": 1.5,
+     "steps": 2000
+    },
+    "max_tokens": 32000
+   },
+   "sampling": {
+    "temperature": null,
+    "top_p": null,
+    "reasoning": "high",
+    "reasoning_sent": {
+     "effort": "high"
+    },
+    "max_tokens": 32000,
+    "source": "protocol"
+   },
+   "effort": {
+    "supported_efforts": [
+     "max",
+     "xhigh",
+     "high",
+     "medium",
+     "low",
+     "none"
+    ],
+    "default_effort": "medium",
+    "listing": "openrouter",
+    "label": "high",
+    "send": {
+     "effort": "high"
+    },
+    "source": "protocol",
+    "note": null,
+    "requested": "protocol"
+   }
+  },
+  "xiaomi/mimo-v2.6-flash (high)": {
+   "model": "xiaomi/mimo-v2.6-flash",
+   "floors_by_seed": {
+    "E01": {
+     "1": 24,
+     "2": 27
+    },
+    "E02": {
+     "1": 16,
+     "2": 16
+    },
+    "E03": {
+     "1": 28,
+     "2": 29
+    },
+    "E04": {
+     "1": 23,
+     "2": 6
+    },
+    "E05": {
+     "1": 22,
+     "2": 21
+    },
+    "E06": {
+     "1": 51,
+     "2": 28
+    },
+    "E07": {
+     "1": 24,
+     "2": 24
+    },
+    "E08": {
+     "1": 16,
+     "2": 41
+    },
+    "E09": {
+     "1": 24,
+     "2": 33
+    },
+    "E10": {
+     "1": 45,
+     "2": 33
+    },
+    "E11": {
+     "1": 33,
+     "2": 16
+    },
+    "E12": {
+     "1": 36,
+     "2": 33
+    },
+    "E13": {
+     "1": 23,
+     "2": 30
+    },
+    "E14": {
+     "1": 50,
+     "2": 33
+    },
+    "E15": {
+     "1": 50,
+     "2": 50
+    },
+    "E16": {
+     "1": 33,
+     "2": 16
+    },
+    "E17": {
+     "1": 16,
+     "2": 47
+    },
+    "E18": {
+     "1": 33,
+     "2": 28
+    },
+    "E19": {
+     "1": 33,
+     "2": 51
+    },
+    "E20": {
+     "1": 12,
+     "2": 12
+    }
+   },
+   "ends_by_seed": {
+    "E01": {
+     "1": "death",
+     "2": "death"
+    },
+    "E02": {
+     "1": "death",
+     "2": "death"
+    },
+    "E03": {
+     "1": "death",
+     "2": "death"
+    },
+    "E04": {
+     "1": "death",
+     "2": "death"
+    },
+    "E05": {
+     "1": "death",
+     "2": "death"
+    },
+    "E06": {
+     "1": "victory",
+     "2": "death"
+    },
+    "E07": {
+     "1": "death",
+     "2": "death"
+    },
+    "E08": {
+     "1": "death",
+     "2": "death"
+    },
+    "E09": {
+     "1": "death",
+     "2": "death"
+    },
+    "E10": {
+     "1": "death",
+     "2": "death"
+    },
+    "E11": {
+     "1": "death",
+     "2": "death"
+    },
+    "E12": {
+     "1": "death",
+     "2": "death"
+    },
+    "E13": {
+     "1": "death",
+     "2": "death"
+    },
+    "E14": {
+     "1": "death",
+     "2": "death"
+    },
+    "E15": {
+     "1": "death",
+     "2": "death"
+    },
+    "E16": {
+     "1": "death",
+     "2": "death"
+    },
+    "E17": {
+     "1": "death",
+     "2": "death"
+    },
+    "E18": {
+     "1": "death",
+     "2": "death"
+    },
+    "E19": {
+     "1": "death",
+     "2": "victory"
+    },
+    "E20": {
+     "1": "death",
+     "2": "death"
+    }
+   },
+   "wins": 2,
+   "deaths": 38,
+   "budget_stops_scored": 0,
+   "budget_stops_unresolved": 0,
+   "infrastructure_unresolved": 0,
+   "reruns_launched": 0,
+   "reruns_scored": 0,
+   "reruns_excluded_by_rule_2": 0,
+   "scored_runs": 40,
+   "seeds_scored": 20,
+   "seeds_fully_scored": 20,
+   "floor": {
+    "seeds": 20,
+    "runs": 40,
+    "mean": 29.15,
+    "mean_of_seed_means": 29.15,
+    "sd_between_seeds": 6.861314129155389,
+    "sd_within_seed": 9.891915891272024,
+    "se_mean": 2.1909202584638647,
+    "t_interval_on_seed_means": [
+     24.56440389903513,
+     33.73559610096487
+    ],
+    "seed_means": {
+     "E01": 25.5,
+     "E02": 16,
+     "E03": 28.5,
+     "E04": 14.5,
+     "E05": 21.5,
+     "E06": 39.5,
+     "E07": 24,
+     "E08": 28.5,
+     "E09": 28.5,
+     "E10": 39,
+     "E11": 24.5,
+     "E12": 34.5,
+     "E13": 26.5,
+     "E14": 41.5,
+     "E15": 50,
+     "E16": 24.5,
+     "E17": 31.5,
+     "E18": 30.5,
+     "E19": 42,
+     "E20": 12
+    },
+    "bootstrap_interval": [
+     24.525,
+     33.85
+    ]
+   },
+   "win_rate": {
+    "wins": 2,
+    "scored": 40,
+    "rate": 0.05,
+    "wilson_interval": [
+     0.013820377146101098,
+     0.165041708179252
+    ],
+    "cluster_bootstrap_interval": [
+     0.0,
+     0.15
+    ]
+   },
+   "per_request": {
+    "requests": 20838,
+    "cost_mean": 0.00037695341702658603,
+    "cost_median": 0.0002855384,
+    "cost_p90": 0.0005708639999999998,
+    "cost_max": 0.0093247,
+    "seconds_p50": 11.864,
+    "seconds_p90": 37.034899999999965,
+    "seconds_p95": 59.00299999999996,
+    "seconds_max": 1076.903,
+    "model_seconds_p50": 9.7335,
+    "model_seconds_p90": 35.151399999999995,
+    "model_seconds_p95": 57.26319999999998,
+    "reasoning_tokens_mean": 517.489298397159,
+    "reasoning_tokens_p90": 1076.2999999999993,
+    "invalid_replies": 2672,
+    "actions": 18166,
+    "invalid_rate": 0.12822727708993187,
+    "providers_seen": {
+     "Xiaomi": 20838
+    },
+    "models_served": {
+     "xiaomi/mimo-v2.6-flash": 20838
+    },
+    "finish_reasons": {
+     "stop": 20831,
+     "length": 6,
+     "error": 1
+    },
+    "steps_with_note": 6448,
+    "steps": 20838,
+    "efforts_reported": null
+   },
+   "speed": {
+    "runs_with_stats": 40,
+    "runs_without_stats": 0,
+    "bases": [
+     {
+      "run": "E01_xiaomi_mimo-v2.6-flash_rep1",
+      "p50_latency_ms": 3240,
+      "p50_throughput_tps": 38,
+      "formula": "nominal_seconds = p50 latency + completion tokens (reasoning included) / p50 throughput, from the start snapshot",
+      "available": true,
+      "note": null,
+      "end_p50_latency_ms": 3865,
+      "end_p50_throughput_tps": 34
+     },
+     {
+      "run": "E01_xiaomi_mimo-v2.6-flash_rep2",
+      "p50_latency_ms": 3240,
+      "p50_throughput_tps": 38,
+      "formula": "nominal_seconds = p50 latency + completion tokens (reasoning included) / p50 throughput, from the start snapshot",
+      "available": true,
+      "note": null,
+      "end_p50_latency_ms": 4218,
+      "end_p50_throughput_tps": 30
+     },
+     {
+      "run": "E02_xiaomi_mimo-v2.6-flash_rep1",
+      "p50_latency_ms": 3240,
+      "p50_throughput_tps": 38,
+      "formula": "nominal_seconds = p50 latency + completion tokens (reasoning included) / p50 throughput, from the start snapshot",
+      "available": true,
+      "note": null,
+      "end_p50_latency_ms": 3740,
+      "end_p50_throughput_tps": 34
+     },
+     {
+      "run": "E02_xiaomi_mimo-v2.6-flash_rep2",
+      "p50_latency_ms": 3240,
+      "p50_throughput_tps": 38,
+      "formula": "nominal_seconds = p50 latency + completion tokens (reasoning included) / p50 throughput, from the start snapshot",
+      "available": true,
+      "note": null,
+      "end_p50_latency_ms": 3560.5,
+      "end_p50_throughput_tps": 35
+     },
+     {
+      "run": "E03_xiaomi_mimo-v2.6-flash_rep1",
+      "p50_latency_ms": 3240,
+      "p50_throughput_tps": 38,
+      "formula": "nominal_seconds = p50 latency + completion tokens (reasoning included) / p50 throughput, from the start snapshot",
+      "available": true,
+      "note": null,
+      "end_p50_latency_ms": 3672.5,
+      "end_p50_throughput_tps": 34
+     },
+     {
+      "run": "E03_xiaomi_mimo-v2.6-flash_rep2",
+      "p50_latency_ms": 3240,
+      "p50_throughput_tps": 38,
+      "formula": "nominal_seconds = p50 latency + completion tokens (reasoning included) / p50 throughput, from the start snapshot",
+      "available": true,
+      "note": null,
+      "end_p50_latency_ms": 2934.5,
+      "end_p50_throughput_tps": 41
+     },
+     {
+      "run": "E04_xiaomi_mimo-v2.6-flash_rep1",
+      "p50_latency_ms": 3240,
+      "p50_throughput_tps": 38,
+      "formula": "nominal_seconds = p50 latency + completion tokens (reasoning included) / p50 throughput, from the start snapshot",
+      "available": true,
+      "note": null,
+      "end_p50_latency_ms": 4402.5,
+      "end_p50_throughput_tps": 35
+     },
+     {
+      "run": "E04_xiaomi_mimo-v2.6-flash_rep2",
+      "p50_latency_ms": 3240,
+      "p50_throughput_tps": 38,
+      "formula": "nominal_seconds = p50 latency + completion tokens (reasoning included) / p50 throughput, from the start snapshot",
+      "available": true,
+      "note": null,
+      "end_p50_latency_ms": 2981.5,
+      "end_p50_throughput_tps": 37
+     },
+     {
+      "run": "E05_xiaomi_mimo-v2.6-flash_rep1",
+      "p50_latency_ms": 3240,
+      "p50_throughput_tps": 38,
+      "formula": "nominal_seconds = p50 latency + completion tokens (reasoning included) / p50 throughput, from the start snapshot",
+      "available": true,
+      "note": null,
+      "end_p50_latency_ms": 4007.5,
+      "end_p50_throughput_tps": 28
+     },
+     {
+      "run": "E05_xiaomi_mimo-v2.6-flash_rep2",
+      "p50_latency_ms": 3240,
+      "p50_throughput_tps": 38,
+      "formula": "nominal_seconds = p50 latency + completion tokens (reasoning included) / p50 throughput, from the start snapshot",
+      "available": true,
+      "note": null,
+      "end_p50_latency_ms": 3326.5,
+      "end_p50_throughput_tps": 35
+     },
+     {
+      "run": "E06_xiaomi_mimo-v2.6-flash_rep1",
+      "p50_latency_ms": 3240,
+      "p50_throughput_tps": 38,
+      "formula": "nominal_seconds = p50 latency + completion tokens (reasoning included) / p50 throughput, from the start snapshot",
+      "available": true,
+      "note": null,
+      "end_p50_latency_ms": 2823,
+      "end_p50_throughput_tps": 38
+     },
+     {
+      "run": "E06_xiaomi_mimo-v2.6-flash_rep2",
+      "p50_latency_ms": 3240,
+      "p50_throughput_tps": 38,
+      "formula": "nominal_seconds = p50 latency + completion tokens (reasoning included) / p50 throughput, from the start snapshot",
+      "available": true,
+      "note": null,
+      "end_p50_latency_ms": 4032,
+      "end_p50_throughput_tps": 28
+     },
+     {
+      "run": "E07_xiaomi_mimo-v2.6-flash_rep1",
+      "p50_latency_ms": 3240,
+      "p50_throughput_tps": 38,
+      "formula": "nominal_seconds = p50 latency + completion tokens (reasoning included) / p50 throughput, from the start snapshot",
+      "available": true,
+      "note": null,
+      "end_p50_latency_ms": 4299,
+      "end_p50_throughput_tps": 29
+     },
+     {
+      "run": "E07_xiaomi_mimo-v2.6-flash_rep2",
+      "p50_latency_ms": 3240,
+      "p50_throughput_tps": 38,
+      "formula": "nominal_seconds = p50 latency + completion tokens (reasoning included) / p50 throughput, from the start snapshot",
+      "available": true,
+      "note": null,
+      "end_p50_latency_ms": 3326.5,
+      "end_p50_throughput_tps": 35
+     },
+     {
+      "run": "E08_xiaomi_mimo-v2.6-flash_rep1",
+      "p50_latency_ms": 3240,
+      "p50_throughput_tps": 38,
+      "formula": "nominal_seconds = p50 latency + completion tokens (reasoning included) / p50 throughput, from the start snapshot",
+      "available": true,
+      "note": null,
+      "end_p50_latency_ms": 3651,
+      "end_p50_throughput_tps": 34
+     },
+     {
+      "run": "E08_xiaomi_mimo-v2.6-flash_rep2",
+      "p50_latency_ms": 3240,
+      "p50_throughput_tps": 38,
+      "formula": "nominal_seconds = p50 latency + completion tokens (reasoning included) / p50 throughput, from the start snapshot",
+      "available": true,
+      "note": null,
+      "end_p50_latency_ms": 2856.5,
+      "end_p50_throughput_tps": 37
+     },
+     {
+      "run": "E09_xiaomi_mimo-v2.6-flash_rep1",
+      "p50_latency_ms": 3240,
+      "p50_throughput_tps": 38,
+      "formula": "nominal_seconds = p50 latency + completion tokens (reasoning included) / p50 throughput, from the start snapshot",
+      "available": true,
+      "note": null,
+      "end_p50_latency_ms": 4402.5,
+      "end_p50_throughput_tps": 35
+     },
+     {
+      "run": "E09_xiaomi_mimo-v2.6-flash_rep2",
+      "p50_latency_ms": 3240,
+      "p50_throughput_tps": 38,
+      "formula": "nominal_seconds = p50 latency + completion tokens (reasoning included) / p50 throughput, from the start snapshot",
+      "available": true,
+      "note": null,
+      "end_p50_latency_ms": 4234,
+      "end_p50_throughput_tps": 36
+     },
+     {
+      "run": "E10_xiaomi_mimo-v2.6-flash_rep1",
+      "p50_latency_ms": 3240,
+      "p50_throughput_tps": 38,
+      "formula": "nominal_seconds = p50 latency + completion tokens (reasoning included) / p50 throughput, from the start snapshot",
+      "available": true,
+      "note": null,
+      "end_p50_latency_ms": 2547,
+      "end_p50_throughput_tps": 46
+     },
+     {
+      "run": "E10_xiaomi_mimo-v2.6-flash_rep2",
+      "p50_latency_ms": 3240,
+      "p50_throughput_tps": 38,
+      "formula": "nominal_seconds = p50 latency + completion tokens (reasoning included) / p50 throughput, from the start snapshot",
+      "available": true,
+      "note": null,
+      "end_p50_latency_ms": 3102.5,
+      "end_p50_throughput_tps": 38
+     },
+     {
+      "run": "E11_xiaomi_mimo-v2.6-flash_rep1",
+      "p50_latency_ms": 3240,
+      "p50_throughput_tps": 38,
+      "formula": "nominal_seconds = p50 latency + completion tokens (reasoning included) / p50 throughput, from the start snapshot",
+      "available": true,
+      "note": null,
+      "end_p50_latency_ms": 4402.5,
+      "end_p50_throughput_tps": 35
+     },
+     {
+      "run": "E11_xiaomi_mimo-v2.6-flash_rep2",
+      "p50_latency_ms": 3240,
+      "p50_throughput_tps": 38,
+      "formula": "nominal_seconds = p50 latency + completion tokens (reasoning included) / p50 throughput, from the start snapshot",
+      "available": true,
+      "note": null,
+      "end_p50_latency_ms": 3823,
+      "end_p50_throughput_tps": 33
+     },
+     {
+      "run": "E12_xiaomi_mimo-v2.6-flash_rep1",
+      "p50_latency_ms": 3240,
+      "p50_throughput_tps": 38,
+      "formula": "nominal_seconds = p50 latency + completion tokens (reasoning included) / p50 throughput, from the start snapshot",
+      "available": true,
+      "note": null,
+      "end_p50_latency_ms": 2934.5,
+      "end_p50_throughput_tps": 41
+     },
+     {
+      "run": "E12_xiaomi_mimo-v2.6-flash_rep2",
+      "p50_latency_ms": 3240,
+      "p50_throughput_tps": 38,
+      "formula": "nominal_seconds = p50 latency + completion tokens (reasoning included) / p50 throughput, from the start snapshot",
+      "available": true,
+      "note": null,
+      "end_p50_latency_ms": 2934.5,
+      "end_p50_throughput_tps": 41
+     },
+     {
+      "run": "E13_xiaomi_mimo-v2.6-flash_rep1",
+      "p50_latency_ms": 3240,
+      "p50_throughput_tps": 38,
+      "formula": "nominal_seconds = p50 latency + completion tokens (reasoning included) / p50 throughput, from the start snapshot",
+      "available": true,
+      "note": null,
+      "end_p50_latency_ms": 4076,
+      "end_p50_throughput_tps": 34
+     },
+     {
+      "run": "E13_xiaomi_mimo-v2.6-flash_rep2",
+      "p50_latency_ms": 3240,
+      "p50_throughput_tps": 38,
+      "formula": "nominal_seconds = p50 latency + completion tokens (reasoning included) / p50 throughput, from the start snapshot",
+      "available": true,
+      "note": null,
+      "end_p50_latency_ms": 3746,
+      "end_p50_throughput_tps": 33
+     },
+     {
+      "run": "E14_xiaomi_mimo-v2.6-flash_rep1",
+      "p50_latency_ms": 3240,
+      "p50_throughput_tps": 38,
+      "formula": "nominal_seconds = p50 latency + completion tokens (reasoning included) / p50 throughput, from the start snapshot",
+      "available": true,
+      "note": null,
+      "end_p50_latency_ms": 2849.5,
+      "end_p50_throughput_tps": 45
+     },
+     {
+      "run": "E14_xiaomi_mimo-v2.6-flash_rep2",
+      "p50_latency_ms": 3240,
+      "p50_throughput_tps": 38,
+      "formula": "nominal_seconds = p50 latency + completion tokens (reasoning included) / p50 throughput, from the start snapshot",
+      "available": true,
+      "note": null,
+      "end_p50_latency_ms": 2474,
+      "end_p50_throughput_tps": 44
+     },
+     {
+      "run": "E15_xiaomi_mimo-v2.6-flash_rep1",
+      "p50_latency_ms": 3240,
+      "p50_throughput_tps": 38,
+      "formula": "nominal_seconds = p50 latency + completion tokens (reasoning included) / p50 throughput, from the start snapshot",
+      "available": true,
+      "note": null,
+      "end_p50_latency_ms": 2934,
+      "end_p50_throughput_tps": 36
+     },
+     {
+      "run": "E15_xiaomi_mimo-v2.6-flash_rep2",
+      "p50_latency_ms": 3240,
+      "p50_throughput_tps": 38,
+      "formula": "nominal_seconds = p50 latency + completion tokens (reasoning included) / p50 throughput, from the start snapshot",
+      "available": true,
+      "note": null,
+      "end_p50_latency_ms": 2577.5,
+      "end_p50_throughput_tps": 45
+     },
+     {
+      "run": "E16_xiaomi_mimo-v2.6-flash_rep1",
+      "p50_latency_ms": 3240,
+      "p50_throughput_tps": 38,
+      "formula": "nominal_seconds = p50 latency + completion tokens (reasoning included) / p50 throughput, from the start snapshot",
+      "available": true,
+      "note": null,
+      "end_p50_latency_ms": 3672.5,
+      "end_p50_throughput_tps": 34
+     },
+     {
+      "run": "E16_xiaomi_mimo-v2.6-flash_rep2",
+      "p50_latency_ms": 3240,
+      "p50_throughput_tps": 38,
+      "formula": "nominal_seconds = p50 latency + completion tokens (reasoning included) / p50 throughput, from the start snapshot",
+      "available": true,
+      "note": null,
+      "end_p50_latency_ms": 3560.5,
+      "end_p50_throughput_tps": 35
+     },
+     {
+      "run": "E17_xiaomi_mimo-v2.6-flash_rep1",
+      "p50_latency_ms": 3240,
+      "p50_throughput_tps": 38,
+      "formula": "nominal_seconds = p50 latency + completion tokens (reasoning included) / p50 throughput, from the start snapshot",
+      "available": true,
+      "note": null,
+      "end_p50_latency_ms": 3823,
+      "end_p50_throughput_tps": 33
+     },
+     {
+      "run": "E17_xiaomi_mimo-v2.6-flash_rep2",
+      "p50_latency_ms": 3240,
+      "p50_throughput_tps": 38,
+      "formula": "nominal_seconds = p50 latency + completion tokens (reasoning included) / p50 throughput, from the start snapshot",
+      "available": true,
+      "note": null,
+      "end_p50_latency_ms": 2850,
+      "end_p50_throughput_tps": 40
+     },
+     {
+      "run": "E18_xiaomi_mimo-v2.6-flash_rep1",
+      "p50_latency_ms": 3240,
+      "p50_throughput_tps": 38,
+      "formula": "nominal_seconds = p50 latency + completion tokens (reasoning included) / p50 throughput, from the start snapshot",
+      "available": true,
+      "note": null,
+      "end_p50_latency_ms": 2718,
+      "end_p50_throughput_tps": 41
+     },
+     {
+      "run": "E18_xiaomi_mimo-v2.6-flash_rep2",
+      "p50_latency_ms": 3240,
+      "p50_throughput_tps": 38,
+      "formula": "nominal_seconds = p50 latency + completion tokens (reasoning included) / p50 throughput, from the start snapshot",
+      "available": true,
+      "note": null,
+      "end_p50_latency_ms": 4218,
+      "end_p50_throughput_tps": 30
+     },
+     {
+      "run": "E19_xiaomi_mimo-v2.6-flash_rep1",
+      "p50_latency_ms": 3240,
+      "p50_throughput_tps": 38,
+      "formula": "nominal_seconds = p50 latency + completion tokens (reasoning included) / p50 throughput, from the start snapshot",
+      "available": true,
+      "note": null,
+      "end_p50_latency_ms": 4581,
+      "end_p50_throughput_tps": 33
+     },
+     {
+      "run": "E19_xiaomi_mimo-v2.6-flash_rep2",
+      "p50_latency_ms": 3240,
+      "p50_throughput_tps": 38,
+      "formula": "nominal_seconds = p50 latency + completion tokens (reasoning included) / p50 throughput, from the start snapshot",
+      "available": true,
+      "note": null,
+      "end_p50_latency_ms": 2718,
+      "end_p50_throughput_tps": 41
+     },
+     {
+      "run": "E20_xiaomi_mimo-v2.6-flash_rep1",
+      "p50_latency_ms": 3240,
+      "p50_throughput_tps": 38,
+      "formula": "nominal_seconds = p50 latency + completion tokens (reasoning included) / p50 throughput, from the start snapshot",
+      "available": true,
+      "note": null,
+      "end_p50_latency_ms": 3880,
+      "end_p50_throughput_tps": 33
+     },
+     {
+      "run": "E20_xiaomi_mimo-v2.6-flash_rep2",
+      "p50_latency_ms": 3240,
+      "p50_throughput_tps": 38,
+      "formula": "nominal_seconds = p50 latency + completion tokens (reasoning included) / p50 throughput, from the start snapshot",
+      "available": true,
+      "note": null,
+      "end_p50_latency_ms": 3644.5,
+      "end_p50_throughput_tps": 34
+     }
+    ],
+    "nominal_seconds": {
+     "n": 20838,
+     "mean": 19.751564146473296,
+     "p50": 10.792631578947368,
+     "p90": 35.511052631578934
+    },
+    "measured_seconds_on_the_same_requests": {
+     "n": 20838,
+     "mean": 18.17983088588156,
+     "p50": 9.7335,
+     "p90": 35.151399999999995
+    },
+    "measured_over_nominal_mean": 0.9204248712184967,
+    "observed_tokens_per_second": {
+     "n": 20838,
+     "mean": 30.380002514283102,
+     "p50": 30.865062137606486
+    },
+    "start_p50_latency_ms": {
+     "min": 3240,
+     "max": 3240
+    },
+    "start_p50_throughput_tps": {
+     "min": 38,
+     "max": 38
+    }
+   },
+   "invalid_split": {
+    "total": 2672,
+    "tool_call_block": 2163,
+    "tool_call_block_naming_a_legal_action": 1581,
+    "no_action_line": 454,
+    "non_legal_action": 55
+   },
+   "loops": {
+    "runs_with_loops": 3,
+    "loop_steps_total": 24,
+    "steps_total": 20838
+   },
+   "caps": {
+    "max_cost_usd": 1.09,
+    "cost_cap_source": "measured_rate",
+    "cost_rate": {
+     "usd_per_request": 0.000365,
+     "source": "results/campaign-003/phase0-dev/BENCH1_xiaomi_mimo-v2.6-flash (Ironclad, effort high accepted on a probe, death at floor 39, 897 requests, image sha256:43a217b4), 2026-09-22",
+     "requests": 897,
+     "margin": 1.5,
+     "steps": 2000
+    },
+    "max_wall_seconds": 45570,
+    "wall_cap_source": "measured_latency",
+    "latency_rate": {
+     "seconds_per_request": 15.19,
+     "seconds_model": 13.34,
+     "seconds_game": 1.85,
+     "source": "results/campaign-003/phase0-dev/BENCH1_xiaomi_mimo-v2.6-flash (Ironclad, effort high accepted on a probe, death at floor 39, 897 requests, image sha256:43a217b4), 2026-09-22",
+     "requests": 897,
+     "margin": 1.5,
+     "steps": 2000
+    },
+    "max_tokens": 32000
+   },
+   "sampling": {
+    "temperature": null,
+    "top_p": null,
+    "reasoning": "high",
+    "reasoning_sent": {
+     "effort": "high"
+    },
+    "max_tokens": 32000,
+    "source": "protocol"
+   },
+   "effort": {
+    "supported_efforts": null,
+    "default_effort": null,
+    "listing": "openrouter",
+    "label": "high",
+    "send": {
+     "effort": "high"
+    },
+    "source": "protocol",
+    "probe": {
+     "accepted": [
+      "high"
+     ],
+     "rejected": {},
+     "requests": [
+      {
+       "level": "high",
+       "status": 200,
+       "seconds": 5.92,
+       "reasoning_tokens": 14,
+       "cost": 6.72e-06,
+       "provider": "Xiaomi",
+       "model": "xiaomi/mimo-v2.6-flash"
+      }
+     ],
+     "note": null
+    },
+    "note": "the listing exposes no ladder; the endpoint accepted effort high on a probe (whether the level is applied is not observable)",
+    "requested": "protocol"
+   }
+  },
+  "z-ai/glm-5.3-flash (high)": {
+   "model": "z-ai/glm-5.3-flash",
+   "floors_by_seed": {
+    "E01": {
+     "1": 16,
+     "2": 23
+    },
+    "E02": {
+     "1": 16,
+     "2": 21
+    },
+    "E03": {
+     "1": 16,
+     "2": 16
+    },
+    "E04": {
+     "1": 27,
+     "2": 29
+    },
+    "E05": {
+     "1": 23,
+     "2": 50
+    },
+    "E06": {
+     "1": 51,
+     "2": 45
+    },
+    "E07": {
+     "1": 33,
+     "2": 37
+    },
+    "E08": {
+     "1": 23,
+     "2": 33
+    },
+    "E09": {
+     "1": 16,
+     "2": 33
+    },
+    "E10": {
+     "1": 33,
+     "2": 33
+    },
+    "E11": {
+     "1": 33,
+     "2": 33
+    },
+    "E12": {
+     "1": 33,
+     "2": 27
+    },
+    "E13": {
+     "1": 50,
+     "2": 33
+    },
+    "E14": {
+     "1": 16,
+     "2": 16
+    },
+    "E15": {
+     "1": 33,
+     "2": 29
+    },
+    "E16": {
+     "1": 27,
+     "2": 16
+    },
+    "E17": {
+     "1": 51,
+     "2": 33
+    },
+    "E18": {
+     "1": 29,
+     "2": 16
+    },
+    "E19": {
+     "1": 33,
+     "2": 25
+    },
+    "E20": {
+     "1": 48,
+     "2": 39
+    }
+   },
+   "ends_by_seed": {
+    "E01": {
+     "1": "death",
+     "2": "death"
+    },
+    "E02": {
+     "1": "death",
+     "2": "death"
+    },
+    "E03": {
+     "1": "death",
+     "2": "death"
+    },
+    "E04": {
+     "1": "death",
+     "2": "death"
+    },
+    "E05": {
+     "1": "death",
+     "2": "death"
+    },
+    "E06": {
+     "1": "victory",
+     "2": "death"
+    },
+    "E07": {
+     "1": "death",
+     "2": "death"
+    },
+    "E08": {
+     "1": "death",
+     "2": "death"
+    },
+    "E09": {
+     "1": "death",
+     "2": "death"
+    },
+    "E10": {
+     "1": "death",
+     "2": "death"
+    },
+    "E11": {
+     "1": "death",
+     "2": "death"
+    },
+    "E12": {
+     "1": "death",
+     "2": "death"
+    },
+    "E13": {
+     "1": "death",
+     "2": "death"
+    },
+    "E14": {
+     "1": "death",
+     "2": "death"
+    },
+    "E15": {
+     "1": "death",
+     "2": "death"
+    },
+    "E16": {
+     "1": "death",
+     "2": "death"
+    },
+    "E17": {
+     "1": "victory",
+     "2": "death"
+    },
+    "E18": {
+     "1": "death",
+     "2": "death"
+    },
+    "E19": {
+     "1": "death",
+     "2": "death"
+    },
+    "E20": {
+     "1": "death",
+     "2": "death"
+    }
+   },
+   "wins": 2,
+   "deaths": 38,
+   "budget_stops_scored": 0,
+   "budget_stops_unresolved": 0,
+   "infrastructure_unresolved": 0,
+   "reruns_launched": 0,
+   "reruns_scored": 0,
+   "reruns_excluded_by_rule_2": 0,
+   "scored_runs": 40,
+   "seeds_scored": 20,
+   "seeds_fully_scored": 20,
+   "floor": {
+    "seeds": 20,
+    "runs": 40,
+    "mean": 29.85,
+    "mean_of_seed_means": 29.85,
+    "sd_between_seeds": 7.653344642084684,
+    "sd_within_seed": 7.661592523751182,
+    "se_mean": 2.0967079459300755,
+    "t_interval_on_seed_means": [
+     25.461590269168354,
+     34.23840973083165
+    ],
+    "seed_means": {
+     "E01": 19.5,
+     "E02": 18.5,
+     "E03": 16,
+     "E04": 28,
+     "E05": 36.5,
+     "E06": 48,
+     "E07": 35,
+     "E08": 28,
+     "E09": 24.5,
+     "E10": 33,
+     "E11": 33,
+     "E12": 30,
+     "E13": 41.5,
+     "E14": 16,
+     "E15": 31,
+     "E16": 21.5,
+     "E17": 42,
+     "E18": 22.5,
+     "E19": 29,
+     "E20": 43.5
+    },
+    "bootstrap_interval": [
+     25.524375,
+     34.25
+    ]
+   },
+   "win_rate": {
+    "wins": 2,
+    "scored": 40,
+    "rate": 0.05,
+    "wilson_interval": [
+     0.013820377146101098,
+     0.165041708179252
+    ],
+    "cluster_bootstrap_interval": [
+     0.0,
+     0.15
+    ]
+   },
+   "per_request": {
+    "requests": 15549,
+    "cost_mean": 0.00043185682937809506,
+    "cost_median": 0.00036134,
+    "cost_p90": 0.0007022600000000001,
+    "cost_max": 0.01108969,
+    "seconds_p50": 7.603,
+    "seconds_p90": 16.3982,
+    "seconds_p95": 20.1326,
+    "seconds_max": 201.004,
+    "model_seconds_p50": 5.341,
+    "model_seconds_p90": 14.049200000000004,
+    "model_seconds_p95": 18.246399999999987,
+    "reasoning_tokens_mean": 277.2578943983536,
+    "reasoning_tokens_p90": 710.2000000000007,
+    "invalid_replies": 40,
+    "actions": 15509,
+    "invalid_rate": 0.002572512701781465,
+    "providers_seen": {
+     "Z.AI": 15549
+    },
+    "models_served": {
+     "z-ai/glm-5.3-flash": 15549
+    },
+    "finish_reasons": {
+     "stop": 15549
+    },
+    "steps_with_note": 14013,
+    "steps": 15549,
+    "efforts_reported": null
+   },
+   "speed": {
+    "runs_with_stats": 0,
+    "runs_without_stats": 40,
+    "bases": [],
+    "nominal_seconds": {
+     "n": 0,
+     "mean": null,
+     "p50": null,
+     "p90": null
+    },
+    "measured_seconds_on_the_same_requests": {
+     "n": 0,
+     "mean": null,
+     "p50": null,
+     "p90": null
+    },
+    "measured_over_nominal_mean": null,
+    "observed_tokens_per_second": {
+     "n": 0,
+     "mean": null,
+     "p50": null
+    },
+    "start_p50_latency_ms": {
+     "min": null,
+     "max": null
+    },
+    "start_p50_throughput_tps": {
+     "min": null,
+     "max": null
+    }
+   },
+   "invalid_split": {
+    "total": 40,
+    "tool_call_block": 0,
+    "tool_call_block_naming_a_legal_action": 0,
+    "no_action_line": 19,
+    "non_legal_action": 21
+   },
+   "loops": {
+    "runs_with_loops": 4,
+    "loop_steps_total": 25,
+    "steps_total": 15549
+   },
+   "caps": {
+    "max_cost_usd": 1.35,
+    "cost_cap_source": "measured_rate",
+    "cost_rate": {
+     "usd_per_request": 0.000449,
+     "source": "results/campaign-002/phase0-high/BENCH1_<model> (Ironclad, effort high, natural deaths at floors 50 / 42 / 30, image sha256:5987a670), 2026-09-19",
+     "requests": 577,
+     "margin": 1.5,
+     "steps": 2000
+    },
+    "max_wall_seconds": 22590,
+    "wall_cap_source": "measured_latency",
+    "latency_rate": {
+     "seconds_per_request": 7.53,
+     "seconds_model": 5.68,
+     "seconds_game": 1.85,
+     "source": "results/campaign-002/phase0-high/BENCH1_<model> (Ironclad, effort high, natural deaths at floors 50 / 42 / 30, image sha256:5987a670), 2026-09-19",
+     "requests": 577,
+     "margin": 1.5,
+     "steps": 2000
+    },
+    "max_tokens": 32000
+   },
+   "sampling": {
+    "temperature": null,
+    "top_p": null,
+    "reasoning": "high",
+    "reasoning_sent": {
+     "effort": "high"
+    },
+    "max_tokens": 32000,
+    "source": "protocol"
+   },
+   "effort": {
+    "supported_efforts": [
+     "max",
+     "high",
+     "low"
+    ],
+    "default_effort": "max",
+    "listing": "openrouter",
+    "label": "high",
+    "send": {
+     "effort": "high"
+    },
+    "source": "protocol",
+    "note": null,
+    "requested": "protocol"
+   }
+  }
+ },
+ "paired": {
+  "deepseek/deepseek-v4.1-flash (high) minus openai/gpt-5.6-luna (high)": {
+   "seeds": 20,
+   "mean_diff": 9.25,
+   "sd_diff": 10.655490307076935,
+   "t_interval": [
+    4.2631343418171825,
+    14.236865658182818
+   ],
+   "bootstrap_interval": [
+    3.175,
+    15.375
+   ],
+   "seeds_a_higher": 16,
+   "seeds_b_higher": 4,
+   "ties": 0
+  },
+  "deepseek/deepseek-v4.1-flash (high) minus xiaomi/mimo-v2.6-flash (high)": {
+   "seeds": 20,
+   "mean_diff": 9.9,
+   "sd_diff": 10.638312094055443,
+   "t_interval": [
+    4.921173900590834,
+    14.878826099409167
+   ],
+   "bootstrap_interval": [
+    3.975,
+    15.6
+   ],
+   "seeds_a_higher": 16,
+   "seeds_b_higher": 4,
+   "ties": 0
+  },
+  "deepseek/deepseek-v4.1-flash (high) minus z-ai/glm-5.3-flash (high)": {
+   "seeds": 20,
+   "mean_diff": 9.2,
+   "sd_diff": 10.02549381904899,
+   "t_interval": [
+    4.5079783856277,
+    13.892021614372299
+   ],
+   "bootstrap_interval": [
+    3.499375,
+    14.425
+   ],
+   "seeds_a_higher": 15,
+   "seeds_b_higher": 4,
+   "ties": 1
+  },
+  "openai/gpt-5.6-luna (high) minus xiaomi/mimo-v2.6-flash (high)": {
+   "seeds": 20,
+   "mean_diff": 0.65,
+   "sd_diff": 11.435287030664522,
+   "t_interval": [
+    -4.7018175645854425,
+    6.001817564585443
+   ],
+   "bootstrap_interval": [
+    -5.475,
+    6.475625000000002
+   ],
+   "seeds_a_higher": 11,
+   "seeds_b_higher": 8,
+   "ties": 1
+  },
+  "openai/gpt-5.6-luna (high) minus z-ai/glm-5.3-flash (high)": {
+   "seeds": 20,
+   "mean_diff": -0.05,
+   "sd_diff": 11.448856527595831,
+   "t_interval": [
+    -5.4081682116505165,
+    5.308168211650517
+   ],
+   "bootstrap_interval": [
+    -5.975,
+    5.600625000000002
+   ],
+   "seeds_a_higher": 9,
+   "seeds_b_higher": 10,
+   "ties": 1
+  },
+  "xiaomi/mimo-v2.6-flash (high) minus z-ai/glm-5.3-flash (high)": {
+   "seeds": 20,
+   "mean_diff": -0.7,
+   "sd_diff": 13.600890063753761,
+   "t_interval": [
+    -7.065339334465581,
+    5.665339334465581
+   ],
+   "bootstrap_interval": [
+    -7.351249999999999,
+    5.475625000000002
+   ],
+   "seeds_a_higher": 11,
+   "seeds_b_higher": 9,
+   "ties": 0
+  }
+ },
+ "seeds": [
+  "E01",
+  "E02",
+  "E03",
+  "E04",
+  "E05",
+  "E06",
+  "E07",
+  "E08",
+  "E09",
+  "E10",
+  "E11",
+  "E12",
+  "E13",
+  "E14",
+  "E15",
+  "E16",
+  "E17",
+  "E18",
+  "E19",
+  "E20"
+ ],
+ "runs": [
+  {
+   "configuration": "xiaomi/mimo-v2.6-flash (high)",
+   "seed_index": "E01",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E01_xiaomi_mimo-v2.6-flash_rep1",
+   "ended": "death",
+   "floor": 24,
+   "floor_reached": 24,
+   "score": 237,
+   "actions": 254,
+   "invalid": 33,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.112685,
+   "wall_seconds": 6788.1,
+   "latency_median_s": 8.88,
+   "latency_p95_s": 74.42,
+   "providers_seen": {
+    "Xiaomi": 287
+   },
+   "models_served": {
+    "xiaomi/mimo-v2.6-flash": 287
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "xiaomi/mimo-v2.6-flash (high)",
+   "seed_index": "E01",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E01_xiaomi_mimo-v2.6-flash_rep2",
+   "ended": "death",
+   "floor": 27,
+   "floor_reached": 27,
+   "score": 215,
+   "actions": 363,
+   "invalid": 71,
+   "loop_steps": 6,
+   "loop_cycles": 1,
+   "longest_loop": 6,
+   "cost_usd": 0.160918,
+   "wall_seconds": 9473.3,
+   "latency_median_s": 10.111,
+   "latency_p95_s": 65.79,
+   "providers_seen": {
+    "Xiaomi": 434
+   },
+   "models_served": {
+    "xiaomi/mimo-v2.6-flash": 434
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "xiaomi/mimo-v2.6-flash (high)",
+   "seed_index": "E02",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E02_xiaomi_mimo-v2.6-flash_rep1",
+   "ended": "death",
+   "floor": 16,
+   "floor_reached": 16,
+   "score": 104,
+   "actions": 218,
+   "invalid": 20,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.070137,
+   "wall_seconds": 4075.8,
+   "latency_median_s": 8.989,
+   "latency_p95_s": 52.566,
+   "providers_seen": {
+    "Xiaomi": 238
+   },
+   "models_served": {
+    "xiaomi/mimo-v2.6-flash": 238
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "xiaomi/mimo-v2.6-flash (high)",
+   "seed_index": "E02",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E02_xiaomi_mimo-v2.6-flash_rep2",
+   "ended": "death",
+   "floor": 16,
+   "floor_reached": 16,
+   "score": 118,
+   "actions": 243,
+   "invalid": 38,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.084919,
+   "wall_seconds": 4959.6,
+   "latency_median_s": 9.629,
+   "latency_p95_s": 51.247,
+   "providers_seen": {
+    "Xiaomi": 281
+   },
+   "models_served": {
+    "xiaomi/mimo-v2.6-flash": 281
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "xiaomi/mimo-v2.6-flash (high)",
+   "seed_index": "E03",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E03_xiaomi_mimo-v2.6-flash_rep1",
+   "ended": "death",
+   "floor": 28,
+   "floor_reached": 28,
+   "score": 237,
+   "actions": 463,
+   "invalid": 71,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.189141,
+   "wall_seconds": 11404.9,
+   "latency_median_s": 10.867,
+   "latency_p95_s": 60.444,
+   "providers_seen": {
+    "Xiaomi": 534
+   },
+   "models_served": {
+    "xiaomi/mimo-v2.6-flash": 534
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "xiaomi/mimo-v2.6-flash (high)",
+   "seed_index": "E03",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E03_xiaomi_mimo-v2.6-flash_rep2",
+   "ended": "death",
+   "floor": 29,
+   "floor_reached": 29,
+   "score": 276,
+   "actions": 510,
+   "invalid": 79,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.251252,
+   "wall_seconds": 14169.5,
+   "latency_median_s": 10.273,
+   "latency_p95_s": 80.703,
+   "providers_seen": {
+    "Xiaomi": 589
+   },
+   "models_served": {
+    "xiaomi/mimo-v2.6-flash": 589
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "xiaomi/mimo-v2.6-flash (high)",
+   "seed_index": "E04",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E04_xiaomi_mimo-v2.6-flash_rep1",
+   "ended": "death",
+   "floor": 23,
+   "floor_reached": 23,
+   "score": 222,
+   "actions": 374,
+   "invalid": 73,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.135107,
+   "wall_seconds": 7393.8,
+   "latency_median_s": 8.814,
+   "latency_p95_s": 48.566,
+   "providers_seen": {
+    "Xiaomi": 447
+   },
+   "models_served": {
+    "xiaomi/mimo-v2.6-flash": 447
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "xiaomi/mimo-v2.6-flash (high)",
+   "seed_index": "E04",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E04_xiaomi_mimo-v2.6-flash_rep2",
+   "ended": "death",
+   "floor": 6,
+   "floor_reached": 6,
+   "score": 38,
+   "actions": 95,
+   "invalid": 9,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.022501,
+   "wall_seconds": 1130.8,
+   "latency_median_s": 6.933,
+   "latency_p95_s": 23.484,
+   "providers_seen": {
+    "Xiaomi": 104
+   },
+   "models_served": {
+    "xiaomi/mimo-v2.6-flash": 104
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "xiaomi/mimo-v2.6-flash (high)",
+   "seed_index": "E05",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E05_xiaomi_mimo-v2.6-flash_rep1",
+   "ended": "death",
+   "floor": 22,
+   "floor_reached": 22,
+   "score": 202,
+   "actions": 409,
+   "invalid": 86,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.166321,
+   "wall_seconds": 8591.7,
+   "latency_median_s": 9.144,
+   "latency_p95_s": 43.233,
+   "providers_seen": {
+    "Xiaomi": 495
+   },
+   "models_served": {
+    "xiaomi/mimo-v2.6-flash": 495
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "xiaomi/mimo-v2.6-flash (high)",
+   "seed_index": "E05",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E05_xiaomi_mimo-v2.6-flash_rep2",
+   "ended": "death",
+   "floor": 21,
+   "floor_reached": 21,
+   "score": 181,
+   "actions": 308,
+   "invalid": 54,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.110769,
+   "wall_seconds": 5883.8,
+   "latency_median_s": 8.595,
+   "latency_p95_s": 43.177,
+   "providers_seen": {
+    "Xiaomi": 362
+   },
+   "models_served": {
+    "xiaomi/mimo-v2.6-flash": 362
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "xiaomi/mimo-v2.6-flash (high)",
+   "seed_index": "E06",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E06_xiaomi_mimo-v2.6-flash_rep1",
+   "ended": "victory",
+   "floor": 51,
+   "floor_reached": 51,
+   "score": 733,
+   "actions": 822,
+   "invalid": 140,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.42367,
+   "wall_seconds": 18617.5,
+   "latency_median_s": 10.352,
+   "latency_p95_s": 54.713,
+   "providers_seen": {
+    "Xiaomi": 962
+   },
+   "models_served": {
+    "xiaomi/mimo-v2.6-flash": 962
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "xiaomi/mimo-v2.6-flash (high)",
+   "seed_index": "E06",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E06_xiaomi_mimo-v2.6-flash_rep2",
+   "ended": "death",
+   "floor": 28,
+   "floor_reached": 28,
+   "score": 253,
+   "actions": 407,
+   "invalid": 59,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.160017,
+   "wall_seconds": 8614.2,
+   "latency_median_s": 9.655,
+   "latency_p95_s": 51.524,
+   "providers_seen": {
+    "Xiaomi": 466
+   },
+   "models_served": {
+    "xiaomi/mimo-v2.6-flash": 466
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "xiaomi/mimo-v2.6-flash (high)",
+   "seed_index": "E07",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E07_xiaomi_mimo-v2.6-flash_rep1",
+   "ended": "death",
+   "floor": 24,
+   "floor_reached": 24,
+   "score": 212,
+   "actions": 356,
+   "invalid": 43,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.143471,
+   "wall_seconds": 8176.7,
+   "latency_median_s": 8.79,
+   "latency_p95_s": 67.222,
+   "providers_seen": {
+    "Xiaomi": 399
+   },
+   "models_served": {
+    "xiaomi/mimo-v2.6-flash": 399
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "xiaomi/mimo-v2.6-flash (high)",
+   "seed_index": "E07",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E07_xiaomi_mimo-v2.6-flash_rep2",
+   "ended": "death",
+   "floor": 24,
+   "floor_reached": 24,
+   "score": 214,
+   "actions": 297,
+   "invalid": 36,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.118844,
+   "wall_seconds": 5945.0,
+   "latency_median_s": 8.827,
+   "latency_p95_s": 45.199,
+   "providers_seen": {
+    "Xiaomi": 333
+   },
+   "models_served": {
+    "xiaomi/mimo-v2.6-flash": 333
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "xiaomi/mimo-v2.6-flash (high)",
+   "seed_index": "E08",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E08_xiaomi_mimo-v2.6-flash_rep1",
+   "ended": "death",
+   "floor": 16,
+   "floor_reached": 16,
+   "score": 106,
+   "actions": 219,
+   "invalid": 39,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.075512,
+   "wall_seconds": 4484.1,
+   "latency_median_s": 8.755,
+   "latency_p95_s": 47.896,
+   "providers_seen": {
+    "Xiaomi": 258
+   },
+   "models_served": {
+    "xiaomi/mimo-v2.6-flash": 258
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "xiaomi/mimo-v2.6-flash (high)",
+   "seed_index": "E08",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E08_xiaomi_mimo-v2.6-flash_rep2",
+   "ended": "death",
+   "floor": 41,
+   "floor_reached": 41,
+   "score": 440,
+   "actions": 796,
+   "invalid": 121,
+   "loop_steps": 6,
+   "loop_cycles": 1,
+   "longest_loop": 6,
+   "cost_usd": 0.320122,
+   "wall_seconds": 17086.4,
+   "latency_median_s": 9.799,
+   "latency_p95_s": 47.693,
+   "providers_seen": {
+    "Xiaomi": 917
+   },
+   "models_served": {
+    "xiaomi/mimo-v2.6-flash": 917
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "xiaomi/mimo-v2.6-flash (high)",
+   "seed_index": "E09",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E09_xiaomi_mimo-v2.6-flash_rep1",
+   "ended": "death",
+   "floor": 24,
+   "floor_reached": 24,
+   "score": 208,
+   "actions": 329,
+   "invalid": 39,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.130524,
+   "wall_seconds": 7261.2,
+   "latency_median_s": 9.436,
+   "latency_p95_s": 57.536,
+   "providers_seen": {
+    "Xiaomi": 368
+   },
+   "models_served": {
+    "xiaomi/mimo-v2.6-flash": 368
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "xiaomi/mimo-v2.6-flash (high)",
+   "seed_index": "E09",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E09_xiaomi_mimo-v2.6-flash_rep2",
+   "ended": "death",
+   "floor": 33,
+   "floor_reached": 33,
+   "score": 291,
+   "actions": 483,
+   "invalid": 66,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.192867,
+   "wall_seconds": 10389.3,
+   "latency_median_s": 9.524,
+   "latency_p95_s": 51.709,
+   "providers_seen": {
+    "Xiaomi": 549
+   },
+   "models_served": {
+    "xiaomi/mimo-v2.6-flash": 549
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "xiaomi/mimo-v2.6-flash (high)",
+   "seed_index": "E10",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E10_xiaomi_mimo-v2.6-flash_rep1",
+   "ended": "death",
+   "floor": 45,
+   "floor_reached": 45,
+   "score": 425,
+   "actions": 676,
+   "invalid": 91,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.323864,
+   "wall_seconds": 16224.7,
+   "latency_median_s": 9.397,
+   "latency_p95_s": 71.464,
+   "providers_seen": {
+    "Xiaomi": 767
+   },
+   "models_served": {
+    "xiaomi/mimo-v2.6-flash": 767
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "xiaomi/mimo-v2.6-flash (high)",
+   "seed_index": "E10",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E10_xiaomi_mimo-v2.6-flash_rep2",
+   "ended": "death",
+   "floor": 33,
+   "floor_reached": 33,
+   "score": 271,
+   "actions": 541,
+   "invalid": 89,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.231243,
+   "wall_seconds": 12461.5,
+   "latency_median_s": 10.581,
+   "latency_p95_s": 53.624,
+   "providers_seen": {
+    "Xiaomi": 630
+   },
+   "models_served": {
+    "xiaomi/mimo-v2.6-flash": 630
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "xiaomi/mimo-v2.6-flash (high)",
+   "seed_index": "E11",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E11_xiaomi_mimo-v2.6-flash_rep1",
+   "ended": "death",
+   "floor": 33,
+   "floor_reached": 33,
+   "score": 300,
+   "actions": 393,
+   "invalid": 34,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.143345,
+   "wall_seconds": 7145.2,
+   "latency_median_s": 8.768,
+   "latency_p95_s": 45.43,
+   "providers_seen": {
+    "Xiaomi": 427
+   },
+   "models_served": {
+    "xiaomi/mimo-v2.6-flash": 427
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "xiaomi/mimo-v2.6-flash (high)",
+   "seed_index": "E11",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E11_xiaomi_mimo-v2.6-flash_rep2",
+   "ended": "death",
+   "floor": 16,
+   "floor_reached": 16,
+   "score": 104,
+   "actions": 199,
+   "invalid": 24,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.061701,
+   "wall_seconds": 3756.5,
+   "latency_median_s": 8.348,
+   "latency_p95_s": 49.483,
+   "providers_seen": {
+    "Xiaomi": 223
+   },
+   "models_served": {
+    "xiaomi/mimo-v2.6-flash": 223
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "xiaomi/mimo-v2.6-flash (high)",
+   "seed_index": "E12",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E12_xiaomi_mimo-v2.6-flash_rep1",
+   "ended": "death",
+   "floor": 36,
+   "floor_reached": 36,
+   "score": 405,
+   "actions": 734,
+   "invalid": 117,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.293552,
+   "wall_seconds": 14478.9,
+   "latency_median_s": 9.586,
+   "latency_p95_s": 43.897,
+   "providers_seen": {
+    "Xiaomi": 851
+   },
+   "models_served": {
+    "xiaomi/mimo-v2.6-flash": 851
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "xiaomi/mimo-v2.6-flash (high)",
+   "seed_index": "E12",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E12_xiaomi_mimo-v2.6-flash_rep2",
+   "ended": "death",
+   "floor": 33,
+   "floor_reached": 33,
+   "score": 267,
+   "actions": 708,
+   "invalid": 115,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.283422,
+   "wall_seconds": 14092.1,
+   "latency_median_s": 9.211,
+   "latency_p95_s": 43.958,
+   "providers_seen": {
+    "Xiaomi": 823
+   },
+   "models_served": {
+    "xiaomi/mimo-v2.6-flash": 823
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "xiaomi/mimo-v2.6-flash (high)",
+   "seed_index": "E13",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E13_xiaomi_mimo-v2.6-flash_rep1",
+   "ended": "death",
+   "floor": 23,
+   "floor_reached": 23,
+   "score": 195,
+   "actions": 443,
+   "invalid": 52,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.180115,
+   "wall_seconds": 10685.1,
+   "latency_median_s": 10.319,
+   "latency_p95_s": 66.669,
+   "providers_seen": {
+    "Xiaomi": 495
+   },
+   "models_served": {
+    "xiaomi/mimo-v2.6-flash": 495
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "xiaomi/mimo-v2.6-flash (high)",
+   "seed_index": "E13",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E13_xiaomi_mimo-v2.6-flash_rep2",
+   "ended": "death",
+   "floor": 30,
+   "floor_reached": 30,
+   "score": 240,
+   "actions": 394,
+   "invalid": 76,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.188143,
+   "wall_seconds": 11001.9,
+   "latency_median_s": 9.772,
+   "latency_p95_s": 62.49,
+   "providers_seen": {
+    "Xiaomi": 470
+   },
+   "models_served": {
+    "xiaomi/mimo-v2.6-flash": 470
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "xiaomi/mimo-v2.6-flash (high)",
+   "seed_index": "E14",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E14_xiaomi_mimo-v2.6-flash_rep1",
+   "ended": "death",
+   "floor": 50,
+   "floor_reached": 50,
+   "score": 528,
+   "actions": 929,
+   "invalid": 139,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.453652,
+   "wall_seconds": 21956.6,
+   "latency_median_s": 9.671,
+   "latency_p95_s": 68.2,
+   "providers_seen": {
+    "Xiaomi": 1068
+   },
+   "models_served": {
+    "xiaomi/mimo-v2.6-flash": 1068
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "xiaomi/mimo-v2.6-flash (high)",
+   "seed_index": "E14",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E14_xiaomi_mimo-v2.6-flash_rep2",
+   "ended": "death",
+   "floor": 33,
+   "floor_reached": 33,
+   "score": 255,
+   "actions": 605,
+   "invalid": 98,
+   "loop_steps": 12,
+   "loop_cycles": 2,
+   "longest_loop": 6,
+   "cost_usd": 0.291642,
+   "wall_seconds": 15974.0,
+   "latency_median_s": 10.018,
+   "latency_p95_s": 78.197,
+   "providers_seen": {
+    "Xiaomi": 703
+   },
+   "models_served": {
+    "xiaomi/mimo-v2.6-flash": 703
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "xiaomi/mimo-v2.6-flash (high)",
+   "seed_index": "E15",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E15_xiaomi_mimo-v2.6-flash_rep1",
+   "ended": "death",
+   "floor": 50,
+   "floor_reached": 50,
+   "score": 559,
+   "actions": 693,
+   "invalid": 100,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.335755,
+   "wall_seconds": 18531.5,
+   "latency_median_s": 10.473,
+   "latency_p95_s": 75.303,
+   "providers_seen": {
+    "Xiaomi": 793
+   },
+   "models_served": {
+    "xiaomi/mimo-v2.6-flash": 793
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "xiaomi/mimo-v2.6-flash (high)",
+   "seed_index": "E15",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E15_xiaomi_mimo-v2.6-flash_rep2",
+   "ended": "death",
+   "floor": 50,
+   "floor_reached": 50,
+   "score": 609,
+   "actions": 858,
+   "invalid": 96,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.455244,
+   "wall_seconds": 23346.6,
+   "latency_median_s": 11.543,
+   "latency_p95_s": 82.468,
+   "providers_seen": {
+    "Xiaomi": 954
+   },
+   "models_served": {
+    "xiaomi/mimo-v2.6-flash": 954
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "xiaomi/mimo-v2.6-flash (high)",
+   "seed_index": "E16",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E16_xiaomi_mimo-v2.6-flash_rep1",
+   "ended": "death",
+   "floor": 33,
+   "floor_reached": 33,
+   "score": 301,
+   "actions": 507,
+   "invalid": 68,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.222582,
+   "wall_seconds": 11713.7,
+   "latency_median_s": 10.029,
+   "latency_p95_s": 56.303,
+   "providers_seen": {
+    "Xiaomi": 575
+   },
+   "models_served": {
+    "xiaomi/mimo-v2.6-flash": 575
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "xiaomi/mimo-v2.6-flash (high)",
+   "seed_index": "E16",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E16_xiaomi_mimo-v2.6-flash_rep2",
+   "ended": "death",
+   "floor": 16,
+   "floor_reached": 16,
+   "score": 104,
+   "actions": 204,
+   "invalid": 40,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.088163,
+   "wall_seconds": 5025.2,
+   "latency_median_s": 8.669,
+   "latency_p95_s": 44.994,
+   "providers_seen": {
+    "Xiaomi": 244
+   },
+   "models_served": {
+    "xiaomi/mimo-v2.6-flash": 244
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "xiaomi/mimo-v2.6-flash (high)",
+   "seed_index": "E17",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E17_xiaomi_mimo-v2.6-flash_rep1",
+   "ended": "death",
+   "floor": 16,
+   "floor_reached": 16,
+   "score": 112,
+   "actions": 212,
+   "invalid": 38,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.069229,
+   "wall_seconds": 3735.1,
+   "latency_median_s": 8.436,
+   "latency_p95_s": 36.98,
+   "providers_seen": {
+    "Xiaomi": 250
+   },
+   "models_served": {
+    "xiaomi/mimo-v2.6-flash": 250
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "xiaomi/mimo-v2.6-flash (high)",
+   "seed_index": "E17",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E17_xiaomi_mimo-v2.6-flash_rep2",
+   "ended": "death",
+   "floor": 47,
+   "floor_reached": 47,
+   "score": 618,
+   "actions": 713,
+   "invalid": 88,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.377342,
+   "wall_seconds": 19009.1,
+   "latency_median_s": 10.967,
+   "latency_p95_s": 63.41,
+   "providers_seen": {
+    "Xiaomi": 801
+   },
+   "models_served": {
+    "xiaomi/mimo-v2.6-flash": 801
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "xiaomi/mimo-v2.6-flash (high)",
+   "seed_index": "E18",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E18_xiaomi_mimo-v2.6-flash_rep1",
+   "ended": "death",
+   "floor": 33,
+   "floor_reached": 33,
+   "score": 249,
+   "actions": 597,
+   "invalid": 90,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.266734,
+   "wall_seconds": 15045.7,
+   "latency_median_s": 10.581,
+   "latency_p95_s": 67.256,
+   "providers_seen": {
+    "Xiaomi": 687
+   },
+   "models_served": {
+    "xiaomi/mimo-v2.6-flash": 687
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "xiaomi/mimo-v2.6-flash (high)",
+   "seed_index": "E18",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E18_xiaomi_mimo-v2.6-flash_rep2",
+   "ended": "death",
+   "floor": 28,
+   "floor_reached": 28,
+   "score": 212,
+   "actions": 417,
+   "invalid": 58,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.168566,
+   "wall_seconds": 9428.7,
+   "latency_median_s": 10.117,
+   "latency_p95_s": 57.871,
+   "providers_seen": {
+    "Xiaomi": 475
+   },
+   "models_served": {
+    "xiaomi/mimo-v2.6-flash": 475
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "xiaomi/mimo-v2.6-flash (high)",
+   "seed_index": "E19",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E19_xiaomi_mimo-v2.6-flash_rep1",
+   "ended": "death",
+   "floor": 33,
+   "floor_reached": 33,
+   "score": 249,
+   "actions": 396,
+   "invalid": 50,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.150343,
+   "wall_seconds": 7905.3,
+   "latency_median_s": 9.088,
+   "latency_p95_s": 57.289,
+   "providers_seen": {
+    "Xiaomi": 446
+   },
+   "models_served": {
+    "xiaomi/mimo-v2.6-flash": 446
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "xiaomi/mimo-v2.6-flash (high)",
+   "seed_index": "E19",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E19_xiaomi_mimo-v2.6-flash_rep2",
+   "ended": "victory",
+   "floor": 51,
+   "floor_reached": 51,
+   "score": 677,
+   "actions": 669,
+   "invalid": 90,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.299782,
+   "wall_seconds": 15106.1,
+   "latency_median_s": 10.215,
+   "latency_p95_s": 48.896,
+   "providers_seen": {
+    "Xiaomi": 759
+   },
+   "models_served": {
+    "xiaomi/mimo-v2.6-flash": 759
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "xiaomi/mimo-v2.6-flash (high)",
+   "seed_index": "E20",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E20_xiaomi_mimo-v2.6-flash_rep1",
+   "ended": "death",
+   "floor": 12,
+   "floor_reached": 12,
+   "score": 84,
+   "actions": 175,
+   "invalid": 25,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.05261,
+   "wall_seconds": 3313.1,
+   "latency_median_s": 8.894,
+   "latency_p95_s": 35.484,
+   "providers_seen": {
+    "Xiaomi": 200
+   },
+   "models_served": {
+    "xiaomi/mimo-v2.6-flash": 200
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "xiaomi/mimo-v2.6-flash (high)",
+   "seed_index": "E20",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E20_xiaomi_mimo-v2.6-flash_rep2",
+   "ended": "death",
+   "floor": 12,
+   "floor_reached": 12,
+   "score": 92,
+   "actions": 157,
+   "invalid": 17,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.049149,
+   "wall_seconds": 2857.6,
+   "latency_median_s": 8.832,
+   "latency_p95_s": 46.182,
+   "providers_seen": {
+    "Xiaomi": 174
+   },
+   "models_served": {
+    "xiaomi/mimo-v2.6-flash": 174
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "deepseek/deepseek-v4.1-flash (high)",
+   "seed_index": "E01",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E01_deepseek_deepseek-v4.1-flash_rep1",
+   "ended": "death",
+   "floor": 33,
+   "floor_reached": 33,
+   "score": 253,
+   "actions": 438,
+   "invalid": 1,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.734903,
+   "wall_seconds": 6253.5,
+   "latency_median_s": 5.383,
+   "latency_p95_s": 49.327,
+   "providers_seen": {
+    "DeepSeek": 439
+   },
+   "models_served": {
+    "deepseek/deepseek-v4.1-flash": 439
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "deepseek/deepseek-v4.1-flash (high)",
+   "seed_index": "E01",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E01_deepseek_deepseek-v4.1-flash_rep2",
+   "ended": "death",
+   "floor": 33,
+   "floor_reached": 33,
+   "score": 257,
+   "actions": 385,
+   "invalid": 0,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.516834,
+   "wall_seconds": 4547.1,
+   "latency_median_s": 3.662,
+   "latency_p95_s": 40.325,
+   "providers_seen": {
+    "DeepSeek": 385
+   },
+   "models_served": {
+    "deepseek/deepseek-v4.1-flash": 385
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E01",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E01_openai_gpt-5.6-luna_rep1",
+   "ended": "action_budget",
+   "floor": 48,
+   "floor_reached": 48,
+   "score": null,
+   "actions": 1500,
+   "invalid": 0,
+   "loop_steps": 636,
+   "loop_cycles": 43,
+   "longest_loop": 71,
+   "cost_usd": 0.994742,
+   "wall_seconds": 5055.5,
+   "latency_median_s": 1.726,
+   "latency_p95_s": 6.814,
+   "providers_seen": {
+    "OpenAI": 1500
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 1500
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E01",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E01_openai_gpt-5.6-luna_rep2",
+   "ended": "action_budget",
+   "floor": 19,
+   "floor_reached": 19,
+   "score": null,
+   "actions": 1500,
+   "invalid": 3,
+   "loop_steps": 1098,
+   "loop_cycles": 40,
+   "longest_loop": 121,
+   "cost_usd": 0.692632,
+   "wall_seconds": 3624.5,
+   "latency_median_s": 1.651,
+   "latency_p95_s": 3.436,
+   "providers_seen": {
+    "OpenAI": 1503
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 1503
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "z-ai/glm-5.3-flash (high)",
+   "seed_index": "E01",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E01_z-ai_glm-5.3-flash_rep1",
+   "ended": "death",
+   "floor": 16,
+   "floor_reached": 16,
+   "score": 104,
+   "actions": 195,
+   "invalid": 1,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.069129,
+   "wall_seconds": 1595.3,
+   "latency_median_s": 4.095,
+   "latency_p95_s": 16.955,
+   "providers_seen": {
+    "Z.AI": 196
+   },
+   "models_served": {
+    "z-ai/glm-5.3-flash": 196
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "z-ai/glm-5.3-flash (high)",
+   "seed_index": "E01",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E01_z-ai_glm-5.3-flash_rep2",
+   "ended": "death",
+   "floor": 23,
+   "floor_reached": 23,
+   "score": 189,
+   "actions": 270,
+   "invalid": 0,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.11491,
+   "wall_seconds": 2878.1,
+   "latency_median_s": 6.195,
+   "latency_p95_s": 17.712,
+   "providers_seen": {
+    "Z.AI": 270
+   },
+   "models_served": {
+    "z-ai/glm-5.3-flash": 270
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "deepseek/deepseek-v4.1-flash (high)",
+   "seed_index": "E02",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E02_deepseek_deepseek-v4.1-flash_rep1",
+   "ended": "death",
+   "floor": 16,
+   "floor_reached": 16,
+   "score": 114,
+   "actions": 206,
+   "invalid": 0,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.321242,
+   "wall_seconds": 2820.7,
+   "latency_median_s": 3.25,
+   "latency_p95_s": 50.547,
+   "providers_seen": {
+    "DeepSeek": 206
+   },
+   "models_served": {
+    "deepseek/deepseek-v4.1-flash": 206
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "deepseek/deepseek-v4.1-flash (high)",
+   "seed_index": "E02",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E02_deepseek_deepseek-v4.1-flash_rep2",
+   "ended": "death",
+   "floor": 39,
+   "floor_reached": 39,
+   "score": 411,
+   "actions": 749,
+   "invalid": 1,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 1.436979,
+   "wall_seconds": 11931.8,
+   "latency_median_s": 6.788,
+   "latency_p95_s": 49.066,
+   "providers_seen": {
+    "DeepSeek": 750
+   },
+   "models_served": {
+    "deepseek/deepseek-v4.1-flash": 750
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E02",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E02_openai_gpt-5.6-luna_rep1",
+   "ended": "death",
+   "floor": 16,
+   "floor_reached": 16,
+   "score": 104,
+   "actions": 204,
+   "invalid": 0,
+   "loop_steps": 15,
+   "loop_cycles": 1,
+   "longest_loop": 15,
+   "cost_usd": 0.110903,
+   "wall_seconds": 1015.9,
+   "latency_median_s": 2.364,
+   "latency_p95_s": 7.773,
+   "providers_seen": {
+    "OpenAI": 204
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 204
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E02",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E02_openai_gpt-5.6-luna_rep2",
+   "ended": "death",
+   "floor": 16,
+   "floor_reached": 16,
+   "score": 104,
+   "actions": 419,
+   "invalid": 0,
+   "loop_steps": 197,
+   "loop_cycles": 1,
+   "longest_loop": 197,
+   "cost_usd": 0.201707,
+   "wall_seconds": 1814.1,
+   "latency_median_s": 1.92,
+   "latency_p95_s": 7.279,
+   "providers_seen": {
+    "OpenAI": 419
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 419
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "z-ai/glm-5.3-flash (high)",
+   "seed_index": "E02",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E02_z-ai_glm-5.3-flash_rep1",
+   "ended": "death",
+   "floor": 16,
+   "floor_reached": 16,
+   "score": 104,
+   "actions": 232,
+   "invalid": 0,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.07858,
+   "wall_seconds": 1906.2,
+   "latency_median_s": 4.62,
+   "latency_p95_s": 18.252,
+   "providers_seen": {
+    "Z.AI": 232
+   },
+   "models_served": {
+    "z-ai/glm-5.3-flash": 232
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "z-ai/glm-5.3-flash (high)",
+   "seed_index": "E02",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E02_z-ai_glm-5.3-flash_rep2",
+   "ended": "death",
+   "floor": 21,
+   "floor_reached": 21,
+   "score": 195,
+   "actions": 348,
+   "invalid": 3,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.141224,
+   "wall_seconds": 3758.1,
+   "latency_median_s": 6.488,
+   "latency_p95_s": 20.478,
+   "providers_seen": {
+    "Z.AI": 351
+   },
+   "models_served": {
+    "z-ai/glm-5.3-flash": 351
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "deepseek/deepseek-v4.1-flash (high)",
+   "seed_index": "E03",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E03_deepseek_deepseek-v4.1-flash_rep1",
+   "ended": "death",
+   "floor": 50,
+   "floor_reached": 50,
+   "score": 664,
+   "actions": 762,
+   "invalid": 0,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 1.674661,
+   "wall_seconds": 14007.2,
+   "latency_median_s": 5.994,
+   "latency_p95_s": 64.337,
+   "providers_seen": {
+    "DeepSeek": 762
+   },
+   "models_served": {
+    "deepseek/deepseek-v4.1-flash": 762
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "deepseek/deepseek-v4.1-flash (high)",
+   "seed_index": "E03",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E03_deepseek_deepseek-v4.1-flash_rep2",
+   "ended": "death",
+   "floor": 27,
+   "floor_reached": 27,
+   "score": 264,
+   "actions": 341,
+   "invalid": 3,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.625246,
+   "wall_seconds": 5449.2,
+   "latency_median_s": 4.023,
+   "latency_p95_s": 58.911,
+   "providers_seen": {
+    "DeepSeek": 344
+   },
+   "models_served": {
+    "deepseek/deepseek-v4.1-flash": 344
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E03",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E03_openai_gpt-5.6-luna_rep1",
+   "ended": "action_budget",
+   "floor": 22,
+   "floor_reached": 22,
+   "score": null,
+   "actions": 1500,
+   "invalid": 2,
+   "loop_steps": 1146,
+   "loop_cycles": 39,
+   "longest_loop": 101,
+   "cost_usd": 0.676988,
+   "wall_seconds": 3842.8,
+   "latency_median_s": 1.66,
+   "latency_p95_s": 4.03,
+   "providers_seen": {
+    "OpenAI": 1502
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 1502
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E03",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E03_openai_gpt-5.6-luna_rep2",
+   "ended": "death",
+   "floor": 30,
+   "floor_reached": 30,
+   "score": 244,
+   "actions": 530,
+   "invalid": 0,
+   "loop_steps": 68,
+   "loop_cycles": 2,
+   "longest_loop": 59,
+   "cost_usd": 0.324306,
+   "wall_seconds": 2854.0,
+   "latency_median_s": 2.571,
+   "latency_p95_s": 9.223,
+   "providers_seen": {
+    "OpenAI": 530
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 530
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "z-ai/glm-5.3-flash (high)",
+   "seed_index": "E03",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E03_z-ai_glm-5.3-flash_rep1",
+   "ended": "death",
+   "floor": 16,
+   "floor_reached": 16,
+   "score": 122,
+   "actions": 219,
+   "invalid": 0,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.081815,
+   "wall_seconds": 2016.2,
+   "latency_median_s": 4.573,
+   "latency_p95_s": 19.263,
+   "providers_seen": {
+    "Z.AI": 219
+   },
+   "models_served": {
+    "z-ai/glm-5.3-flash": 219
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "z-ai/glm-5.3-flash (high)",
+   "seed_index": "E03",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E03_z-ai_glm-5.3-flash_rep2",
+   "ended": "death",
+   "floor": 16,
+   "floor_reached": 16,
+   "score": 172,
+   "actions": 239,
+   "invalid": 0,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.088065,
+   "wall_seconds": 2309.9,
+   "latency_median_s": 6.406,
+   "latency_p95_s": 15.752,
+   "providers_seen": {
+    "Z.AI": 239
+   },
+   "models_served": {
+    "z-ai/glm-5.3-flash": 239
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "deepseek/deepseek-v4.1-flash (high)",
+   "seed_index": "E04",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E04_deepseek_deepseek-v4.1-flash_rep1",
+   "ended": "death",
+   "floor": 39,
+   "floor_reached": 39,
+   "score": 480,
+   "actions": 729,
+   "invalid": 1,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 1.179921,
+   "wall_seconds": 10032.9,
+   "latency_median_s": 5.357,
+   "latency_p95_s": 42.86,
+   "providers_seen": {
+    "DeepSeek": 730
+   },
+   "models_served": {
+    "deepseek/deepseek-v4.1-flash": 730
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "deepseek/deepseek-v4.1-flash (high)",
+   "seed_index": "E04",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E04_deepseek_deepseek-v4.1-flash_rep2",
+   "ended": "death",
+   "floor": 50,
+   "floor_reached": 50,
+   "score": 608,
+   "actions": 846,
+   "invalid": 2,
+   "loop_steps": 6,
+   "loop_cycles": 1,
+   "longest_loop": 6,
+   "cost_usd": 1.516152,
+   "wall_seconds": 12629.8,
+   "latency_median_s": 5.391,
+   "latency_p95_s": 46.837,
+   "providers_seen": {
+    "DeepSeek": 848
+   },
+   "models_served": {
+    "deepseek/deepseek-v4.1-flash": 848
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E04",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E04_openai_gpt-5.6-luna_rep1",
+   "ended": "death",
+   "floor": 33,
+   "floor_reached": 33,
+   "score": 296,
+   "actions": 710,
+   "invalid": 0,
+   "loop_steps": 104,
+   "loop_cycles": 3,
+   "longest_loop": 65,
+   "cost_usd": 0.455169,
+   "wall_seconds": 3403.9,
+   "latency_median_s": 2.345,
+   "latency_p95_s": 7.444,
+   "providers_seen": {
+    "OpenAI": 710
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 710
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E04",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E04_openai_gpt-5.6-luna_rep2",
+   "ended": "death",
+   "floor": 16,
+   "floor_reached": 16,
+   "score": 108,
+   "actions": 285,
+   "invalid": 0,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.156867,
+   "wall_seconds": 1709.9,
+   "latency_median_s": 2.777,
+   "latency_p95_s": 8.653,
+   "providers_seen": {
+    "OpenAI": 285
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 285
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "z-ai/glm-5.3-flash (high)",
+   "seed_index": "E04",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E04_z-ai_glm-5.3-flash_rep1",
+   "ended": "death",
+   "floor": 27,
+   "floor_reached": 27,
+   "score": 223,
+   "actions": 386,
+   "invalid": 1,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.147381,
+   "wall_seconds": 3149.6,
+   "latency_median_s": 4.529,
+   "latency_p95_s": 15.526,
+   "providers_seen": {
+    "Z.AI": 387
+   },
+   "models_served": {
+    "z-ai/glm-5.3-flash": 387
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "z-ai/glm-5.3-flash (high)",
+   "seed_index": "E04",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E04_z-ai_glm-5.3-flash_rep2",
+   "ended": "death",
+   "floor": 29,
+   "floor_reached": 29,
+   "score": 233,
+   "actions": 409,
+   "invalid": 2,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.149075,
+   "wall_seconds": 3570.7,
+   "latency_median_s": 4.987,
+   "latency_p95_s": 12.84,
+   "providers_seen": {
+    "Z.AI": 411
+   },
+   "models_served": {
+    "z-ai/glm-5.3-flash": 411
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "deepseek/deepseek-v4.1-flash (high)",
+   "seed_index": "E05",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E05_deepseek_deepseek-v4.1-flash_rep1",
+   "ended": "death",
+   "floor": 22,
+   "floor_reached": 22,
+   "score": 188,
+   "actions": 319,
+   "invalid": 1,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.401074,
+   "wall_seconds": 3700.3,
+   "latency_median_s": 4.239,
+   "latency_p95_s": 29.644,
+   "providers_seen": {
+    "DeepSeek": 320
+   },
+   "models_served": {
+    "deepseek/deepseek-v4.1-flash": 320
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "deepseek/deepseek-v4.1-flash (high)",
+   "seed_index": "E05",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E05_deepseek_deepseek-v4.1-flash_rep2",
+   "ended": "death",
+   "floor": 40,
+   "floor_reached": 40,
+   "score": 449,
+   "actions": 573,
+   "invalid": 8,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 1.008039,
+   "wall_seconds": 8558.9,
+   "latency_median_s": 5.102,
+   "latency_p95_s": 47.625,
+   "providers_seen": {
+    "DeepSeek": 581
+   },
+   "models_served": {
+    "deepseek/deepseek-v4.1-flash": 581
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E05",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E05_openai_gpt-5.6-luna_rep1",
+   "ended": "death",
+   "floor": 50,
+   "floor_reached": 50,
+   "score": 585,
+   "actions": 1430,
+   "invalid": 0,
+   "loop_steps": 692,
+   "loop_cycles": 14,
+   "longest_loop": 121,
+   "cost_usd": 0.971701,
+   "wall_seconds": 5524.6,
+   "latency_median_s": 1.886,
+   "latency_p95_s": 7.974,
+   "providers_seen": {
+    "OpenAI": 1430
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 1430
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E05",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E05_openai_gpt-5.6-luna_rep2",
+   "ended": "action_budget",
+   "floor": 22,
+   "floor_reached": 22,
+   "score": null,
+   "actions": 1500,
+   "invalid": 0,
+   "loop_steps": 1170,
+   "loop_cycles": 18,
+   "longest_loop": 364,
+   "cost_usd": 0.679525,
+   "wall_seconds": 4417.9,
+   "latency_median_s": 1.827,
+   "latency_p95_s": 3.914,
+   "providers_seen": {
+    "OpenAI": 1500
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 1500
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "z-ai/glm-5.3-flash (high)",
+   "seed_index": "E05",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E05_z-ai_glm-5.3-flash_rep1",
+   "ended": "death",
+   "floor": 23,
+   "floor_reached": 23,
+   "score": 191,
+   "actions": 304,
+   "invalid": 0,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.12727,
+   "wall_seconds": 2743.9,
+   "latency_median_s": 5.347,
+   "latency_p95_s": 16.734,
+   "providers_seen": {
+    "Z.AI": 304
+   },
+   "models_served": {
+    "z-ai/glm-5.3-flash": 304
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "z-ai/glm-5.3-flash (high)",
+   "seed_index": "E05",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E05_z-ai_glm-5.3-flash_rep2",
+   "ended": "death",
+   "floor": 50,
+   "floor_reached": 50,
+   "score": 446,
+   "actions": 640,
+   "invalid": 1,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.302577,
+   "wall_seconds": 6197.6,
+   "latency_median_s": 5.661,
+   "latency_p95_s": 18.436,
+   "providers_seen": {
+    "Z.AI": 641
+   },
+   "models_served": {
+    "z-ai/glm-5.3-flash": 641
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "deepseek/deepseek-v4.1-flash (high)",
+   "seed_index": "E06",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E06_deepseek_deepseek-v4.1-flash_rep1",
+   "ended": "victory",
+   "floor": 51,
+   "floor_reached": 51,
+   "score": 808,
+   "actions": 716,
+   "invalid": 3,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 1.408994,
+   "wall_seconds": 11793.0,
+   "latency_median_s": 6.16,
+   "latency_p95_s": 50.561,
+   "providers_seen": {
+    "DeepSeek": 719
+   },
+   "models_served": {
+    "deepseek/deepseek-v4.1-flash": 719
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "deepseek/deepseek-v4.1-flash (high)",
+   "seed_index": "E06",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E06_deepseek_deepseek-v4.1-flash_rep2",
+   "ended": "victory",
+   "floor": 51,
+   "floor_reached": 51,
+   "score": 758,
+   "actions": 622,
+   "invalid": 1,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 1.009947,
+   "wall_seconds": 8390.7,
+   "latency_median_s": 5.326,
+   "latency_p95_s": 44.737,
+   "providers_seen": {
+    "DeepSeek": 623
+   },
+   "models_served": {
+    "deepseek/deepseek-v4.1-flash": 623
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E06",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E06_openai_gpt-5.6-luna_rep1",
+   "ended": "action_budget",
+   "floor": 39,
+   "floor_reached": 39,
+   "score": null,
+   "actions": 1500,
+   "invalid": 0,
+   "loop_steps": 927,
+   "loop_cycles": 11,
+   "longest_loop": 301,
+   "cost_usd": 0.859993,
+   "wall_seconds": 4610.4,
+   "latency_median_s": 1.753,
+   "latency_p95_s": 5.07,
+   "providers_seen": {
+    "OpenAI": 1500
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 1500
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E06",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E06_openai_gpt-5.6-luna_rep2",
+   "ended": "action_budget",
+   "floor": 27,
+   "floor_reached": 27,
+   "score": null,
+   "actions": 1500,
+   "invalid": 2,
+   "loop_steps": 1043,
+   "loop_cycles": 10,
+   "longest_loop": 219,
+   "cost_usd": 0.77844,
+   "wall_seconds": 4978.7,
+   "latency_median_s": 1.87,
+   "latency_p95_s": 5.841,
+   "providers_seen": {
+    "OpenAI": 1502
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 1502
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "z-ai/glm-5.3-flash (high)",
+   "seed_index": "E06",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E06_z-ai_glm-5.3-flash_rep1",
+   "ended": "victory",
+   "floor": 51,
+   "floor_reached": 51,
+   "score": 812,
+   "actions": 751,
+   "invalid": 2,
+   "loop_steps": 6,
+   "loop_cycles": 1,
+   "longest_loop": 6,
+   "cost_usd": 0.386083,
+   "wall_seconds": 7012.1,
+   "latency_median_s": 5.134,
+   "latency_p95_s": 18.203,
+   "providers_seen": {
+    "Z.AI": 753
+   },
+   "models_served": {
+    "z-ai/glm-5.3-flash": 753
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "z-ai/glm-5.3-flash (high)",
+   "seed_index": "E06",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E06_z-ai_glm-5.3-flash_rep2",
+   "ended": "death",
+   "floor": 45,
+   "floor_reached": 45,
+   "score": 519,
+   "actions": 611,
+   "invalid": 1,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.301857,
+   "wall_seconds": 6049.2,
+   "latency_median_s": 5.574,
+   "latency_p95_s": 20.774,
+   "providers_seen": {
+    "Z.AI": 612
+   },
+   "models_served": {
+    "z-ai/glm-5.3-flash": 612
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "deepseek/deepseek-v4.1-flash (high)",
+   "seed_index": "E07",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E07_deepseek_deepseek-v4.1-flash_rep1",
+   "ended": "death",
+   "floor": 41,
+   "floor_reached": 41,
+   "score": 486,
+   "actions": 565,
+   "invalid": 2,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.875989,
+   "wall_seconds": 7454.9,
+   "latency_median_s": 4.165,
+   "latency_p95_s": 44.042,
+   "providers_seen": {
+    "DeepSeek": 567
+   },
+   "models_served": {
+    "deepseek/deepseek-v4.1-flash": 567
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "deepseek/deepseek-v4.1-flash (high)",
+   "seed_index": "E07",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E07_deepseek_deepseek-v4.1-flash_rep2",
+   "ended": "death",
+   "floor": 16,
+   "floor_reached": 16,
+   "score": 108,
+   "actions": 231,
+   "invalid": 1,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.350732,
+   "wall_seconds": 3036.7,
+   "latency_median_s": 3.747,
+   "latency_p95_s": 45.482,
+   "providers_seen": {
+    "DeepSeek": 232
+   },
+   "models_served": {
+    "deepseek/deepseek-v4.1-flash": 232
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E07",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E07_openai_gpt-5.6-luna_rep1",
+   "ended": "death",
+   "floor": 38,
+   "floor_reached": 38,
+   "score": 435,
+   "actions": 1005,
+   "invalid": 1,
+   "loop_steps": 457,
+   "loop_cycles": 12,
+   "longest_loop": 156,
+   "cost_usd": 0.56919,
+   "wall_seconds": 3969.1,
+   "latency_median_s": 1.875,
+   "latency_p95_s": 7.212,
+   "providers_seen": {
+    "OpenAI": 1006
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 1006
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E07",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E07_openai_gpt-5.6-luna_rep2",
+   "ended": "death",
+   "floor": 44,
+   "floor_reached": 44,
+   "score": 502,
+   "actions": 763,
+   "invalid": 0,
+   "loop_steps": 116,
+   "loop_cycles": 4,
+   "longest_loop": 53,
+   "cost_usd": 0.526748,
+   "wall_seconds": 4436.5,
+   "latency_median_s": 2.785,
+   "latency_p95_s": 9.263,
+   "providers_seen": {
+    "OpenAI": 763
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 763
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "z-ai/glm-5.3-flash (high)",
+   "seed_index": "E07",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E07_z-ai_glm-5.3-flash_rep1",
+   "ended": "death",
+   "floor": 33,
+   "floor_reached": 33,
+   "score": 271,
+   "actions": 392,
+   "invalid": 0,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.181644,
+   "wall_seconds": 3707.0,
+   "latency_median_s": 5.053,
+   "latency_p95_s": 21.488,
+   "providers_seen": {
+    "Z.AI": 392
+   },
+   "models_served": {
+    "z-ai/glm-5.3-flash": 392
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "z-ai/glm-5.3-flash (high)",
+   "seed_index": "E07",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E07_z-ai_glm-5.3-flash_rep2",
+   "ended": "death",
+   "floor": 37,
+   "floor_reached": 37,
+   "score": 375,
+   "actions": 453,
+   "invalid": 1,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.204453,
+   "wall_seconds": 4356.8,
+   "latency_median_s": 5.167,
+   "latency_p95_s": 16.985,
+   "providers_seen": {
+    "Z.AI": 454
+   },
+   "models_served": {
+    "z-ai/glm-5.3-flash": 454
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "deepseek/deepseek-v4.1-flash (high)",
+   "seed_index": "E08",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E08_deepseek_deepseek-v4.1-flash_rep1",
+   "ended": "victory",
+   "floor": 47,
+   "floor_reached": 47,
+   "score": 683,
+   "actions": 847,
+   "invalid": 2,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 1.466242,
+   "wall_seconds": 13545.6,
+   "latency_median_s": 5.499,
+   "latency_p95_s": 50.118,
+   "providers_seen": {
+    "DeepSeek": 849
+   },
+   "models_served": {
+    "deepseek/deepseek-v4.1-flash": 849
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "deepseek/deepseek-v4.1-flash (high)",
+   "seed_index": "E08",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E08_deepseek_deepseek-v4.1-flash_rep2",
+   "ended": "death",
+   "floor": 21,
+   "floor_reached": 21,
+   "score": 202,
+   "actions": 384,
+   "invalid": 2,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.579738,
+   "wall_seconds": 4971.0,
+   "latency_median_s": 4.476,
+   "latency_p95_s": 42.526,
+   "providers_seen": {
+    "DeepSeek": 386
+   },
+   "models_served": {
+    "deepseek/deepseek-v4.1-flash": 386
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E08",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E08_openai_gpt-5.6-luna_rep1",
+   "ended": "action_budget",
+   "floor": 10,
+   "floor_reached": 10,
+   "score": null,
+   "actions": 1500,
+   "invalid": 0,
+   "loop_steps": 1333,
+   "loop_cycles": 10,
+   "longest_loop": 441,
+   "cost_usd": 0.632318,
+   "wall_seconds": 3358.1,
+   "latency_median_s": 1.663,
+   "latency_p95_s": 2.684,
+   "providers_seen": {
+    "OpenAI": 1500
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 1500
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E08",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E08_openai_gpt-5.6-luna_rep2",
+   "ended": "action_budget",
+   "floor": 33,
+   "floor_reached": 33,
+   "score": null,
+   "actions": 1500,
+   "invalid": 0,
+   "loop_steps": 902,
+   "loop_cycles": 34,
+   "longest_loop": 67,
+   "cost_usd": 0.74739,
+   "wall_seconds": 4908.3,
+   "latency_median_s": 1.89,
+   "latency_p95_s": 6.176,
+   "providers_seen": {
+    "OpenAI": 1500
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 1500
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "z-ai/glm-5.3-flash (high)",
+   "seed_index": "E08",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E08_z-ai_glm-5.3-flash_rep1",
+   "ended": "death",
+   "floor": 23,
+   "floor_reached": 23,
+   "score": 220,
+   "actions": 319,
+   "invalid": 0,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.128978,
+   "wall_seconds": 2687.8,
+   "latency_median_s": 4.505,
+   "latency_p95_s": 19.94,
+   "providers_seen": {
+    "Z.AI": 319
+   },
+   "models_served": {
+    "z-ai/glm-5.3-flash": 319
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "z-ai/glm-5.3-flash (high)",
+   "seed_index": "E08",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E08_z-ai_glm-5.3-flash_rep2",
+   "ended": "death",
+   "floor": 33,
+   "floor_reached": 33,
+   "score": 269,
+   "actions": 396,
+   "invalid": 0,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.157864,
+   "wall_seconds": 3462.3,
+   "latency_median_s": 4.705,
+   "latency_p95_s": 16.235,
+   "providers_seen": {
+    "Z.AI": 396
+   },
+   "models_served": {
+    "z-ai/glm-5.3-flash": 396
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "deepseek/deepseek-v4.1-flash (high)",
+   "seed_index": "E09",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 2,
+   "dir": "E09_deepseek_deepseek-v4.1-flash_rep1-retry",
+   "ended": "death",
+   "floor": 50,
+   "floor_reached": 50,
+   "score": 607,
+   "actions": 709,
+   "invalid": 6,
+   "loop_steps": 13,
+   "loop_cycles": 2,
+   "longest_loop": 7,
+   "cost_usd": 1.320372,
+   "wall_seconds": 11575.8,
+   "latency_median_s": 5.237,
+   "latency_p95_s": 52.016,
+   "providers_seen": {
+    "DeepSeek": 715
+   },
+   "models_served": {
+    "deepseek/deepseek-v4.1-flash": 715
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "deepseek/deepseek-v4.1-flash (high)",
+   "seed_index": "E09",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E09_deepseek_deepseek-v4.1-flash_rep1",
+   "ended": "harness_error",
+   "floor": null,
+   "floor_reached": 41,
+   "score": null,
+   "actions": 613,
+   "invalid": 4,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 1.358351,
+   "wall_seconds": 12263.8,
+   "latency_median_s": 6.798,
+   "latency_p95_s": 67.359,
+   "providers_seen": {
+    "DeepSeek": 617
+   },
+   "models_served": {
+    "deepseek/deepseek-v4.1-flash": 617
+   },
+   "used_for_score": false,
+   "error": null
+  },
+  {
+   "configuration": "deepseek/deepseek-v4.1-flash (high)",
+   "seed_index": "E09",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E09_deepseek_deepseek-v4.1-flash_rep2",
+   "ended": "death",
+   "floor": 50,
+   "floor_reached": 50,
+   "score": 582,
+   "actions": 787,
+   "invalid": 7,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 1.752498,
+   "wall_seconds": 14395.1,
+   "latency_median_s": 7.26,
+   "latency_p95_s": 57.294,
+   "providers_seen": {
+    "DeepSeek": 794
+   },
+   "models_served": {
+    "deepseek/deepseek-v4.1-flash": 794
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E09",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E09_openai_gpt-5.6-luna_rep1",
+   "ended": "death",
+   "floor": 33,
+   "floor_reached": 33,
+   "score": 286,
+   "actions": 663,
+   "invalid": 0,
+   "loop_steps": 202,
+   "loop_cycles": 21,
+   "longest_loop": 40,
+   "cost_usd": 0.359966,
+   "wall_seconds": 2491.7,
+   "latency_median_s": 1.941,
+   "latency_p95_s": 6.789,
+   "providers_seen": {
+    "OpenAI": 663
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 663
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E09",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E09_openai_gpt-5.6-luna_rep2",
+   "ended": "death",
+   "floor": 33,
+   "floor_reached": 33,
+   "score": 251,
+   "actions": 1276,
+   "invalid": 0,
+   "loop_steps": 882,
+   "loop_cycles": 4,
+   "longest_loop": 479,
+   "cost_usd": 0.585157,
+   "wall_seconds": 4282.8,
+   "latency_median_s": 1.851,
+   "latency_p95_s": 5.518,
+   "providers_seen": {
+    "OpenAI": 1276
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 1276
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "z-ai/glm-5.3-flash (high)",
+   "seed_index": "E09",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E09_z-ai_glm-5.3-flash_rep1",
+   "ended": "death",
+   "floor": 16,
+   "floor_reached": 16,
+   "score": 150,
+   "actions": 213,
+   "invalid": 1,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.086267,
+   "wall_seconds": 1828.8,
+   "latency_median_s": 4.428,
+   "latency_p95_s": 13.451,
+   "providers_seen": {
+    "Z.AI": 214
+   },
+   "models_served": {
+    "z-ai/glm-5.3-flash": 214
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "z-ai/glm-5.3-flash (high)",
+   "seed_index": "E09",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E09_z-ai_glm-5.3-flash_rep2",
+   "ended": "death",
+   "floor": 33,
+   "floor_reached": 33,
+   "score": 317,
+   "actions": 498,
+   "invalid": 2,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.235091,
+   "wall_seconds": 4926.3,
+   "latency_median_s": 5.776,
+   "latency_p95_s": 20.707,
+   "providers_seen": {
+    "Z.AI": 500
+   },
+   "models_served": {
+    "z-ai/glm-5.3-flash": 500
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "deepseek/deepseek-v4.1-flash (high)",
+   "seed_index": "E10",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E10_deepseek_deepseek-v4.1-flash_rep1",
+   "ended": "death",
+   "floor": 16,
+   "floor_reached": 16,
+   "score": 114,
+   "actions": 210,
+   "invalid": 0,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.310585,
+   "wall_seconds": 2882.0,
+   "latency_median_s": 3.414,
+   "latency_p95_s": 65.773,
+   "providers_seen": {
+    "DeepSeek": 210
+   },
+   "models_served": {
+    "deepseek/deepseek-v4.1-flash": 210
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "deepseek/deepseek-v4.1-flash (high)",
+   "seed_index": "E10",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E10_deepseek_deepseek-v4.1-flash_rep2",
+   "ended": "death",
+   "floor": 48,
+   "floor_reached": 48,
+   "score": 530,
+   "actions": 674,
+   "invalid": 0,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 1.248608,
+   "wall_seconds": 10537.9,
+   "latency_median_s": 5.688,
+   "latency_p95_s": 47.982,
+   "providers_seen": {
+    "DeepSeek": 674
+   },
+   "models_served": {
+    "deepseek/deepseek-v4.1-flash": 674
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E10",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E10_openai_gpt-5.6-luna_rep1",
+   "ended": "action_budget",
+   "floor": 30,
+   "floor_reached": 30,
+   "score": null,
+   "actions": 1500,
+   "invalid": 0,
+   "loop_steps": 932,
+   "loop_cycles": 22,
+   "longest_loop": 253,
+   "cost_usd": 0.806945,
+   "wall_seconds": 4904.8,
+   "latency_median_s": 1.785,
+   "latency_p95_s": 6.515,
+   "providers_seen": {
+    "OpenAI": 1500
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 1500
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E10",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E10_openai_gpt-5.6-luna_rep2",
+   "ended": "action_budget",
+   "floor": 33,
+   "floor_reached": 33,
+   "score": null,
+   "actions": 1500,
+   "invalid": 0,
+   "loop_steps": 984,
+   "loop_cycles": 6,
+   "longest_loop": 483,
+   "cost_usd": 0.816264,
+   "wall_seconds": 4683.4,
+   "latency_median_s": 1.762,
+   "latency_p95_s": 5.574,
+   "providers_seen": {
+    "OpenAI": 1500
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 1500
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "z-ai/glm-5.3-flash (high)",
+   "seed_index": "E10",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E10_z-ai_glm-5.3-flash_rep1",
+   "ended": "death",
+   "floor": 33,
+   "floor_reached": 33,
+   "score": 289,
+   "actions": 510,
+   "invalid": 8,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.216027,
+   "wall_seconds": 4229.7,
+   "latency_median_s": 4.941,
+   "latency_p95_s": 14.991,
+   "providers_seen": {
+    "Z.AI": 518
+   },
+   "models_served": {
+    "z-ai/glm-5.3-flash": 518
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "z-ai/glm-5.3-flash (high)",
+   "seed_index": "E10",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E10_z-ai_glm-5.3-flash_rep2",
+   "ended": "death",
+   "floor": 33,
+   "floor_reached": 33,
+   "score": 292,
+   "actions": 536,
+   "invalid": 2,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.235247,
+   "wall_seconds": 4716.8,
+   "latency_median_s": 4.969,
+   "latency_p95_s": 15.86,
+   "providers_seen": {
+    "Z.AI": 538
+   },
+   "models_served": {
+    "z-ai/glm-5.3-flash": 538
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "deepseek/deepseek-v4.1-flash (high)",
+   "seed_index": "E11",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 2,
+   "dir": "E11_deepseek_deepseek-v4.1-flash_rep1-retry",
+   "ended": "victory",
+   "floor": 51,
+   "floor_reached": 51,
+   "score": 822,
+   "actions": 824,
+   "invalid": 4,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 1.741012,
+   "wall_seconds": 14172.3,
+   "latency_median_s": 7.013,
+   "latency_p95_s": 53.765,
+   "providers_seen": {
+    "DeepSeek": 828
+   },
+   "models_served": {
+    "deepseek/deepseek-v4.1-flash": 828
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "deepseek/deepseek-v4.1-flash (high)",
+   "seed_index": "E11",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E11_deepseek_deepseek-v4.1-flash_rep1",
+   "ended": "harness_error",
+   "floor": null,
+   "floor_reached": 46,
+   "score": null,
+   "actions": 611,
+   "invalid": 1,
+   "loop_steps": 19,
+   "loop_cycles": 1,
+   "longest_loop": 19,
+   "cost_usd": 1.0151,
+   "wall_seconds": 9669.0,
+   "latency_median_s": 5.088,
+   "latency_p95_s": 48.051,
+   "providers_seen": {
+    "DeepSeek": 612
+   },
+   "models_served": {
+    "deepseek/deepseek-v4.1-flash": 612
+   },
+   "used_for_score": false,
+   "error": null
+  },
+  {
+   "configuration": "deepseek/deepseek-v4.1-flash (high)",
+   "seed_index": "E11",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E11_deepseek_deepseek-v4.1-flash_rep2",
+   "ended": "death",
+   "floor": 50,
+   "floor_reached": 50,
+   "score": 684,
+   "actions": 756,
+   "invalid": 1,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 1.517473,
+   "wall_seconds": 12479.6,
+   "latency_median_s": 5.107,
+   "latency_p95_s": 56.602,
+   "providers_seen": {
+    "DeepSeek": 757
+   },
+   "models_served": {
+    "deepseek/deepseek-v4.1-flash": 757
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E11",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E11_openai_gpt-5.6-luna_rep1",
+   "ended": "death",
+   "floor": 33,
+   "floor_reached": 33,
+   "score": 272,
+   "actions": 1435,
+   "invalid": 1,
+   "loop_steps": 896,
+   "loop_cycles": 22,
+   "longest_loop": 307,
+   "cost_usd": 0.697404,
+   "wall_seconds": 4548.4,
+   "latency_median_s": 1.784,
+   "latency_p95_s": 6.085,
+   "providers_seen": {
+    "OpenAI": 1436
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 1436
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E11",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E11_openai_gpt-5.6-luna_rep2",
+   "ended": "death",
+   "floor": 33,
+   "floor_reached": 33,
+   "score": 310,
+   "actions": 505,
+   "invalid": 1,
+   "loop_steps": 59,
+   "loop_cycles": 1,
+   "longest_loop": 59,
+   "cost_usd": 0.314979,
+   "wall_seconds": 2754.4,
+   "latency_median_s": 2.674,
+   "latency_p95_s": 8.931,
+   "providers_seen": {
+    "OpenAI": 506
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 506
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "z-ai/glm-5.3-flash (high)",
+   "seed_index": "E11",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E11_z-ai_glm-5.3-flash_rep1",
+   "ended": "death",
+   "floor": 33,
+   "floor_reached": 33,
+   "score": 284,
+   "actions": 514,
+   "invalid": 3,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.258826,
+   "wall_seconds": 5164.0,
+   "latency_median_s": 5.748,
+   "latency_p95_s": 19.32,
+   "providers_seen": {
+    "Z.AI": 517
+   },
+   "models_served": {
+    "z-ai/glm-5.3-flash": 517
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "z-ai/glm-5.3-flash (high)",
+   "seed_index": "E11",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E11_z-ai_glm-5.3-flash_rep2",
+   "ended": "death",
+   "floor": 33,
+   "floor_reached": 33,
+   "score": 314,
+   "actions": 447,
+   "invalid": 0,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.197752,
+   "wall_seconds": 4085.9,
+   "latency_median_s": 5.448,
+   "latency_p95_s": 18.012,
+   "providers_seen": {
+    "Z.AI": 447
+   },
+   "models_served": {
+    "z-ai/glm-5.3-flash": 447
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "deepseek/deepseek-v4.1-flash (high)",
+   "seed_index": "E12",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E12_deepseek_deepseek-v4.1-flash_rep1",
+   "ended": "death",
+   "floor": 39,
+   "floor_reached": 39,
+   "score": 453,
+   "actions": 668,
+   "invalid": 3,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 1.118739,
+   "wall_seconds": 10377.9,
+   "latency_median_s": 5.481,
+   "latency_p95_s": 49.514,
+   "providers_seen": {
+    "DeepSeek": 671
+   },
+   "models_served": {
+    "deepseek/deepseek-v4.1-flash": 671
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "deepseek/deepseek-v4.1-flash (high)",
+   "seed_index": "E12",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E12_deepseek_deepseek-v4.1-flash_rep2",
+   "ended": "death",
+   "floor": 40,
+   "floor_reached": 40,
+   "score": 437,
+   "actions": 698,
+   "invalid": 0,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 1.27761,
+   "wall_seconds": 10538.4,
+   "latency_median_s": 5.229,
+   "latency_p95_s": 53.211,
+   "providers_seen": {
+    "DeepSeek": 698
+   },
+   "models_served": {
+    "deepseek/deepseek-v4.1-flash": 698
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E12",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E12_openai_gpt-5.6-luna_rep1",
+   "ended": "action_budget",
+   "floor": 41,
+   "floor_reached": 41,
+   "score": null,
+   "actions": 1500,
+   "invalid": 1,
+   "loop_steps": 865,
+   "loop_cycles": 33,
+   "longest_loop": 147,
+   "cost_usd": 0.880559,
+   "wall_seconds": 5269.8,
+   "latency_median_s": 1.862,
+   "latency_p95_s": 7.034,
+   "providers_seen": {
+    "OpenAI": 1501
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 1501
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E12",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E12_openai_gpt-5.6-luna_rep2",
+   "ended": "death",
+   "floor": 33,
+   "floor_reached": 33,
+   "score": 274,
+   "actions": 489,
+   "invalid": 0,
+   "loop_steps": 21,
+   "loop_cycles": 1,
+   "longest_loop": 21,
+   "cost_usd": 0.295707,
+   "wall_seconds": 2569.6,
+   "latency_median_s": 2.611,
+   "latency_p95_s": 7.983,
+   "providers_seen": {
+    "OpenAI": 489
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 489
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "z-ai/glm-5.3-flash (high)",
+   "seed_index": "E12",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E12_z-ai_glm-5.3-flash_rep1",
+   "ended": "death",
+   "floor": 33,
+   "floor_reached": 33,
+   "score": 245,
+   "actions": 414,
+   "invalid": 0,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.161369,
+   "wall_seconds": 3333.4,
+   "latency_median_s": 4.756,
+   "latency_p95_s": 14.253,
+   "providers_seen": {
+    "Z.AI": 414
+   },
+   "models_served": {
+    "z-ai/glm-5.3-flash": 414
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "z-ai/glm-5.3-flash (high)",
+   "seed_index": "E12",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E12_z-ai_glm-5.3-flash_rep2",
+   "ended": "death",
+   "floor": 27,
+   "floor_reached": 27,
+   "score": 223,
+   "actions": 279,
+   "invalid": 0,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.115395,
+   "wall_seconds": 2418.1,
+   "latency_median_s": 4.942,
+   "latency_p95_s": 16.587,
+   "providers_seen": {
+    "Z.AI": 279
+   },
+   "models_served": {
+    "z-ai/glm-5.3-flash": 279
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "deepseek/deepseek-v4.1-flash (high)",
+   "seed_index": "E13",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E13_deepseek_deepseek-v4.1-flash_rep1",
+   "ended": "victory",
+   "floor": 51,
+   "floor_reached": 51,
+   "score": 702,
+   "actions": 581,
+   "invalid": 6,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.847224,
+   "wall_seconds": 8055.8,
+   "latency_median_s": 4.369,
+   "latency_p95_s": 41.125,
+   "providers_seen": {
+    "DeepSeek": 587
+   },
+   "models_served": {
+    "deepseek/deepseek-v4.1-flash": 587
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "deepseek/deepseek-v4.1-flash (high)",
+   "seed_index": "E13",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E13_deepseek_deepseek-v4.1-flash_rep2",
+   "ended": "death",
+   "floor": 33,
+   "floor_reached": 33,
+   "score": 297,
+   "actions": 464,
+   "invalid": 1,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.648337,
+   "wall_seconds": 5842.8,
+   "latency_median_s": 4.026,
+   "latency_p95_s": 39.591,
+   "providers_seen": {
+    "DeepSeek": 465
+   },
+   "models_served": {
+    "deepseek/deepseek-v4.1-flash": 465
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E13",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E13_openai_gpt-5.6-luna_rep1",
+   "ended": "action_budget",
+   "floor": 3,
+   "floor_reached": 3,
+   "score": null,
+   "actions": 1500,
+   "invalid": 3,
+   "loop_steps": 1344,
+   "loop_cycles": 56,
+   "longest_loop": 81,
+   "cost_usd": 0.572324,
+   "wall_seconds": 3287.5,
+   "latency_median_s": 1.7,
+   "latency_p95_s": 2.269,
+   "providers_seen": {
+    "OpenAI": 1503
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 1503
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E13",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E13_openai_gpt-5.6-luna_rep2",
+   "ended": "action_budget",
+   "floor": 24,
+   "floor_reached": 24,
+   "score": null,
+   "actions": 1500,
+   "invalid": 0,
+   "loop_steps": 1092,
+   "loop_cycles": 26,
+   "longest_loop": 319,
+   "cost_usd": 0.775547,
+   "wall_seconds": 4451.5,
+   "latency_median_s": 1.975,
+   "latency_p95_s": 5.066,
+   "providers_seen": {
+    "OpenAI": 1500
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 1500
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "z-ai/glm-5.3-flash (high)",
+   "seed_index": "E13",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E13_z-ai_glm-5.3-flash_rep1",
+   "ended": "death",
+   "floor": 50,
+   "floor_reached": 50,
+   "score": 491,
+   "actions": 555,
+   "invalid": 0,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.260935,
+   "wall_seconds": 6046.1,
+   "latency_median_s": 6.435,
+   "latency_p95_s": 23.557,
+   "providers_seen": {
+    "Z.AI": 555
+   },
+   "models_served": {
+    "z-ai/glm-5.3-flash": 555
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "z-ai/glm-5.3-flash (high)",
+   "seed_index": "E13",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E13_z-ai_glm-5.3-flash_rep2",
+   "ended": "death",
+   "floor": 33,
+   "floor_reached": 33,
+   "score": 237,
+   "actions": 386,
+   "invalid": 1,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.155818,
+   "wall_seconds": 3441.4,
+   "latency_median_s": 5.312,
+   "latency_p95_s": 16.358,
+   "providers_seen": {
+    "Z.AI": 387
+   },
+   "models_served": {
+    "z-ai/glm-5.3-flash": 387
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "deepseek/deepseek-v4.1-flash (high)",
+   "seed_index": "E14",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 2,
+   "dir": "E14_deepseek_deepseek-v4.1-flash_rep1-retry",
+   "ended": "death",
+   "floor": 23,
+   "floor_reached": 23,
+   "score": 197,
+   "actions": 303,
+   "invalid": 1,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.503683,
+   "wall_seconds": 4425.5,
+   "latency_median_s": 4.526,
+   "latency_p95_s": 50.237,
+   "providers_seen": {
+    "DeepSeek": 304
+   },
+   "models_served": {
+    "deepseek/deepseek-v4.1-flash": 304
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "deepseek/deepseek-v4.1-flash (high)",
+   "seed_index": "E14",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E14_deepseek_deepseek-v4.1-flash_rep1",
+   "ended": "harness_error",
+   "floor": null,
+   "floor_reached": 29,
+   "score": null,
+   "actions": 352,
+   "invalid": 2,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.522352,
+   "wall_seconds": 5307.3,
+   "latency_median_s": 4.236,
+   "latency_p95_s": 39.944,
+   "providers_seen": {
+    "DeepSeek": 354
+   },
+   "models_served": {
+    "deepseek/deepseek-v4.1-flash": 354
+   },
+   "used_for_score": false,
+   "error": null
+  },
+  {
+   "configuration": "deepseek/deepseek-v4.1-flash (high)",
+   "seed_index": "E14",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E14_deepseek_deepseek-v4.1-flash_rep2",
+   "ended": "death",
+   "floor": 50,
+   "floor_reached": 50,
+   "score": 528,
+   "actions": 621,
+   "invalid": 5,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 1.331426,
+   "wall_seconds": 10815.5,
+   "latency_median_s": 6.309,
+   "latency_p95_s": 62.476,
+   "providers_seen": {
+    "DeepSeek": 626
+   },
+   "models_served": {
+    "deepseek/deepseek-v4.1-flash": 626
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E14",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E14_openai_gpt-5.6-luna_rep1",
+   "ended": "death",
+   "floor": 23,
+   "floor_reached": 23,
+   "score": 216,
+   "actions": 257,
+   "invalid": 0,
+   "loop_steps": 7,
+   "loop_cycles": 1,
+   "longest_loop": 7,
+   "cost_usd": 0.139624,
+   "wall_seconds": 1322.7,
+   "latency_median_s": 2.397,
+   "latency_p95_s": 7.99,
+   "providers_seen": {
+    "OpenAI": 257
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 257
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E14",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E14_openai_gpt-5.6-luna_rep2",
+   "ended": "death",
+   "floor": 33,
+   "floor_reached": 33,
+   "score": 335,
+   "actions": 1365,
+   "invalid": 0,
+   "loop_steps": 774,
+   "loop_cycles": 22,
+   "longest_loop": 123,
+   "cost_usd": 0.691497,
+   "wall_seconds": 5401.6,
+   "latency_median_s": 1.904,
+   "latency_p95_s": 8.799,
+   "providers_seen": {
+    "OpenAI": 1365
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 1365
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "z-ai/glm-5.3-flash (high)",
+   "seed_index": "E14",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E14_z-ai_glm-5.3-flash_rep1",
+   "ended": "death",
+   "floor": 16,
+   "floor_reached": 16,
+   "score": 92,
+   "actions": 162,
+   "invalid": 0,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.061532,
+   "wall_seconds": 1433.6,
+   "latency_median_s": 5.029,
+   "latency_p95_s": 17.687,
+   "providers_seen": {
+    "Z.AI": 162
+   },
+   "models_served": {
+    "z-ai/glm-5.3-flash": 162
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "z-ai/glm-5.3-flash (high)",
+   "seed_index": "E14",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E14_z-ai_glm-5.3-flash_rep2",
+   "ended": "death",
+   "floor": 16,
+   "floor_reached": 16,
+   "score": 100,
+   "actions": 173,
+   "invalid": 2,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.067273,
+   "wall_seconds": 1558.4,
+   "latency_median_s": 5.391,
+   "latency_p95_s": 17.2,
+   "providers_seen": {
+    "Z.AI": 175
+   },
+   "models_served": {
+    "z-ai/glm-5.3-flash": 175
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "deepseek/deepseek-v4.1-flash (high)",
+   "seed_index": "E15",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E15_deepseek_deepseek-v4.1-flash_rep1",
+   "ended": "victory",
+   "floor": 51,
+   "floor_reached": 51,
+   "score": 668,
+   "actions": 721,
+   "invalid": 2,
+   "loop_steps": 6,
+   "loop_cycles": 1,
+   "longest_loop": 6,
+   "cost_usd": 1.278466,
+   "wall_seconds": 11511.9,
+   "latency_median_s": 4.833,
+   "latency_p95_s": 48.696,
+   "providers_seen": {
+    "DeepSeek": 723
+   },
+   "models_served": {
+    "deepseek/deepseek-v4.1-flash": 723
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "deepseek/deepseek-v4.1-flash (high)",
+   "seed_index": "E15",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E15_deepseek_deepseek-v4.1-flash_rep2",
+   "ended": "death",
+   "floor": 47,
+   "floor_reached": 47,
+   "score": 537,
+   "actions": 613,
+   "invalid": 3,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 1.324716,
+   "wall_seconds": 10702.9,
+   "latency_median_s": 4.546,
+   "latency_p95_s": 65.084,
+   "providers_seen": {
+    "DeepSeek": 616
+   },
+   "models_served": {
+    "deepseek/deepseek-v4.1-flash": 616
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E15",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E15_openai_gpt-5.6-luna_rep1",
+   "ended": "death",
+   "floor": 29,
+   "floor_reached": 29,
+   "score": 260,
+   "actions": 340,
+   "invalid": 0,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.224297,
+   "wall_seconds": 2004.4,
+   "latency_median_s": 2.584,
+   "latency_p95_s": 9.445,
+   "providers_seen": {
+    "OpenAI": 340
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 340
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E15",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E15_openai_gpt-5.6-luna_rep2",
+   "ended": "death",
+   "floor": 16,
+   "floor_reached": 16,
+   "score": 102,
+   "actions": 210,
+   "invalid": 0,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.114992,
+   "wall_seconds": 1295.9,
+   "latency_median_s": 2.774,
+   "latency_p95_s": 9.112,
+   "providers_seen": {
+    "OpenAI": 210
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 210
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "z-ai/glm-5.3-flash (high)",
+   "seed_index": "E15",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E15_z-ai_glm-5.3-flash_rep1",
+   "ended": "death",
+   "floor": 33,
+   "floor_reached": 33,
+   "score": 292,
+   "actions": 338,
+   "invalid": 2,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.136618,
+   "wall_seconds": 3821.9,
+   "latency_median_s": 7.104,
+   "latency_p95_s": 21.295,
+   "providers_seen": {
+    "Z.AI": 340
+   },
+   "models_served": {
+    "z-ai/glm-5.3-flash": 340
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "z-ai/glm-5.3-flash (high)",
+   "seed_index": "E15",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E15_z-ai_glm-5.3-flash_rep2",
+   "ended": "death",
+   "floor": 29,
+   "floor_reached": 29,
+   "score": 255,
+   "actions": 354,
+   "invalid": 0,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.144239,
+   "wall_seconds": 3072.6,
+   "latency_median_s": 4.542,
+   "latency_p95_s": 16.744,
+   "providers_seen": {
+    "Z.AI": 354
+   },
+   "models_served": {
+    "z-ai/glm-5.3-flash": 354
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "deepseek/deepseek-v4.1-flash (high)",
+   "seed_index": "E16",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 2,
+   "dir": "E16_deepseek_deepseek-v4.1-flash_rep1-retry",
+   "ended": "death",
+   "floor": 45,
+   "floor_reached": 45,
+   "score": 514,
+   "actions": 612,
+   "invalid": 5,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 1.212044,
+   "wall_seconds": 9972.9,
+   "latency_median_s": 6.637,
+   "latency_p95_s": 49.041,
+   "providers_seen": {
+    "DeepSeek": 617
+   },
+   "models_served": {
+    "deepseek/deepseek-v4.1-flash": 617
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "deepseek/deepseek-v4.1-flash (high)",
+   "seed_index": "E16",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E16_deepseek_deepseek-v4.1-flash_rep1",
+   "ended": "harness_error",
+   "floor": null,
+   "floor_reached": 22,
+   "score": null,
+   "actions": 293,
+   "invalid": 0,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.368978,
+   "wall_seconds": 4036.7,
+   "latency_median_s": 3.677,
+   "latency_p95_s": 34.335,
+   "providers_seen": {
+    "DeepSeek": 293
+   },
+   "models_served": {
+    "deepseek/deepseek-v4.1-flash": 293
+   },
+   "used_for_score": false,
+   "error": null
+  },
+  {
+   "configuration": "deepseek/deepseek-v4.1-flash (high)",
+   "seed_index": "E16",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E16_deepseek_deepseek-v4.1-flash_rep2",
+   "ended": "death",
+   "floor": 40,
+   "floor_reached": 40,
+   "score": 423,
+   "actions": 503,
+   "invalid": 3,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.8644,
+   "wall_seconds": 7025.7,
+   "latency_median_s": 4.482,
+   "latency_p95_s": 49.84,
+   "providers_seen": {
+    "DeepSeek": 506
+   },
+   "models_served": {
+    "deepseek/deepseek-v4.1-flash": 506
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E16",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E16_openai_gpt-5.6-luna_rep1",
+   "ended": "death",
+   "floor": 33,
+   "floor_reached": 33,
+   "score": 245,
+   "actions": 550,
+   "invalid": 0,
+   "loop_steps": 139,
+   "loop_cycles": 7,
+   "longest_loop": 31,
+   "cost_usd": 0.339453,
+   "wall_seconds": 2625.0,
+   "latency_median_s": 2.292,
+   "latency_p95_s": 9.027,
+   "providers_seen": {
+    "OpenAI": 550
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 550
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E16",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E16_openai_gpt-5.6-luna_rep2",
+   "ended": "death",
+   "floor": 33,
+   "floor_reached": 33,
+   "score": 265,
+   "actions": 484,
+   "invalid": 0,
+   "loop_steps": 62,
+   "loop_cycles": 2,
+   "longest_loop": 35,
+   "cost_usd": 0.288831,
+   "wall_seconds": 2756.5,
+   "latency_median_s": 2.884,
+   "latency_p95_s": 10.483,
+   "providers_seen": {
+    "OpenAI": 484
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 484
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "z-ai/glm-5.3-flash (high)",
+   "seed_index": "E16",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E16_z-ai_glm-5.3-flash_rep1",
+   "ended": "death",
+   "floor": 27,
+   "floor_reached": 27,
+   "score": 229,
+   "actions": 347,
+   "invalid": 1,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.155311,
+   "wall_seconds": 4241.3,
+   "latency_median_s": 7.136,
+   "latency_p95_s": 29.842,
+   "providers_seen": {
+    "Z.AI": 348
+   },
+   "models_served": {
+    "z-ai/glm-5.3-flash": 348
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "z-ai/glm-5.3-flash (high)",
+   "seed_index": "E16",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E16_z-ai_glm-5.3-flash_rep2",
+   "ended": "death",
+   "floor": 16,
+   "floor_reached": 16,
+   "score": 154,
+   "actions": 193,
+   "invalid": 0,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.070163,
+   "wall_seconds": 1439.2,
+   "latency_median_s": 3.812,
+   "latency_p95_s": 14.111,
+   "providers_seen": {
+    "Z.AI": 193
+   },
+   "models_served": {
+    "z-ai/glm-5.3-flash": 193
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "deepseek/deepseek-v4.1-flash (high)",
+   "seed_index": "E17",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E17_deepseek_deepseek-v4.1-flash_rep1",
+   "ended": "death",
+   "floor": 33,
+   "floor_reached": 33,
+   "score": 302,
+   "actions": 463,
+   "invalid": 3,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.877893,
+   "wall_seconds": 7292.4,
+   "latency_median_s": 5.05,
+   "latency_p95_s": 56.623,
+   "providers_seen": {
+    "DeepSeek": 466
+   },
+   "models_served": {
+    "deepseek/deepseek-v4.1-flash": 466
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "deepseek/deepseek-v4.1-flash (high)",
+   "seed_index": "E17",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E17_deepseek_deepseek-v4.1-flash_rep2",
+   "ended": "victory",
+   "floor": 51,
+   "floor_reached": 51,
+   "score": 821,
+   "actions": 778,
+   "invalid": 1,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 1.201723,
+   "wall_seconds": 10191.1,
+   "latency_median_s": 5.096,
+   "latency_p95_s": 38.464,
+   "providers_seen": {
+    "DeepSeek": 779
+   },
+   "models_served": {
+    "deepseek/deepseek-v4.1-flash": 779
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E17",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E17_openai_gpt-5.6-luna_rep1",
+   "ended": "victory",
+   "floor": 51,
+   "floor_reached": 51,
+   "score": 754,
+   "actions": 889,
+   "invalid": 0,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.716046,
+   "wall_seconds": 5765.1,
+   "latency_median_s": 3.275,
+   "latency_p95_s": 11.788,
+   "providers_seen": {
+    "OpenAI": 889
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 889
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E17",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E17_openai_gpt-5.6-luna_rep2",
+   "ended": "death",
+   "floor": 16,
+   "floor_reached": 16,
+   "score": 102,
+   "actions": 206,
+   "invalid": 0,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.108065,
+   "wall_seconds": 1281.1,
+   "latency_median_s": 3.037,
+   "latency_p95_s": 10.273,
+   "providers_seen": {
+    "OpenAI": 206
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 206
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "z-ai/glm-5.3-flash (high)",
+   "seed_index": "E17",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E17_z-ai_glm-5.3-flash_rep1",
+   "ended": "victory",
+   "floor": 51,
+   "floor_reached": 51,
+   "score": 760,
+   "actions": 689,
+   "invalid": 1,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.339716,
+   "wall_seconds": 7518.8,
+   "latency_median_s": 7.037,
+   "latency_p95_s": 21.285,
+   "providers_seen": {
+    "Z.AI": 690
+   },
+   "models_served": {
+    "z-ai/glm-5.3-flash": 690
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "z-ai/glm-5.3-flash (high)",
+   "seed_index": "E17",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E17_z-ai_glm-5.3-flash_rep2",
+   "ended": "death",
+   "floor": 33,
+   "floor_reached": 33,
+   "score": 283,
+   "actions": 406,
+   "invalid": 2,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.166092,
+   "wall_seconds": 3024.9,
+   "latency_median_s": 4.014,
+   "latency_p95_s": 16.311,
+   "providers_seen": {
+    "Z.AI": 408
+   },
+   "models_served": {
+    "z-ai/glm-5.3-flash": 408
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "deepseek/deepseek-v4.1-flash (high)",
+   "seed_index": "E18",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E18_deepseek_deepseek-v4.1-flash_rep1",
+   "ended": "death",
+   "floor": 28,
+   "floor_reached": 28,
+   "score": 247,
+   "actions": 344,
+   "invalid": 3,
+   "loop_steps": 6,
+   "loop_cycles": 1,
+   "longest_loop": 6,
+   "cost_usd": 0.593397,
+   "wall_seconds": 5041.4,
+   "latency_median_s": 3.765,
+   "latency_p95_s": 51.897,
+   "providers_seen": {
+    "DeepSeek": 347
+   },
+   "models_served": {
+    "deepseek/deepseek-v4.1-flash": 347
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "deepseek/deepseek-v4.1-flash (high)",
+   "seed_index": "E18",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E18_deepseek_deepseek-v4.1-flash_rep2",
+   "ended": "death",
+   "floor": 39,
+   "floor_reached": 39,
+   "score": 408,
+   "actions": 559,
+   "invalid": 1,
+   "loop_steps": 7,
+   "loop_cycles": 1,
+   "longest_loop": 7,
+   "cost_usd": 1.030179,
+   "wall_seconds": 8817.2,
+   "latency_median_s": 5.432,
+   "latency_p95_s": 58.569,
+   "providers_seen": {
+    "DeepSeek": 560
+   },
+   "models_served": {
+    "deepseek/deepseek-v4.1-flash": 560
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E18",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E18_openai_gpt-5.6-luna_rep1",
+   "ended": "death",
+   "floor": 50,
+   "floor_reached": 50,
+   "score": 544,
+   "actions": 835,
+   "invalid": 0,
+   "loop_steps": 51,
+   "loop_cycles": 5,
+   "longest_loop": 21,
+   "cost_usd": 0.696293,
+   "wall_seconds": 5193.8,
+   "latency_median_s": 2.816,
+   "latency_p95_s": 13.166,
+   "providers_seen": {
+    "OpenAI": 835
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 835
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E18",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E18_openai_gpt-5.6-luna_rep2",
+   "ended": "death",
+   "floor": 28,
+   "floor_reached": 28,
+   "score": 216,
+   "actions": 481,
+   "invalid": 1,
+   "loop_steps": 14,
+   "loop_cycles": 2,
+   "longest_loop": 7,
+   "cost_usd": 0.310334,
+   "wall_seconds": 2845.0,
+   "latency_median_s": 2.886,
+   "latency_p95_s": 11.573,
+   "providers_seen": {
+    "OpenAI": 482
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 482
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "z-ai/glm-5.3-flash (high)",
+   "seed_index": "E18",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E18_z-ai_glm-5.3-flash_rep1",
+   "ended": "death",
+   "floor": 29,
+   "floor_reached": 29,
+   "score": 248,
+   "actions": 399,
+   "invalid": 1,
+   "loop_steps": 6,
+   "loop_cycles": 1,
+   "longest_loop": 6,
+   "cost_usd": 0.16097,
+   "wall_seconds": 3717.9,
+   "latency_median_s": 5.984,
+   "latency_p95_s": 16.581,
+   "providers_seen": {
+    "Z.AI": 400
+   },
+   "models_served": {
+    "z-ai/glm-5.3-flash": 400
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "z-ai/glm-5.3-flash (high)",
+   "seed_index": "E18",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E18_z-ai_glm-5.3-flash_rep2",
+   "ended": "death",
+   "floor": 16,
+   "floor_reached": 16,
+   "score": 96,
+   "actions": 223,
+   "invalid": 0,
+   "loop_steps": 6,
+   "loop_cycles": 1,
+   "longest_loop": 6,
+   "cost_usd": 0.093252,
+   "wall_seconds": 1962.2,
+   "latency_median_s": 4.267,
+   "latency_p95_s": 17.15,
+   "providers_seen": {
+    "Z.AI": 223
+   },
+   "models_served": {
+    "z-ai/glm-5.3-flash": 223
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "deepseek/deepseek-v4.1-flash (high)",
+   "seed_index": "E19",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E19_deepseek_deepseek-v4.1-flash_rep1",
+   "ended": "death",
+   "floor": 24,
+   "floor_reached": 24,
+   "score": 224,
+   "actions": 304,
+   "invalid": 5,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.450991,
+   "wall_seconds": 3860.7,
+   "latency_median_s": 4.045,
+   "latency_p95_s": 53.616,
+   "providers_seen": {
+    "DeepSeek": 309
+   },
+   "models_served": {
+    "deepseek/deepseek-v4.1-flash": 309
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "deepseek/deepseek-v4.1-flash (high)",
+   "seed_index": "E19",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E19_deepseek_deepseek-v4.1-flash_rep2",
+   "ended": "death",
+   "floor": 50,
+   "floor_reached": 50,
+   "score": 511,
+   "actions": 601,
+   "invalid": 0,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 1.064243,
+   "wall_seconds": 8671.3,
+   "latency_median_s": 5.065,
+   "latency_p95_s": 49.826,
+   "providers_seen": {
+    "DeepSeek": 601
+   },
+   "models_served": {
+    "deepseek/deepseek-v4.1-flash": 601
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E19",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E19_openai_gpt-5.6-luna_rep1",
+   "ended": "death",
+   "floor": 33,
+   "floor_reached": 33,
+   "score": 269,
+   "actions": 532,
+   "invalid": 0,
+   "loop_steps": 103,
+   "loop_cycles": 1,
+   "longest_loop": 103,
+   "cost_usd": 0.305196,
+   "wall_seconds": 2658.5,
+   "latency_median_s": 2.351,
+   "latency_p95_s": 8.946,
+   "providers_seen": {
+    "OpenAI": 532
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 532
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E19",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E19_openai_gpt-5.6-luna_rep2",
+   "ended": "death",
+   "floor": 33,
+   "floor_reached": 33,
+   "score": 249,
+   "actions": 877,
+   "invalid": 0,
+   "loop_steps": 403,
+   "loop_cycles": 3,
+   "longest_loop": 283,
+   "cost_usd": 0.504948,
+   "wall_seconds": 3667.5,
+   "latency_median_s": 2.141,
+   "latency_p95_s": 7.977,
+   "providers_seen": {
+    "OpenAI": 877
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 877
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "z-ai/glm-5.3-flash (high)",
+   "seed_index": "E19",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E19_z-ai_glm-5.3-flash_rep1",
+   "ended": "death",
+   "floor": 33,
+   "floor_reached": 33,
+   "score": 269,
+   "actions": 366,
+   "invalid": 1,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.147345,
+   "wall_seconds": 3397.7,
+   "latency_median_s": 5.646,
+   "latency_p95_s": 18.883,
+   "providers_seen": {
+    "Z.AI": 367
+   },
+   "models_served": {
+    "z-ai/glm-5.3-flash": 367
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "z-ai/glm-5.3-flash (high)",
+   "seed_index": "E19",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E19_z-ai_glm-5.3-flash_rep2",
+   "ended": "death",
+   "floor": 25,
+   "floor_reached": 25,
+   "score": 223,
+   "actions": 293,
+   "invalid": 0,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.105772,
+   "wall_seconds": 2167.1,
+   "latency_median_s": 4.113,
+   "latency_p95_s": 13.168,
+   "providers_seen": {
+    "Z.AI": 293
+   },
+   "models_served": {
+    "z-ai/glm-5.3-flash": 293
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "deepseek/deepseek-v4.1-flash (high)",
+   "seed_index": "E20",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E20_deepseek_deepseek-v4.1-flash_rep1",
+   "ended": "death",
+   "floor": 44,
+   "floor_reached": 44,
+   "score": 487,
+   "actions": 530,
+   "invalid": 2,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.90758,
+   "wall_seconds": 7509.3,
+   "latency_median_s": 4.91,
+   "latency_p95_s": 46.172,
+   "providers_seen": {
+    "DeepSeek": 532
+   },
+   "models_served": {
+    "deepseek/deepseek-v4.1-flash": 532
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "deepseek/deepseek-v4.1-flash (high)",
+   "seed_index": "E20",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E20_deepseek_deepseek-v4.1-flash_rep2",
+   "ended": "death",
+   "floor": 33,
+   "floor_reached": 33,
+   "score": 249,
+   "actions": 409,
+   "invalid": 4,
+   "loop_steps": 13,
+   "loop_cycles": 2,
+   "longest_loop": 7,
+   "cost_usd": 0.685978,
+   "wall_seconds": 5744.0,
+   "latency_median_s": 3.681,
+   "latency_p95_s": 53.142,
+   "providers_seen": {
+    "DeepSeek": 413
+   },
+   "models_served": {
+    "deepseek/deepseek-v4.1-flash": 413
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E20",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E20_openai_gpt-5.6-luna_rep1",
+   "ended": "action_budget",
+   "floor": 22,
+   "floor_reached": 22,
+   "score": null,
+   "actions": 1500,
+   "invalid": 1,
+   "loop_steps": 1175,
+   "loop_cycles": 19,
+   "longest_loop": 323,
+   "cost_usd": 0.731543,
+   "wall_seconds": 3935.3,
+   "latency_median_s": 1.725,
+   "latency_p95_s": 4.296,
+   "providers_seen": {
+    "OpenAI": 1501
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 1501
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E20",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E20_openai_gpt-5.6-luna_rep2",
+   "ended": "death",
+   "floor": 33,
+   "floor_reached": 33,
+   "score": 304,
+   "actions": 1233,
+   "invalid": 0,
+   "loop_steps": 716,
+   "loop_cycles": 18,
+   "longest_loop": 89,
+   "cost_usd": 0.645107,
+   "wall_seconds": 4791.1,
+   "latency_median_s": 2.043,
+   "latency_p95_s": 6.124,
+   "providers_seen": {
+    "OpenAI": 1233
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 1233
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "z-ai/glm-5.3-flash (high)",
+   "seed_index": "E20",
+   "replicate": 1,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E20_z-ai_glm-5.3-flash_rep1",
+   "ended": "death",
+   "floor": 48,
+   "floor_reached": 48,
+   "score": 463,
+   "actions": 542,
+   "invalid": 1,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.245701,
+   "wall_seconds": 5807.6,
+   "latency_median_s": 6.708,
+   "latency_p95_s": 20.707,
+   "providers_seen": {
+    "Z.AI": 543
+   },
+   "models_served": {
+    "z-ai/glm-5.3-flash": 543
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "z-ai/glm-5.3-flash (high)",
+   "seed_index": "E20",
+   "replicate": 2,
+   "kind": "campaign",
+   "attempt": 1,
+   "dir": "E20_z-ai_glm-5.3-flash_rep2",
+   "ended": "death",
+   "floor": 39,
+   "floor_reached": 39,
+   "score": 420,
+   "actions": 508,
+   "invalid": 0,
+   "loop_steps": 7,
+   "loop_cycles": 1,
+   "longest_loop": 7,
+   "cost_usd": 0.237327,
+   "wall_seconds": 3929.0,
+   "latency_median_s": 4.349,
+   "latency_p95_s": 14.079,
+   "providers_seen": {
+    "Z.AI": 508
+   },
+   "models_served": {
+    "z-ai/glm-5.3-flash": 508
+   },
+   "used_for_score": true,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E01",
+   "replicate": 1,
+   "kind": "rerun",
+   "attempt": 1,
+   "dir": "E01_openai_gpt-5.6-luna_rep1",
+   "ended": "death",
+   "floor": 16,
+   "floor_reached": 16,
+   "score": 102,
+   "actions": 481,
+   "invalid": 0,
+   "loop_steps": 279,
+   "loop_cycles": 3,
+   "longest_loop": 193,
+   "cost_usd": 0.207838,
+   "wall_seconds": 1638.5,
+   "latency_median_s": 1.897,
+   "latency_p95_s": 5.382,
+   "providers_seen": {
+    "OpenAI": 481
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 481
+   },
+   "used_for_score": false,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E01",
+   "replicate": 2,
+   "kind": "rerun",
+   "attempt": 1,
+   "dir": "E01_openai_gpt-5.6-luna_rep2",
+   "ended": "death",
+   "floor": 16,
+   "floor_reached": 16,
+   "score": 114,
+   "actions": 301,
+   "invalid": 0,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.154064,
+   "wall_seconds": 1651.6,
+   "latency_median_s": 2.644,
+   "latency_p95_s": 6.825,
+   "providers_seen": {
+    "OpenAI": 301
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 301
+   },
+   "used_for_score": false,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E03",
+   "replicate": 1,
+   "kind": "rerun",
+   "attempt": 1,
+   "dir": "E03_openai_gpt-5.6-luna_rep1",
+   "ended": "death",
+   "floor": 33,
+   "floor_reached": 33,
+   "score": 273,
+   "actions": 557,
+   "invalid": 0,
+   "loop_steps": 0,
+   "loop_cycles": 0,
+   "longest_loop": 0,
+   "cost_usd": 0.399067,
+   "wall_seconds": 3447.0,
+   "latency_median_s": 2.762,
+   "latency_p95_s": 10.798,
+   "providers_seen": {
+    "OpenAI": 557
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 557
+   },
+   "used_for_score": false,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E05",
+   "replicate": 2,
+   "kind": "rerun",
+   "attempt": 1,
+   "dir": "E05_openai_gpt-5.6-luna_rep2",
+   "ended": "action_budget",
+   "floor": 22,
+   "floor_reached": 22,
+   "score": null,
+   "actions": 1500,
+   "invalid": 0,
+   "loop_steps": 1145,
+   "loop_cycles": 16,
+   "longest_loop": 508,
+   "cost_usd": 0.696204,
+   "wall_seconds": 4144.1,
+   "latency_median_s": 1.8,
+   "latency_p95_s": 4.292,
+   "providers_seen": {
+    "OpenAI": 1500
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 1500
+   },
+   "used_for_score": false,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E06",
+   "replicate": 1,
+   "kind": "rerun",
+   "attempt": 1,
+   "dir": "E06_openai_gpt-5.6-luna_rep1",
+   "ended": "death",
+   "floor": 33,
+   "floor_reached": 33,
+   "score": 304,
+   "actions": 610,
+   "invalid": 0,
+   "loop_steps": 97,
+   "loop_cycles": 3,
+   "longest_loop": 67,
+   "cost_usd": 0.380045,
+   "wall_seconds": 3031.4,
+   "latency_median_s": 2.416,
+   "latency_p95_s": 8.05,
+   "providers_seen": {
+    "OpenAI": 610
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 610
+   },
+   "used_for_score": false,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E06",
+   "replicate": 2,
+   "kind": "rerun",
+   "attempt": 1,
+   "dir": "E06_openai_gpt-5.6-luna_rep2",
+   "ended": "death",
+   "floor": 28,
+   "floor_reached": 28,
+   "score": 232,
+   "actions": 455,
+   "invalid": 0,
+   "loop_steps": 41,
+   "loop_cycles": 3,
+   "longest_loop": 27,
+   "cost_usd": 0.277495,
+   "wall_seconds": 2248.9,
+   "latency_median_s": 2.398,
+   "latency_p95_s": 8.378,
+   "providers_seen": {
+    "OpenAI": 455
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 455
+   },
+   "used_for_score": false,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E08",
+   "replicate": 1,
+   "kind": "rerun",
+   "attempt": 1,
+   "dir": "E08_openai_gpt-5.6-luna_rep1",
+   "ended": "action_budget",
+   "floor": 10,
+   "floor_reached": 10,
+   "score": null,
+   "actions": 1500,
+   "invalid": 0,
+   "loop_steps": 1342,
+   "loop_cycles": 15,
+   "longest_loop": 424,
+   "cost_usd": 0.60068,
+   "wall_seconds": 3307.4,
+   "latency_median_s": 1.689,
+   "latency_p95_s": 2.617,
+   "providers_seen": {
+    "OpenAI": 1500
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 1500
+   },
+   "used_for_score": false,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E08",
+   "replicate": 2,
+   "kind": "rerun",
+   "attempt": 1,
+   "dir": "E08_openai_gpt-5.6-luna_rep2",
+   "ended": "death",
+   "floor": 16,
+   "floor_reached": 16,
+   "score": 104,
+   "actions": 291,
+   "invalid": 0,
+   "loop_steps": 22,
+   "loop_cycles": 2,
+   "longest_loop": 13,
+   "cost_usd": 0.149039,
+   "wall_seconds": 1414.4,
+   "latency_median_s": 2.425,
+   "latency_p95_s": 7.109,
+   "providers_seen": {
+    "OpenAI": 291
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 291
+   },
+   "used_for_score": false,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E10",
+   "replicate": 1,
+   "kind": "rerun",
+   "attempt": 1,
+   "dir": "E10_openai_gpt-5.6-luna_rep1",
+   "ended": "death",
+   "floor": 33,
+   "floor_reached": 33,
+   "score": 287,
+   "actions": 829,
+   "invalid": 0,
+   "loop_steps": 198,
+   "loop_cycles": 10,
+   "longest_loop": 79,
+   "cost_usd": 0.512984,
+   "wall_seconds": 3804.0,
+   "latency_median_s": 2.209,
+   "latency_p95_s": 7.41,
+   "providers_seen": {
+    "OpenAI": 829
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 829
+   },
+   "used_for_score": false,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E10",
+   "replicate": 2,
+   "kind": "rerun",
+   "attempt": 2,
+   "dir": "E10_openai_gpt-5.6-luna_rep2-retry",
+   "ended": "death",
+   "floor": 16,
+   "floor_reached": 16,
+   "score": 102,
+   "actions": 236,
+   "invalid": 0,
+   "loop_steps": 13,
+   "loop_cycles": 1,
+   "longest_loop": 13,
+   "cost_usd": 0.140747,
+   "wall_seconds": 1300.4,
+   "latency_median_s": 2.749,
+   "latency_p95_s": 9.155,
+   "providers_seen": {
+    "OpenAI": 236
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 236
+   },
+   "used_for_score": false,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E10",
+   "replicate": 2,
+   "kind": "rerun",
+   "attempt": 1,
+   "dir": "E10_openai_gpt-5.6-luna_rep2",
+   "ended": "harness_error",
+   "floor": null,
+   "floor_reached": 31,
+   "score": null,
+   "actions": 849,
+   "invalid": 0,
+   "loop_steps": 425,
+   "loop_cycles": 12,
+   "longest_loop": 93,
+   "cost_usd": 0.40639,
+   "wall_seconds": 3927.1,
+   "latency_median_s": 1.968,
+   "latency_p95_s": 5.779,
+   "providers_seen": {
+    "OpenAI": 849
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 849
+   },
+   "used_for_score": false,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E12",
+   "replicate": 1,
+   "kind": "rerun",
+   "attempt": 1,
+   "dir": "E12_openai_gpt-5.6-luna_rep1",
+   "ended": "death",
+   "floor": 50,
+   "floor_reached": 50,
+   "score": 530,
+   "actions": 1485,
+   "invalid": 2,
+   "loop_steps": 450,
+   "loop_cycles": 5,
+   "longest_loop": 379,
+   "cost_usd": 1.064297,
+   "wall_seconds": 7437.7,
+   "latency_median_s": 2.358,
+   "latency_p95_s": 9.887,
+   "providers_seen": {
+    "OpenAI": 1487
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 1487
+   },
+   "used_for_score": false,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E13",
+   "replicate": 1,
+   "kind": "rerun",
+   "attempt": 1,
+   "dir": "E13_openai_gpt-5.6-luna_rep1",
+   "ended": "death",
+   "floor": 33,
+   "floor_reached": 33,
+   "score": 253,
+   "actions": 794,
+   "invalid": 0,
+   "loop_steps": 240,
+   "loop_cycles": 6,
+   "longest_loop": 59,
+   "cost_usd": 0.474572,
+   "wall_seconds": 3564.3,
+   "latency_median_s": 2.168,
+   "latency_p95_s": 7.496,
+   "providers_seen": {
+    "OpenAI": 794
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 794
+   },
+   "used_for_score": false,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E13",
+   "replicate": 2,
+   "kind": "rerun",
+   "attempt": 1,
+   "dir": "E13_openai_gpt-5.6-luna_rep2",
+   "ended": "action_budget",
+   "floor": 45,
+   "floor_reached": 45,
+   "score": null,
+   "actions": 1500,
+   "invalid": 1,
+   "loop_steps": 773,
+   "loop_cycles": 23,
+   "longest_loop": 77,
+   "cost_usd": 0.915617,
+   "wall_seconds": 5791.3,
+   "latency_median_s": 1.991,
+   "latency_p95_s": 7.503,
+   "providers_seen": {
+    "OpenAI": 1501
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 1501
+   },
+   "used_for_score": false,
+   "error": null
+  },
+  {
+   "configuration": "openai/gpt-5.6-luna (high)",
+   "seed_index": "E20",
+   "replicate": 1,
+   "kind": "rerun",
+   "attempt": 1,
+   "dir": "E20_openai_gpt-5.6-luna_rep1",
+   "ended": "action_budget",
+   "floor": 27,
+   "floor_reached": 27,
+   "score": null,
+   "actions": 1500,
+   "invalid": 0,
+   "loop_steps": 1015,
+   "loop_cycles": 31,
+   "longest_loop": 133,
+   "cost_usd": 0.686134,
+   "wall_seconds": 4092.7,
+   "latency_median_s": 1.882,
+   "latency_p95_s": 4.112,
+   "providers_seen": {
+    "OpenAI": 1500
+   },
+   "models_served": {
+    "openai/gpt-5.6-luna": 1500
+   },
+   "used_for_score": false,
+   "error": null
+  }
+ ],
+ "provenance": {
+  "harness_sha256": [
+   "4b198ddb3a063c04a64c69719c9045f1a9fec31448026a8aab6b6174c607991d",
+   "b053b0f766f3c4748d6281ba48e92b33f2c6d01cc3fe1fee2c56c3612f67ea32"
+  ],
+  "interface_sha256": [
+   "dd5104516def0764801168b41ebbdbfbdbc48f88826b2b7aebc722a6611a8db5"
+  ],
+  "image_id": [
+   "registry.fly.io/spire-bench-fable@sha256:0b97c275678b46666f6fe1da54104e57d6d84129696a7bf044eb98d454edd6f6",
+   "registry.fly.io/spire-bench-fable@sha256:91853661dcda6f929aeeee2d24fd03f94ec4d968c22d881cd7f14d31ed5fc3f5"
+  ],
+  "game_version": [
+   "Slay the Spire V2.2 (12-13-2020), GOG build 2020-12-15 (8735c9fe3cc2280b76aa3ec47c953352a7df1f65, id 43444)"
+  ],
+  "mods": {
+   "modthespire_commit": [
+    "c6201995b8f5d97620cdb00f28a724a95b7742a6"
+   ],
+   "basemod_commit": [
+    "26de1afc1a8ea7595b61f940de0ac29650f2c025"
+   ],
+   "communicationmod_commit": [
+    "5e417eb189530986b9047a3c9426889fb261d146"
+   ]
+  },
+  "runtime_mod_sha256": [
+   {
+    "BaseMod.jar": "b7ab62e5bd5a85ccbaba4b1afdeb78b407cd668d68e05e536a424a384cf143ab",
+    "CommunicationMod.jar": "ec491ce6792308e74f91fa55261674cd49185ed08410b3559ee5fd24c340315f",
+    "ModTheSpire.jar": "9d4bad6d1197dad5c477a4a97ea052c51005cbdf4bcbfae18cc3804a561019fc"
+   }
+  ],
+  "jre_image": [
+   "eclipse-temurin@sha256:d53aa7811eba390450721b1037978605992f5d9467c4af629384f23a49f78436"
+  ],
+  "machine": [
+   [
+    "performance",
+    "2",
+    "4096",
+    "iad"
+   ]
+  ],
+  "seed_set": {
+   "name": "eval-v1",
+   "sha256": "14d01ee069aa311ff01c5515eabaa20d9cafc853005eeb8064b1d366049c7f52",
+   "count": 20,
+   "length": 8,
+   "alphabet": "0123456789ABCDEFGHIJKLMNPQRSTUVWXYZ",
+   "alphabet_source": "com/megacrit/cardcrawl/helpers/SeedHelper.class",
+   "created_utc": "2026-09-14T02:25:50+00:00",
+   "procedure": "tools/make_eval_seeds.py: secrets.choice over the game's alphabet, 8 characters",
+   "file": "eval-v1.txt",
+   "bucket_key": "seeds/eval-v1.txt"
+  },
+  "seed_kinds": [
+   "evaluation"
+  ],
+  "seed_strings_in_summaries": false
+ },
+ "campaign": {
+  "started_at": 1790086203.832599,
+  "concurrency_cap": 40,
+  "max_total_cost_usd": 40.0,
+  "region": "iad",
+  "cost_identity": "machine_id",
+  "observed_cost_usd": 7.8549553024000005,
+  "observed_attempt_costs": {
+   "784645ef051e48": 0.293552,
+   "820257c7296578": 0.251252,
+   "78440e5c060e58": 0.231243,
+   "1851ed6b670658": 0.266734,
+   "849102a2761298": 0.160017,
+   "879097c0672e18": 0.166321,
+   "82d1454a665238": 0.061701,
+   "7845105c212778": 0.118844,
+   "2863675fde9568": 0.291642,
+   "805099f6464958": 0.084919,
+   "82d1d99ad3e298": 0.3773423024000001,
+   "8747907b3e7608": 0.130524,
+   "8654d26c9d1148": 0.05261,
+   "d8d0e19f556598": 0.283422,
+   "080d6e5f311258": 0.022501,
+   "801654a6033668": 0.189141,
+   "819090f975edd8": 0.335755,
+   "89599db6409638": 0.42367,
+   "891ed01c5322e8": 0.323864,
+   "822366c7661078": 0.168566,
+   "d893296b33dd18": 0.188143,
+   "82d1e61f213d08": 0.110769,
+   "e827446c191298": 0.088163,
+   "85762eea2d99e8": 0.143471,
+   "839491c792e128": 0.143345,
+   "839619b7960528": 0.299782,
+   "891ed3ece1d398": 0.070137,
+   "85762e5a629d78": 0.453652,
+   "8027d0a6146998": 0.192867,
+   "87475e6c471ed8": 0.049149,
+   "8147d7f991d108": 0.112685,
+   "8ee339c7316208": 0.069229,
+   "82d1490fd07358": 0.135107,
+   "8ed91edf191598": 0.455244,
+   "8d96522a136778": 0.180115,
+   "805322c615d078": 0.320122,
+   "8e2579c7163908": 0.222582,
+   "82d694c7290608": 0.150343,
+   "7846467f022108": 0.160918,
+   "80e903ea5eee78": 0.075512
+  },
+  "updated_at": 1790109623.602092,
+  "peak_running_machines": 40,
+  "machine_ids": [
+   "080d6e5f311258",
+   "1851ed6b670658",
+   "2863675fde9568",
+   "78440e5c060e58",
+   "7845105c212778",
+   "784645ef051e48",
+   "7846467f022108",
+   "801654a6033668",
+   "8027d0a6146998",
+   "805099f6464958",
+   "805322c615d078",
+   "80e903ea5eee78",
+   "8147d7f991d108",
+   "819090f975edd8",
+   "820257c7296578",
+   "822366c7661078",
+   "82d1454a665238",
+   "82d1490fd07358",
+   "82d1d99ad3e298",
+   "82d1e61f213d08",
+   "82d694c7290608",
+   "839491c792e128",
+   "839619b7960528",
+   "849102a2761298",
+   "85762e5a629d78",
+   "85762eea2d99e8",
+   "8654d26c9d1148",
+   "87475e6c471ed8",
+   "8747907b3e7608",
+   "879097c0672e18",
+   "891ed01c5322e8",
+   "891ed3ece1d398",
+   "89599db6409638",
+   "8d96522a136778",
+   "8e2579c7163908",
+   "8ed91edf191598",
+   "8ee339c7316208",
+   "d893296b33dd18",
+   "d8d0e19f556598",
+   "e827446c191298"
+  ],
+  "finished_at": 1790109625.1647098,
+  "wall_seconds": 23421.332110881805
+ },
+ "rule_1_as_preregistered": {
+  "rule_text": "rule 1 (preregistered for campaigns 002 to 004): natural ends score; a budget stop or an infrastructure failure is rerun once and the rerun's natural end scores; a replicate that stopped on the budget again is unscored",
+  "configurations": {
+   "deepseek/deepseek-v4.1-flash (high)": {
+    "scored_runs": 40,
+    "seeds_fully_scored": 20,
+    "wins": 7,
+    "deaths": 33,
+    "budget_stops_unresolved": 0,
+    "infrastructure_unresolved": 0,
+    "reruns_launched": 0,
+    "reruns_scored": 0,
+    "floor": {
+     "seeds": 20,
+     "runs": 40,
+     "mean": 39.05,
+     "mean_of_seed_means": 39.05,
+     "sd_between_seeds": 0.0,
+     "sd_within_seed": 12.415715847263902,
+     "se_mean": 1.963097042940058,
+     "t_interval_on_seed_means": [
+      35.62857753995044,
+      42.47142246004955
+     ],
+     "seed_means": {
+      "E01": 33,
+      "E02": 27.5,
+      "E03": 38.5,
+      "E04": 44.5,
+      "E05": 31,
+      "E06": 51,
+      "E07": 28.5,
+      "E08": 34,
+      "E09": 50,
+      "E10": 32,
+      "E11": 50.5,
+      "E12": 39.5,
+      "E13": 42,
+      "E14": 36.5,
+      "E15": 49,
+      "E16": 42.5,
+      "E17": 42,
+      "E18": 33.5,
+      "E19": 37,
+      "E20": 38.5
+     },
+     "bootstrap_interval": [
+      34.823750000000004,
+      43.15
+     ]
+    },
+    "win_rate": {
+     "wins": 7,
+     "scored": 40,
+     "rate": 0.175,
+     "wilson_interval": [
+      0.08745302996883066,
+      0.3195029205439244
+     ],
+     "cluster_bootstrap_interval": [
+      0.05,
+      0.325
+     ]
+    },
+    "floors_by_seed": {
+     "E01": {
+      "1": 33,
+      "2": 33
+     },
+     "E02": {
+      "1": 16,
+      "2": 39
+     },
+     "E03": {
+      "1": 50,
+      "2": 27
+     },
+     "E04": {
+      "1": 39,
+      "2": 50
+     },
+     "E05": {
+      "1": 22,
+      "2": 40
+     },
+     "E06": {
+      "1": 51,
+      "2": 51
+     },
+     "E07": {
+      "1": 41,
+      "2": 16
+     },
+     "E08": {
+      "1": 47,
+      "2": 21
+     },
+     "E09": {
+      "1": 50,
+      "2": 50
+     },
+     "E10": {
+      "1": 16,
+      "2": 48
+     },
+     "E11": {
+      "1": 51,
+      "2": 50
+     },
+     "E12": {
+      "1": 39,
+      "2": 40
+     },
+     "E13": {
+      "1": 51,
+      "2": 33
+     },
+     "E14": {
+      "1": 23,
+      "2": 50
+     },
+     "E15": {
+      "1": 51,
+      "2": 47
+     },
+     "E16": {
+      "1": 45,
+      "2": 40
+     },
+     "E17": {
+      "1": 33,
+      "2": 51
+     },
+     "E18": {
+      "1": 28,
+      "2": 39
+     },
+     "E19": {
+      "1": 24,
+      "2": 50
+     },
+     "E20": {
+      "1": 44,
+      "2": 33
+     }
+    }
+   },
+   "openai/gpt-5.6-luna (high)": {
+    "scored_runs": 36,
+    "seeds_fully_scored": 16,
+    "wins": 1,
+    "deaths": 35,
+    "budget_stops_unresolved": 4,
+    "infrastructure_unresolved": 0,
+    "reruns_launched": 15,
+    "reruns_scored": 10,
+    "floor": {
+     "seeds": 20,
+     "runs": 36,
+     "mean": 30.36111111111111,
+     "mean_of_seed_means": 30.625,
+     "sd_between_seeds": 4.4451850575020755,
+     "sd_within_seed": 9.544304584410538,
+     "se_mean": 1.8757306454329818,
+     "t_interval_on_seed_means": [
+      26.46117638226925,
+      34.78882361773075
+     ],
+     "seed_means": {
+      "E01": 16,
+      "E02": 16,
+      "E03": 31.5,
+      "E04": 24.5,
+      "E05": 50,
+      "E06": 30.5,
+      "E07": 41,
+      "E08": 16,
+      "E09": 33,
+      "E10": 24.5,
+      "E11": 33,
+      "E12": 41.5,
+      "E13": 33,
+      "E14": 28,
+      "E15": 22.5,
+      "E16": 33,
+      "E17": 33.5,
+      "E18": 39,
+      "E19": 33,
+      "E20": 33
+     },
+     "bootstrap_interval": [
+      26.45945945945946,
+      34.33357142857143
+     ]
+    },
+    "win_rate": {
+     "wins": 1,
+     "scored": 36,
+     "rate": 0.027777777777777776,
+     "wilson_interval": [
+      0.004920280295569679,
+      0.141700337350308
+     ],
+     "cluster_bootstrap_interval": [
+      0.0,
+      0.1111111111111111
+     ]
+    },
+    "floors_by_seed": {
+     "E01": {
+      "1": 16,
+      "2": 16
+     },
+     "E02": {
+      "1": 16,
+      "2": 16
+     },
+     "E03": {
+      "1": 33,
+      "2": 30
+     },
+     "E04": {
+      "1": 33,
+      "2": 16
+     },
+     "E05": {
+      "1": 50,
+      "2": null
+     },
+     "E06": {
+      "1": 33,
+      "2": 28
+     },
+     "E07": {
+      "1": 38,
+      "2": 44
+     },
+     "E08": {
+      "1": null,
+      "2": 16
+     },
+     "E09": {
+      "1": 33,
+      "2": 33
+     },
+     "E10": {
+      "1": 33,
+      "2": 16
+     },
+     "E11": {
+      "1": 33,
+      "2": 33
+     },
+     "E12": {
+      "1": 50,
+      "2": 33
+     },
+     "E13": {
+      "1": 33,
+      "2": null
+     },
+     "E14": {
+      "1": 23,
+      "2": 33
+     },
+     "E15": {
+      "1": 29,
+      "2": 16
+     },
+     "E16": {
+      "1": 33,
+      "2": 33
+     },
+     "E17": {
+      "1": 51,
+      "2": 16
+     },
+     "E18": {
+      "1": 50,
+      "2": 28
+     },
+     "E19": {
+      "1": 33,
+      "2": 33
+     },
+     "E20": {
+      "1": null,
+      "2": 33
+     }
+    }
+   },
+   "xiaomi/mimo-v2.6-flash (high)": {
+    "scored_runs": 40,
+    "seeds_fully_scored": 20,
+    "wins": 2,
+    "deaths": 38,
+    "budget_stops_unresolved": 0,
+    "infrastructure_unresolved": 0,
+    "reruns_launched": 0,
+    "reruns_scored": 0,
+    "floor": {
+     "seeds": 20,
+     "runs": 40,
+     "mean": 29.15,
+     "mean_of_seed_means": 29.15,
+     "sd_between_seeds": 6.861314129155389,
+     "sd_within_seed": 9.891915891272024,
+     "se_mean": 2.1909202584638647,
+     "t_interval_on_seed_means": [
+      24.56440389903513,
+      33.73559610096487
+     ],
+     "seed_means": {
+      "E01": 25.5,
+      "E02": 16,
+      "E03": 28.5,
+      "E04": 14.5,
+      "E05": 21.5,
+      "E06": 39.5,
+      "E07": 24,
+      "E08": 28.5,
+      "E09": 28.5,
+      "E10": 39,
+      "E11": 24.5,
+      "E12": 34.5,
+      "E13": 26.5,
+      "E14": 41.5,
+      "E15": 50,
+      "E16": 24.5,
+      "E17": 31.5,
+      "E18": 30.5,
+      "E19": 42,
+      "E20": 12
+     },
+     "bootstrap_interval": [
+      24.525,
+      33.85
+     ]
+    },
+    "win_rate": {
+     "wins": 2,
+     "scored": 40,
+     "rate": 0.05,
+     "wilson_interval": [
+      0.013820377146101098,
+      0.165041708179252
+     ],
+     "cluster_bootstrap_interval": [
+      0.0,
+      0.15
+     ]
+    },
+    "floors_by_seed": {
+     "E01": {
+      "1": 24,
+      "2": 27
+     },
+     "E02": {
+      "1": 16,
+      "2": 16
+     },
+     "E03": {
+      "1": 28,
+      "2": 29
+     },
+     "E04": {
+      "1": 23,
+      "2": 6
+     },
+     "E05": {
+      "1": 22,
+      "2": 21
+     },
+     "E06": {
+      "1": 51,
+      "2": 28
+     },
+     "E07": {
+      "1": 24,
+      "2": 24
+     },
+     "E08": {
+      "1": 16,
+      "2": 41
+     },
+     "E09": {
+      "1": 24,
+      "2": 33
+     },
+     "E10": {
+      "1": 45,
+      "2": 33
+     },
+     "E11": {
+      "1": 33,
+      "2": 16
+     },
+     "E12": {
+      "1": 36,
+      "2": 33
+     },
+     "E13": {
+      "1": 23,
+      "2": 30
+     },
+     "E14": {
+      "1": 50,
+      "2": 33
+     },
+     "E15": {
+      "1": 50,
+      "2": 50
+     },
+     "E16": {
+      "1": 33,
+      "2": 16
+     },
+     "E17": {
+      "1": 16,
+      "2": 47
+     },
+     "E18": {
+      "1": 33,
+      "2": 28
+     },
+     "E19": {
+      "1": 33,
+      "2": 51
+     },
+     "E20": {
+      "1": 12,
+      "2": 12
+     }
+    }
+   },
+   "z-ai/glm-5.3-flash (high)": {
+    "scored_runs": 40,
+    "seeds_fully_scored": 20,
+    "wins": 2,
+    "deaths": 38,
+    "budget_stops_unresolved": 0,
+    "infrastructure_unresolved": 0,
+    "reruns_launched": 0,
+    "reruns_scored": 0,
+    "floor": {
+     "seeds": 20,
+     "runs": 40,
+     "mean": 29.85,
+     "mean_of_seed_means": 29.85,
+     "sd_between_seeds": 7.653344642084684,
+     "sd_within_seed": 7.661592523751182,
+     "se_mean": 2.0967079459300755,
+     "t_interval_on_seed_means": [
+      25.461590269168354,
+      34.23840973083165
+     ],
+     "seed_means": {
+      "E01": 19.5,
+      "E02": 18.5,
+      "E03": 16,
+      "E04": 28,
+      "E05": 36.5,
+      "E06": 48,
+      "E07": 35,
+      "E08": 28,
+      "E09": 24.5,
+      "E10": 33,
+      "E11": 33,
+      "E12": 30,
+      "E13": 41.5,
+      "E14": 16,
+      "E15": 31,
+      "E16": 21.5,
+      "E17": 42,
+      "E18": 22.5,
+      "E19": 29,
+      "E20": 43.5
+     },
+     "bootstrap_interval": [
+      25.524375,
+      34.25
+     ]
+    },
+    "win_rate": {
+     "wins": 2,
+     "scored": 40,
+     "rate": 0.05,
+     "wilson_interval": [
+      0.013820377146101098,
+      0.165041708179252
+     ],
+     "cluster_bootstrap_interval": [
+      0.0,
+      0.15
+     ]
+    },
+    "floors_by_seed": {
+     "E01": {
+      "1": 16,
+      "2": 23
+     },
+     "E02": {
+      "1": 16,
+      "2": 21
+     },
+     "E03": {
+      "1": 16,
+      "2": 16
+     },
+     "E04": {
+      "1": 27,
+      "2": 29
+     },
+     "E05": {
+      "1": 23,
+      "2": 50
+     },
+     "E06": {
+      "1": 51,
+      "2": 45
+     },
+     "E07": {
+      "1": 33,
+      "2": 37
+     },
+     "E08": {
+      "1": 23,
+      "2": 33
+     },
+     "E09": {
+      "1": 16,
+      "2": 33
+     },
+     "E10": {
+      "1": 33,
+      "2": 33
+     },
+     "E11": {
+      "1": 33,
+      "2": 33
+     },
+     "E12": {
+      "1": 33,
+      "2": 27
+     },
+     "E13": {
+      "1": 50,
+      "2": 33
+     },
+     "E14": {
+      "1": 16,
+      "2": 16
+     },
+     "E15": {
+      "1": 33,
+      "2": 29
+     },
+     "E16": {
+      "1": 27,
+      "2": 16
+     },
+     "E17": {
+      "1": 51,
+      "2": 33
+     },
+     "E18": {
+      "1": 29,
+      "2": 16
+     },
+     "E19": {
+      "1": 33,
+      "2": 25
+     },
+     "E20": {
+      "1": 48,
+      "2": 39
+     }
+    }
+   }
+  },
+  "paired": {
+   "deepseek/deepseek-v4.1-flash (high) minus openai/gpt-5.6-luna (high)": {
+    "seeds": 20,
+    "mean_diff": 8.425,
+    "sd_diff": 11.383592763733526,
+    "t_interval": [
+     3.097375819018117,
+     13.752624180981885
+    ],
+    "bootstrap_interval": [
+     2.3,
+     14.075
+    ],
+    "seeds_a_higher": 16,
+    "seeds_b_higher": 4,
+    "ties": 0
+   },
+   "deepseek/deepseek-v4.1-flash (high) minus xiaomi/mimo-v2.6-flash (high)": {
+    "seeds": 20,
+    "mean_diff": 9.9,
+    "sd_diff": 10.638312094055443,
+    "t_interval": [
+     4.921173900590834,
+     14.878826099409167
+    ],
+    "bootstrap_interval": [
+     3.975,
+     15.6
+    ],
+    "seeds_a_higher": 16,
+    "seeds_b_higher": 4,
+    "ties": 0
+   },
+   "deepseek/deepseek-v4.1-flash (high) minus z-ai/glm-5.3-flash (high)": {
+    "seeds": 20,
+    "mean_diff": 9.2,
+    "sd_diff": 10.02549381904899,
+    "t_interval": [
+     4.5079783856277,
+     13.892021614372299
+    ],
+    "bootstrap_interval": [
+     3.499375,
+     14.425
+    ],
+    "seeds_a_higher": 15,
+    "seeds_b_higher": 4,
+    "ties": 1
+   },
+   "openai/gpt-5.6-luna (high) minus xiaomi/mimo-v2.6-flash (high)": {
+    "seeds": 20,
+    "mean_diff": 1.475,
+    "sd_diff": 13.56706053568522,
+    "t_interval": [
+     -4.874506809926988,
+     7.824506809926989
+    ],
+    "bootstrap_interval": [
+     -5.025625,
+     7.825625000000002
+    ],
+    "seeds_a_higher": 12,
+    "seeds_b_higher": 7,
+    "ties": 1
+   },
+   "openai/gpt-5.6-luna (high) minus z-ai/glm-5.3-flash (high)": {
+    "seeds": 20,
+    "mean_diff": 0.775,
+    "sd_diff": 10.50247464573043,
+    "t_interval": [
+     -4.14025294729459,
+     5.69025294729459
+    ],
+    "bootstrap_interval": [
+     -4.350624999999999,
+     5.875
+    ],
+    "seeds_a_higher": 9,
+    "seeds_b_higher": 10,
+    "ties": 1
+   },
+   "xiaomi/mimo-v2.6-flash (high) minus z-ai/glm-5.3-flash (high)": {
+    "seeds": 20,
+    "mean_diff": -0.7,
+    "sd_diff": 13.600890063753761,
+    "t_interval": [
+     -7.065339334465581,
+     5.665339334465581
+    ],
+    "bootstrap_interval": [
+     -7.351249999999999,
+     5.475625000000002
+    ],
+    "seeds_a_higher": 11,
+    "seeds_b_higher": 9,
+    "ties": 0
+   }
+  }
+ }
+}
