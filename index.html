@@ -20,9 +20,10 @@ figure{margin:0}.chart .pt{stroke:var(--bg);stroke-width:2}
 <header><h1>AscensionBench</h1><p class="lede">AscensionBench measures how well language models play real Slay the Spire under one frozen interface, on private seeds, with replication.</p><p class="edition">Slay the Spire 1 · Ironclad, Ascension 0 · text interface · model only · edition 2 · fingerprint 4a21e171…</p></header>
 <h2>Results</h2>
 <div class="scroll"><table><thead><tr><th>configuration</th><th class="n">mean floor (95%)</th><th class="n">win rate</th><th class="n">cost per run</th><th class="n">seconds per decision</th></tr></thead><tbody>
+<tr><td class="cfg">GPT-6.1 Sol (high)</td><td class="n">49.4 <span class="caption">[46.1, 52.7]</span></td><td class="n">95%</td><td class="n">$0.00</td><td class="n">4.4</td></tr>
 <tr><td class="cfg">GPT-6 Luna (high)</td><td class="n">33.6 <span class="caption">[29.8, 37.4]</span></td><td class="n">8%</td><td class="n">$0.00</td><td class="n">4.6</td></tr>
 <tr><td class="cfg">GPT-5.6 Luna (high)</td><td class="n">33.5 <span class="caption">[29.5, 37.5]</span></td><td class="n">8%</td><td class="n">$0.00</td><td class="n">2.9</td></tr>
-<tr><td class="cfg">Claude Haiku 5.5 (high)</td><td class="n">17.7 <span class="caption">[15.0, 20.5]</span></td><td class="n">0%</td><td class="n">$0.07</td><td class="n">1.1</td></tr>
+<tr><td class="cfg">Claude Haiku 5.5 (high)</td><td class="n">18.2 <span class="caption">[16.0, 20.5]</span></td><td class="n">0%</td><td class="n">$0.06</td><td class="n">1.2</td></tr>
 </tbody></table></div>
 <p class="caption">Twenty private seeds, two attempts each, every attempt scored. Mean floor with its 95% interval; cost per run and seconds per decision (measured median) are per attempt.</p>
 <h2>Floor against cost</h2>
@@ -36,17 +37,20 @@ figure{margin:0}.chart .pt{stroke:var(--bg);stroke-width:2}
 <line class="ax" x1="52" x2="616" y1="348.0" y2="348.0"/>
 <text class="t" x="334" y="388" text-anchor="middle">cost per run, USD (log scale)</text><text class="t" transform="translate(14,184) rotate(-90)" text-anchor="middle">mean floor</text>
 <text class="t" x="126.6" y="364" text-anchor="middle">0</text>
-<text class="t" x="546.4" y="364" text-anchor="middle">0.07</text>
+<text class="t" x="542.2" y="364" text-anchor="middle">0.06</text>
+<line class="iv" x1="126.6" x2="126.6" y1="33.4" y2="73.4"/>
+<circle class="pt" cx="126.6" cy="53.4" r="5.5"><title>GPT-6.1 Sol (high): floor 49.4 [46.1, 52.7]; cost per run, USD (log scale) 0.00</title></circle>
 <line class="iv" x1="126.6" x2="126.6" y1="124.8" y2="170.5"/>
 <circle class="pt" cx="126.6" cy="147.6" r="5.5"><title>GPT-6 Luna (high): floor 33.6 [29.8, 37.4]; cost per run, USD (log scale) 0.00</title></circle>
 <line class="iv" x1="126.6" x2="126.6" y1="124.2" y2="172.2"/>
 <circle class="pt" cx="126.6" cy="148.2" r="5.5"><title>GPT-5.6 Luna (high): floor 33.5 [29.5, 37.5]; cost per run, USD (log scale) 0.00</title></circle>
-<line class="iv" x1="541.4" x2="541.4" y1="225.8" y2="258.8"/>
-<circle class="pt" cx="541.4" cy="242.3" r="5.5"><title>Claude Haiku 5.5 (high): floor 17.7 [15.0, 20.5]; cost per run, USD (log scale) 0.07</title></circle>
+<line class="iv" x1="541.4" x2="541.4" y1="225.9" y2="252.5"/>
+<circle class="pt" cx="541.4" cy="239.2" r="5.5"><title>Claude Haiku 5.5 (high): floor 18.2 [16.0, 20.5]; cost per run, USD (log scale) 0.06</title></circle>
+<text class="lbl" x="136.6" y="43.4" text-anchor="start">GPT-6.1 Sol (high)</text>
 <text class="lbl" x="136.6" y="137.6" text-anchor="start">GPT-6 Luna (high)</text>
 <line class="lead" x1="126.6" y1="148.2" x2="140.6" y2="148.6"/>
 <text class="lbl" x="136.6" y="152.6" text-anchor="start">GPT-5.6 Luna (high)</text>
-<text class="lbl" x="531.4" y="232.3" text-anchor="end">Claude Haiku 5.5 (high)</text>
+<text class="lbl" x="531.4" y="229.2" text-anchor="end">Claude Haiku 5.5 (high)</text>
 </svg><svg class="chart chart-a chart-narrow" viewBox="0 0 420 480" role="img" aria-label="mean floor against cost per run, USD (log scale)" xmlns="http://www.w3.org/2000/svg">
 <line class="g" x1="46" x2="404" y1="430.0" y2="430.0"/><text class="t" x="38" y="434.0" text-anchor="end">0</text>
 <line class="g" x1="46" x2="404" y1="355.1" y2="355.1"/><text class="t" x="38" y="359.1" text-anchor="end">10</text>
@@ -57,17 +61,20 @@ figure{margin:0}.chart .pt{stroke:var(--bg);stroke-width:2}
 <line class="ax" x1="46" x2="404" y1="430.0" y2="430.0"/>
 <text class="t" x="225" y="468" text-anchor="middle">cost per run, USD (log scale)</text><text class="t" transform="translate(14,224) rotate(-90)" text-anchor="middle">mean floor</text>
 <text class="t" x="93.4" y="446" text-anchor="middle">0</text>
-<text class="t" x="359.8" y="446" text-anchor="middle">0.07</text>
+<text class="t" x="357.2" y="446" text-anchor="middle">0.06</text>
+<line class="iv" x1="93.4" x2="93.4" y1="34.9" y2="85.0"/>
+<circle class="pt" cx="93.4" cy="59.9" r="5.5"><title>GPT-6.1 Sol (high): floor 49.4 [46.1, 52.7]; cost per run, USD (log scale) 0.00</title></circle>
 <line class="iv" x1="93.4" x2="93.4" y1="149.6" y2="207.0"/>
 <circle class="pt" cx="93.4" cy="178.3" r="5.5"><title>GPT-6 Luna (high): floor 33.6 [29.8, 37.4]; cost per run, USD (log scale) 0.00</title></circle>
 <line class="iv" x1="93.4" x2="93.4" y1="148.9" y2="209.2"/>
 <circle class="pt" cx="93.4" cy="179.1" r="5.5"><title>GPT-5.6 Luna (high): floor 33.5 [29.5, 37.5]; cost per run, USD (log scale) 0.00</title></circle>
-<line class="iv" x1="356.6" x2="356.6" y1="276.5" y2="318.0"/>
-<circle class="pt" cx="356.6" cy="297.2" r="5.5"><title>Claude Haiku 5.5 (high): floor 17.7 [15.0, 20.5]; cost per run, USD (log scale) 0.07</title></circle>
+<line class="iv" x1="356.6" x2="356.6" y1="276.6" y2="310.0"/>
+<circle class="pt" cx="356.6" cy="293.3" r="5.5"><title>Claude Haiku 5.5 (high): floor 18.2 [16.0, 20.5]; cost per run, USD (log scale) 0.06</title></circle>
+<text class="lbl" x="103.4" y="49.9" text-anchor="start">GPT-6.1 Sol (high)</text>
 <text class="lbl" x="103.4" y="168.3" text-anchor="start">GPT-6 Luna (high)</text>
 <line class="lead" x1="93.4" y1="179.1" x2="107.4" y2="181.3"/>
 <text class="lbl" x="103.4" y="185.3" text-anchor="start">GPT-5.6 Luna (high)</text>
-<text class="lbl" x="346.6" y="287.2" text-anchor="end">Claude Haiku 5.5 (high)</text>
+<text class="lbl" x="346.6" y="283.3" text-anchor="end">Claude Haiku 5.5 (high)</text>
 </svg></figure>
 <p class="caption">Each point is one configuration; the bar is its 95% interval. Cost is per run on a log scale; a configuration served from a subscription, with no per-run charge, sits at the left edge at 0.</p>
 <h2>Edition 1: earlier interface</h2><p class="edition">Slay the Spire 1 · Ironclad, Ascension 0 · text interface · model only · edition 1 · fingerprint dd510451…</p><div class="scroll"><table><thead><tr><th>configuration</th><th class="n">mean floor (95%)</th><th class="n">win rate</th><th class="n">cost per run</th><th class="n">seconds per decision</th></tr></thead><tbody>

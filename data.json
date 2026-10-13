@@ -10,10 +10,27 @@
   "interface_sha256": "4a21e17156a5f400fff0d63eb5327909ef20867cabdd93f46acd3b538e41be03",
   "scoring_rule": 2,
   "seed_set": "eval-v1",
-  "replicates": 2
+  "replicates": 2,
+  "request_sha256": "ca13391e50416d18f26230cec671a029aed956bcd7f187e9f118f3187a449bdc"
  },
  "generated": "2026-10-13",
  "rows": [
+  {
+   "configuration": "gpt-6.1-sol (high)",
+   "mean_floor": 49.4,
+   "floor_interval": [
+    46.0512,
+    52.748799999999996
+   ],
+   "win_rate": 0.95,
+   "win_interval": [
+    0.834958291820748,
+    0.9861796228538989
+   ],
+   "cost_per_run": 0.0,
+   "seconds_measured": 4.413,
+   "attempts": 40
+  },
   {
    "configuration": "gpt-6-luna (high)",
    "mean_floor": 33.6,
@@ -48,18 +65,18 @@
   },
   {
    "configuration": "claude-haiku-5-5 (high)",
-   "mean_floor": 17.725,
+   "mean_floor": 18.25,
    "floor_interval": [
-    14.957809072011694,
-    20.492190927988307
+    16.017739209344033,
+    20.482260790655967
    ],
    "win_rate": 0.0,
    "win_interval": [
     -6.938893903907228e-18,
     0.08762453925039232
    ],
-   "cost_per_run": 0.066521,
-   "seconds_measured": 1.109,
+   "cost_per_run": 0.059492825000000006,
+   "seconds_measured": 1.208,
    "attempts": 40
   }
  ],
