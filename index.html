@@ -17,14 +17,12 @@ h1{font-size:clamp(2.4rem,7vw,4.2rem);letter-spacing:-.02em;margin:0 0 .25em;lin
 table{font-size:.95rem}td.cfg{font-weight:600}.prose{display:grid;gap:1.4rem 2.5rem;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}.prose h3{margin:0 0 .3em;font-size:1rem}.prose p{margin:0;font-size:.98rem}
 figure{margin:0}.chart .pt{stroke:var(--bg);stroke-width:2}
 </style></head><body><main>
-<header><h1>AscensionBench</h1><p class="lede">AscensionBench measures how well language models play real Slay the Spire under one frozen interface, on private seeds, with replication.</p><p class="edition">Slay the Spire 1 · Ironclad, Ascension 0 · text interface · model only · edition 1 · fingerprint dd510451…</p></header>
+<header><h1>AscensionBench</h1><p class="lede">AscensionBench measures how well language models play real Slay the Spire under one frozen interface, on private seeds, with replication.</p><p class="edition">Slay the Spire 1 · Ironclad, Ascension 0 · text interface · model only · edition 2 · fingerprint 4a21e171…</p></header>
 <h2>Results</h2>
 <div class="scroll"><table><thead><tr><th>configuration</th><th class="n">mean floor (95%)</th><th class="n">win rate</th><th class="n">cost per run</th><th class="n">seconds per decision</th></tr></thead><tbody>
-<tr><td class="cfg">DeepSeek V4.1 Flash (high)</td><td class="n">39.0 <span class="caption">[35.6, 42.5]</span></td><td class="n">18%</td><td class="n">$1.01</td><td class="n">5.1</td></tr>
-<tr><td class="cfg">GLM 5.3 Flash (high)</td><td class="n">29.9 <span class="caption">[25.5, 34.2]</span></td><td class="n">5%</td><td class="n">$0.17</td><td class="n">5.3</td></tr>
-<tr><td class="cfg">GPT-5.6 Luna (high)</td><td class="n">29.8 <span class="caption">[26.4, 33.2]</span></td><td class="n">2%</td><td class="n">$0.53</td><td class="n">1.9</td></tr>
-<tr><td class="cfg">MiMo V2.6 Flash (high)</td><td class="n">29.1 <span class="caption">[24.6, 33.7]</span></td><td class="n">5%</td><td class="n">$0.20</td><td class="n">9.7</td></tr>
-<tr><td class="cfg">GPT-6 Luna (high)</td><td class="n">20.6 <span class="caption">[15.6, 25.7]</span></td><td class="n">5%</td><td class="n">$0.29</td><td class="n">2.2</td></tr>
+<tr><td class="cfg">GPT-6 Luna (high)</td><td class="n">33.6 <span class="caption">[29.8, 37.4]</span></td><td class="n">8%</td><td class="n">$0.00</td><td class="n">4.6</td></tr>
+<tr><td class="cfg">GPT-5.6 Luna (high)</td><td class="n">33.5 <span class="caption">[29.5, 37.5]</span></td><td class="n">8%</td><td class="n">$0.00</td><td class="n">2.9</td></tr>
+<tr><td class="cfg">Claude Haiku 5.5 (high)</td><td class="n">17.7 <span class="caption">[15.0, 20.5]</span></td><td class="n">0%</td><td class="n">$0.07</td><td class="n">1.1</td></tr>
 </tbody></table></div>
 <p class="caption">Twenty private seeds, two attempts each, every attempt scored. Mean floor with its 95% interval; cost per run and seconds per decision (measured median) are per attempt.</p>
 <h2>Floor against cost</h2>
@@ -37,27 +35,18 @@ figure{margin:0}.chart .pt{stroke:var(--bg);stroke-width:2}
 <line class="g" x1="52" x2="616" y1="49.8" y2="49.8"/><text class="t" x="44" y="53.8" text-anchor="end">50</text>
 <line class="ax" x1="52" x2="616" y1="348.0" y2="348.0"/>
 <text class="t" x="334" y="388" text-anchor="middle">cost per run, USD (log scale)</text><text class="t" transform="translate(14,184) rotate(-90)" text-anchor="middle">mean floor</text>
-<text class="t" x="129.6" y="364" text-anchor="middle">0.17</text>
-<text class="t" x="253.3" y="364" text-anchor="middle">0.29</text>
-<text class="t" x="393.0" y="364" text-anchor="middle">0.53</text>
-<text class="t" x="542.4" y="364" text-anchor="middle">1.01</text>
-<line class="iv" x1="541.4" x2="541.4" y1="94.7" y2="135.5"/>
-<circle class="pt" cx="541.4" cy="115.1" r="5.5"><title>DeepSeek V4.1 Flash (high): floor 39.0 [35.6, 42.5]; cost per run, USD (log scale) 1.01</title></circle>
-<line class="iv" x1="126.6" x2="126.6" y1="143.8" y2="196.2"/>
-<circle class="pt" cx="126.6" cy="170.0" r="5.5"><title>GLM 5.3 Flash (high): floor 29.9 [25.5, 34.2]; cost per run, USD (log scale) 0.17</title></circle>
-<line class="iv" x1="394.1" x2="394.1" y1="149.9" y2="190.6"/>
-<circle class="pt" cx="394.1" cy="170.3" r="5.5"><title>GPT-5.6 Luna (high): floor 29.8 [26.4, 33.2]; cost per run, USD (log scale) 0.53</title></circle>
-<line class="iv" x1="163.0" x2="163.0" y1="146.8" y2="201.5"/>
-<circle class="pt" cx="163.0" cy="174.2" r="5.5"><title>MiMo V2.6 Flash (high): floor 29.1 [24.6, 33.7]; cost per run, USD (log scale) 0.20</title></circle>
-<line class="iv" x1="257.2" x2="257.2" y1="194.8" y2="255.2"/>
-<circle class="pt" cx="257.2" cy="225.0" r="5.5"><title>GPT-6 Luna (high): floor 20.6 [15.6, 25.7]; cost per run, USD (log scale) 0.29</title></circle>
-<text class="lbl" x="531.4" y="105.1" text-anchor="end">DeepSeek V4.1 Flash (high)</text>
-<text class="lbl" x="136.6" y="160.0" text-anchor="start">GLM 5.3 Flash (high)</text>
-<line class="lead" x1="394.1" y1="170.3" x2="380.1" y2="171.0"/>
-<text class="lbl" x="384.1" y="175.0" text-anchor="end">GPT-5.6 Luna (high)</text>
-<line class="lead" x1="163.0" y1="174.2" x2="177.0" y2="186.0"/>
-<text class="lbl" x="173.0" y="190.0" text-anchor="start">MiMo V2.6 Flash (high)</text>
-<text class="lbl" x="267.2" y="215.0" text-anchor="start">GPT-6 Luna (high)</text>
+<text class="t" x="126.6" y="364" text-anchor="middle">0</text>
+<text class="t" x="546.4" y="364" text-anchor="middle">0.07</text>
+<line class="iv" x1="126.6" x2="126.6" y1="124.8" y2="170.5"/>
+<circle class="pt" cx="126.6" cy="147.6" r="5.5"><title>GPT-6 Luna (high): floor 33.6 [29.8, 37.4]; cost per run, USD (log scale) 0.00</title></circle>
+<line class="iv" x1="126.6" x2="126.6" y1="124.2" y2="172.2"/>
+<circle class="pt" cx="126.6" cy="148.2" r="5.5"><title>GPT-5.6 Luna (high): floor 33.5 [29.5, 37.5]; cost per run, USD (log scale) 0.00</title></circle>
+<line class="iv" x1="541.4" x2="541.4" y1="225.8" y2="258.8"/>
+<circle class="pt" cx="541.4" cy="242.3" r="5.5"><title>Claude Haiku 5.5 (high): floor 17.7 [15.0, 20.5]; cost per run, USD (log scale) 0.07</title></circle>
+<text class="lbl" x="136.6" y="137.6" text-anchor="start">GPT-6 Luna (high)</text>
+<line class="lead" x1="126.6" y1="148.2" x2="140.6" y2="148.6"/>
+<text class="lbl" x="136.6" y="152.6" text-anchor="start">GPT-5.6 Luna (high)</text>
+<text class="lbl" x="531.4" y="232.3" text-anchor="end">Claude Haiku 5.5 (high)</text>
 </svg><svg class="chart chart-a chart-narrow" viewBox="0 0 420 480" role="img" aria-label="mean floor against cost per run, USD (log scale)" xmlns="http://www.w3.org/2000/svg">
 <line class="g" x1="46" x2="404" y1="430.0" y2="430.0"/><text class="t" x="38" y="434.0" text-anchor="end">0</text>
 <line class="g" x1="46" x2="404" y1="355.1" y2="355.1"/><text class="t" x="38" y="359.1" text-anchor="end">10</text>
@@ -67,35 +56,33 @@ figure{margin:0}.chart .pt{stroke:var(--bg);stroke-width:2}
 <line class="g" x1="46" x2="404" y1="55.5" y2="55.5"/><text class="t" x="38" y="59.5" text-anchor="end">50</text>
 <line class="ax" x1="46" x2="404" y1="430.0" y2="430.0"/>
 <text class="t" x="225" y="468" text-anchor="middle">cost per run, USD (log scale)</text><text class="t" transform="translate(14,224) rotate(-90)" text-anchor="middle">mean floor</text>
-<text class="t" x="95.2" y="446" text-anchor="middle">0.17</text>
-<text class="t" x="173.8" y="446" text-anchor="middle">0.29</text>
-<text class="t" x="262.5" y="446" text-anchor="middle">0.53</text>
-<text class="t" x="357.3" y="446" text-anchor="middle">1.01</text>
-<line class="iv" x1="356.6" x2="356.6" y1="111.9" y2="163.1"/>
-<circle class="pt" cx="356.6" cy="137.5" r="5.5"><title>DeepSeek V4.1 Flash (high): floor 39.0 [35.6, 42.5]; cost per run, USD (log scale) 1.01</title></circle>
-<line class="iv" x1="93.4" x2="93.4" y1="173.5" y2="239.3"/>
-<circle class="pt" cx="93.4" cy="206.4" r="5.5"><title>GLM 5.3 Flash (high): floor 29.9 [25.5, 34.2]; cost per run, USD (log scale) 0.17</title></circle>
-<line class="iv" x1="263.1" x2="263.1" y1="181.2" y2="232.3"/>
-<circle class="pt" cx="263.1" cy="206.8" r="5.5"><title>GPT-5.6 Luna (high): floor 29.8 [26.4, 33.2]; cost per run, USD (log scale) 0.53</title></circle>
-<line class="iv" x1="116.4" x2="116.4" y1="177.3" y2="246.0"/>
-<circle class="pt" cx="116.4" cy="211.6" r="5.5"><title>MiMo V2.6 Flash (high): floor 29.1 [24.6, 33.7]; cost per run, USD (log scale) 0.20</title></circle>
-<line class="iv" x1="176.2" x2="176.2" y1="237.5" y2="313.5"/>
-<circle class="pt" cx="176.2" cy="275.5" r="5.5"><title>GPT-6 Luna (high): floor 20.6 [15.6, 25.7]; cost per run, USD (log scale) 0.29</title></circle>
-<text class="lbl" x="346.6" y="127.5" text-anchor="end">DeepSeek V4.1 Flash (high)</text>
-<text class="lbl" x="103.4" y="196.4" text-anchor="start">GLM 5.3 Flash (high)</text>
-<line class="lead" x1="263.1" y1="206.8" x2="249.1" y2="209.4"/>
-<text class="lbl" x="253.1" y="213.4" text-anchor="end">GPT-5.6 Luna (high)</text>
-<line class="lead" x1="116.4" y1="211.6" x2="130.4" y2="226.4"/>
-<text class="lbl" x="126.4" y="230.4" text-anchor="start">MiMo V2.6 Flash (high)</text>
-<text class="lbl" x="186.2" y="265.5" text-anchor="start">GPT-6 Luna (high)</text>
+<text class="t" x="93.4" y="446" text-anchor="middle">0</text>
+<text class="t" x="359.8" y="446" text-anchor="middle">0.07</text>
+<line class="iv" x1="93.4" x2="93.4" y1="149.6" y2="207.0"/>
+<circle class="pt" cx="93.4" cy="178.3" r="5.5"><title>GPT-6 Luna (high): floor 33.6 [29.8, 37.4]; cost per run, USD (log scale) 0.00</title></circle>
+<line class="iv" x1="93.4" x2="93.4" y1="148.9" y2="209.2"/>
+<circle class="pt" cx="93.4" cy="179.1" r="5.5"><title>GPT-5.6 Luna (high): floor 33.5 [29.5, 37.5]; cost per run, USD (log scale) 0.00</title></circle>
+<line class="iv" x1="356.6" x2="356.6" y1="276.5" y2="318.0"/>
+<circle class="pt" cx="356.6" cy="297.2" r="5.5"><title>Claude Haiku 5.5 (high): floor 17.7 [15.0, 20.5]; cost per run, USD (log scale) 0.07</title></circle>
+<text class="lbl" x="103.4" y="168.3" text-anchor="start">GPT-6 Luna (high)</text>
+<line class="lead" x1="93.4" y1="179.1" x2="107.4" y2="181.3"/>
+<text class="lbl" x="103.4" y="185.3" text-anchor="start">GPT-5.6 Luna (high)</text>
+<text class="lbl" x="346.6" y="287.2" text-anchor="end">Claude Haiku 5.5 (high)</text>
 </svg></figure>
-<p class="caption">Each point is one configuration; the bar is its 95% interval. Cost is per run on a log scale.</p>
+<p class="caption">Each point is one configuration; the bar is its 95% interval. Cost is per run on a log scale; a configuration served from a subscription, with no per-run charge, sits at the left edge at 0.</p>
+<h2>Edition 1: earlier interface</h2><p class="edition">Slay the Spire 1 · Ironclad, Ascension 0 · text interface · model only · edition 1 · fingerprint dd510451…</p><div class="scroll"><table><thead><tr><th>configuration</th><th class="n">mean floor (95%)</th><th class="n">win rate</th><th class="n">cost per run</th><th class="n">seconds per decision</th></tr></thead><tbody>
+<tr><td class="cfg">DeepSeek V4.1 Flash (high)</td><td class="n">39.0 <span class="caption">[35.6, 42.5]</span></td><td class="n">18%</td><td class="n">$1.01</td><td class="n">5.1</td></tr>
+<tr><td class="cfg">GLM 5.3 Flash (high)</td><td class="n">29.9 <span class="caption">[25.5, 34.2]</span></td><td class="n">5%</td><td class="n">$0.17</td><td class="n">5.3</td></tr>
+<tr><td class="cfg">GPT-5.6 Luna (high)</td><td class="n">29.8 <span class="caption">[26.4, 33.2]</span></td><td class="n">2%</td><td class="n">$0.53</td><td class="n">1.9</td></tr>
+<tr><td class="cfg">MiMo V2.6 Flash (high)</td><td class="n">29.1 <span class="caption">[24.6, 33.7]</span></td><td class="n">5%</td><td class="n">$0.20</td><td class="n">9.7</td></tr>
+<tr><td class="cfg">GPT-6 Luna (high)</td><td class="n">20.6 <span class="caption">[15.6, 25.7]</span></td><td class="n">5%</td><td class="n">$0.29</td><td class="n">2.2</td></tr>
+</tbody></table></div><p class="caption">Measured under the earlier interface, fingerprint <span class="fp" title="dd5104516def0764801168b41ebbdbfbdbc48f88826b2b7aebc722a6611a8db5">dd5104516def0764…</span>; not comparable to the edition above.</p>
 <h2>In plain words</h2>
 <section class="prose"><div><h3>What the model gets</h3><p>The text a human would see on screen at that moment: the fight, the cards, the map, the shop. The list of actions the game allows. One note it writes to itself and reads back next turn. Nothing else: no hints, no history, no replay.</p></div><div><h3>Why the numbers hold</h3><p>The seeds are held out and private. Every model plays each seed twice, served by its own vendor, through one frozen interface whose fingerprint is on this page. Every attempt counts, including the ones that stall. Intervals say what twenty seeds can and cannot separate.</p></div></section>
 <footer>
-<p>Full methodology and per-run records in the forthcoming technical report.</p>
+<p>Per-run records are kept for every attempt.</p>
 <p>Contact: <a href="mailto:hello@ascensionbench.com">hello@ascensionbench.com</a>.</p>
-<p>Edition fingerprint <span class="fp" title="dd5104516def0764801168b41ebbdbfbdbc48f88826b2b7aebc722a6611a8db5">dd5104516def0764801168b41ebbdbfbdbc48f88826b2b7aebc722a6611a8db5</span></p>
-<p>Results CC BY 4.0. Harness code MIT. Evaluation seeds are referred to by index only. Generated 2026-10-10.</p>
+<p>Edition fingerprint <span class="fp" title="4a21e17156a5f400fff0d63eb5327909ef20867cabdd93f46acd3b538e41be03">4a21e17156a5f400fff0d63eb5327909ef20867cabdd93f46acd3b538e41be03</span></p>
+<p>Results CC BY 4.0. Harness code MIT. Evaluation seeds are referred to by index only. Generated 2026-10-13.</p>
 </footer>
 </main></body></html>

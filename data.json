@@ -1,98 +1,165 @@
 {
- "edition": "sts1-text-model-only-ironclad-a0-v8.1-rule2",
+ "edition": "sts1-text-model-only-ironclad-a0-v9-rule2",
  "dimensions": {
   "game": "Slay the Spire 1 (V2.2, GOG build 2020-12-15)",
   "input": "text",
   "track": "model only (track 1, fixed interface)",
   "character": "Ironclad",
   "ascension": "A0",
-  "interface": "v8.1",
-  "interface_sha256": "dd5104516def0764801168b41ebbdbfbdbc48f88826b2b7aebc722a6611a8db5",
+  "interface": "v9",
+  "interface_sha256": "4a21e17156a5f400fff0d63eb5327909ef20867cabdd93f46acd3b538e41be03",
   "scoring_rule": 2,
   "seed_set": "eval-v1",
   "replicates": 2
  },
- "generated": "2026-10-10",
+ "generated": "2026-10-13",
  "rows": [
   {
-   "configuration": "deepseek/deepseek-v4.1-flash (high)",
-   "mean_floor": 39.05,
+   "configuration": "gpt-6-luna (high)",
+   "mean_floor": 33.6,
    "floor_interval": [
-    35.62857753995044,
-    42.47142246004955
+    29.76722547222127,
+    37.43277452777873
    ],
-   "win_rate": 0.175,
+   "win_rate": 0.075,
    "win_interval": [
-    0.08745302996883066,
-    0.3195029205439244
+    0.025835556771858226,
+    0.19864530159097524
    ],
-   "cost_per_run": 1.0053967500000003,
-   "seconds_measured": 5.114,
+   "cost_per_run": 0.0,
+   "seconds_measured": 4.57,
    "attempts": 40
   },
   {
-   "configuration": "z-ai/glm-5.3-flash (high)",
-   "mean_floor": 29.85,
+   "configuration": "gpt-5.6-luna (high)",
+   "mean_floor": 33.5,
    "floor_interval": [
-    25.461590269168354,
-    34.23840973083165
+    29.479765031087965,
+    37.520234968912035
    ],
-   "win_rate": 0.05,
+   "win_rate": 0.075,
    "win_interval": [
-    0.013820377146101098,
-    0.165041708179252
+    0.025835556771858226,
+    0.19864530159097524
    ],
-   "cost_per_run": 0.167873575,
-   "seconds_measured": 5.341,
+   "cost_per_run": 0.0,
+   "seconds_measured": 2.905,
    "attempts": 40
   },
   {
-   "configuration": "openai/gpt-5.6-luna (high)",
-   "mean_floor": 29.8,
+   "configuration": "claude-haiku-5-5 (high)",
+   "mean_floor": 17.725,
    "floor_interval": [
-    26.38574494955727,
-    33.21425505044273
+    14.957809072011694,
+    20.492190927988307
    ],
-   "win_rate": 0.025,
+   "win_rate": 0.0,
    "win_interval": [
-    0.0044267174077949195,
-    0.1288165948800778
+    -6.938893903907228e-18,
+    0.08762453925039232
    ],
-   "cost_per_run": 0.5324924249999998,
-   "seconds_measured": 1.924,
+   "cost_per_run": 0.066521,
+   "seconds_measured": 1.109,
    "attempts": 40
-  },
+  }
+ ],
+ "earlier_editions": [
   {
-   "configuration": "xiaomi/mimo-v2.6-flash (high)",
-   "mean_floor": 29.15,
-   "floor_interval": [
-    24.56440389903513,
-    33.73559610096487
-   ],
-   "win_rate": 0.05,
-   "win_interval": [
-    0.013820377146101098,
-    0.165041708179252
-   ],
-   "cost_per_run": 0.19637387499999998,
-   "seconds_measured": 9.7335,
-   "attempts": 40
-  },
-  {
-   "configuration": "openai/gpt-6-luna (high)",
-   "mean_floor": 20.625,
-   "floor_interval": [
-    15.556520910688999,
-    25.693479089311
-   ],
-   "win_rate": 0.05,
-   "win_interval": [
-    0.013820377146101098,
-    0.165041708179252
-   ],
-   "cost_per_run": 0.294904975,
-   "seconds_measured": 2.174,
-   "attempts": 40
+   "edition": "sts1-text-model-only-ironclad-a0-v8.1-rule2",
+   "dimensions": {
+    "game": "Slay the Spire 1 (V2.2, GOG build 2020-12-15)",
+    "input": "text",
+    "track": "model only (track 1, fixed interface)",
+    "character": "Ironclad",
+    "ascension": "A0",
+    "interface": "v8.1",
+    "interface_sha256": "dd5104516def0764801168b41ebbdbfbdbc48f88826b2b7aebc722a6611a8db5",
+    "scoring_rule": 2,
+    "seed_set": "eval-v1",
+    "replicates": 2
+   },
+   "rows": [
+    {
+     "configuration": "deepseek/deepseek-v4.1-flash (high)",
+     "mean_floor": 39.05,
+     "floor_interval": [
+      35.62857753995044,
+      42.47142246004955
+     ],
+     "win_rate": 0.175,
+     "win_interval": [
+      0.08745302996883066,
+      0.3195029205439244
+     ],
+     "cost_per_run": 1.0053967500000003,
+     "seconds_measured": 5.114,
+     "attempts": 40
+    },
+    {
+     "configuration": "z-ai/glm-5.3-flash (high)",
+     "mean_floor": 29.85,
+     "floor_interval": [
+      25.461590269168354,
+      34.23840973083165
+     ],
+     "win_rate": 0.05,
+     "win_interval": [
+      0.013820377146101098,
+      0.165041708179252
+     ],
+     "cost_per_run": 0.167873575,
+     "seconds_measured": 5.341,
+     "attempts": 40
+    },
+    {
+     "configuration": "openai/gpt-5.6-luna (high)",
+     "mean_floor": 29.8,
+     "floor_interval": [
+      26.38574494955727,
+      33.21425505044273
+     ],
+     "win_rate": 0.025,
+     "win_interval": [
+      0.0044267174077949195,
+      0.1288165948800778
+     ],
+     "cost_per_run": 0.5324924249999998,
+     "seconds_measured": 1.924,
+     "attempts": 40
+    },
+    {
+     "configuration": "xiaomi/mimo-v2.6-flash (high)",
+     "mean_floor": 29.15,
+     "floor_interval": [
+      24.56440389903513,
+      33.73559610096487
+     ],
+     "win_rate": 0.05,
+     "win_interval": [
+      0.013820377146101098,
+      0.165041708179252
+     ],
+     "cost_per_run": 0.19637387499999998,
+     "seconds_measured": 9.7335,
+     "attempts": 40
+    },
+    {
+     "configuration": "openai/gpt-6-luna (high)",
+     "mean_floor": 20.625,
+     "floor_interval": [
+      15.556520910688999,
+      25.693479089311
+     ],
+     "win_rate": 0.05,
+     "win_interval": [
+      0.013820377146101098,
+      0.165041708179252
+     ],
+     "cost_per_run": 0.294904975,
+     "seconds_measured": 2.174,
+     "attempts": 40
+    }
+   ]
   }
  ]
 }
