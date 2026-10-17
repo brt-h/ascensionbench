@@ -7,23 +7,34 @@
   "character": "Ironclad",
   "ascension": "A0",
   "climb_cap": 5,
-  "interface": "v10",
+  "interface": "v10; v10.1 (minor) from campaign 009",
   "interface_sha256": "7f6185014f45f1228ef5e5417c916121b29ee539abd4ba13b653233b2dd97f28",
   "scoring_rule": 2,
   "seed_set": "eval-v1",
   "replicates": 2,
-  "request_sha256": "ca13391e50416d18f26230cec671a029aed956bcd7f187e9f118f3187a449bdc"
+  "request_sha256": "ca13391e50416d18f26230cec671a029aed956bcd7f187e9f118f3187a449bdc",
+  "fingerprints": [
+   {
+    "interface": "v10",
+    "sha256": "7f6185014f45f1228ef5e5417c916121b29ee539abd4ba13b653233b2dd97f28"
+   },
+   {
+    "interface": "v10.1",
+    "sha256": "47957193ea379cfb7f1c5b1d0f54459182fc687f66deaf2cd592b995f442cee0"
+   }
+  ],
+  "fingerprint_note": "This edition holds runs under two fingerprints: interface v10 and v10.1, a minor revision of it. v10.1 says which card reward is open when a rewards screen has two or more, and shows a rejected action as it was sent. Nothing else the model sees changed: replayed under v10.1, this edition's v10 runs differ at no more than 1.2% of any row's decision points."
  },
- "generated": "2026-10-15",
+ "generated": "2026-10-17",
  "rows": [
   {
    "configuration": "gpt-6.1-sol (high)",
    "metric": "ascent",
    "cap": 5,
-   "mean_floor": 98.1,
+   "mean_floor": 110.85,
    "floor_interval": [
-    93.4591157470574,
-    102.74088425294259
+    99.37709492641467,
+    122.32290507358532
    ],
    "lower_bound": true,
    "win_rate": 0.95,
@@ -31,38 +42,296 @@
     0.834958291820748,
     0.9861796228538989
    ],
-   "cost_per_attempt": 7.39917915,
-   "cost_per_decision": 0.004783307733333335,
+   "cost_per_attempt": 8.472339400000001,
+   "cost_per_decision": 0.004805774071868175,
    "api_equivalent": true,
    "price_dates": [
     "2026-10-14"
    ],
-   "seconds_measured": 2.782,
-   "attempts": 40
+   "seconds_measured": 2.698,
+   "attempts": 40,
+   "by_rung": [
+    {
+     "ascension": 0,
+     "played": 40,
+     "won": 38,
+     "in_progress": 0
+    },
+    {
+     "ascension": 1,
+     "played": 38,
+     "won": 37,
+     "in_progress": 0
+    },
+    {
+     "ascension": 2,
+     "played": 10,
+     "won": 10,
+     "in_progress": 27
+    },
+    {
+     "ascension": 3,
+     "played": 0,
+     "won": 0,
+     "in_progress": 10
+    },
+    {
+     "ascension": 4,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 5,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    }
+   ]
+  },
+  {
+   "configuration": "deepseek/deepseek-v4.1-flash (high)",
+   "metric": "ascent",
+   "cap": 5,
+   "mean_floor": 68.475,
+   "floor_interval": [
+    43.85800670444256,
+    93.09199329555743
+   ],
+   "lower_bound": true,
+   "win_rate": 0.325,
+   "win_interval": [
+    0.20084316962661725,
+    0.4798254191110201
+   ],
+   "cost_per_attempt": 1.3505389,
+   "cost_per_decision": 0.0013395877699804103,
+   "api_equivalent": false,
+   "price_dates": [],
+   "seconds_measured": 4.335,
+   "attempts": 40,
+   "by_rung": [
+    {
+     "ascension": 0,
+     "played": 40,
+     "won": 13,
+     "in_progress": 0
+    },
+    {
+     "ascension": 1,
+     "played": 13,
+     "won": 6,
+     "in_progress": 0
+    },
+    {
+     "ascension": 2,
+     "played": 6,
+     "won": 4,
+     "in_progress": 0
+    },
+    {
+     "ascension": 3,
+     "played": 4,
+     "won": 2,
+     "in_progress": 0
+    },
+    {
+     "ascension": 4,
+     "played": 2,
+     "won": 1,
+     "in_progress": 0
+    },
+    {
+     "ascension": 5,
+     "played": 1,
+     "won": 1,
+     "in_progress": 0
+    }
+   ]
+  },
+  {
+   "configuration": "claude-opus-5-5 (high)",
+   "metric": "ascent",
+   "cap": 5,
+   "mean_floor": 63.75,
+   "floor_interval": [
+    23.179499999999997,
+    104.32050000000001
+   ],
+   "lower_bound": true,
+   "win_rate": 1.0,
+   "win_interval": [
+    0.5100999795960008,
+    1.0
+   ],
+   "cost_per_attempt": 17.056533,
+   "cost_per_decision": 0.018355160613397904,
+   "api_equivalent": false,
+   "price_dates": [
+    "2026-10-17"
+   ],
+   "seconds_measured": 3.211,
+   "attempts": 4,
+   "by_rung": [
+    {
+     "ascension": 0,
+     "played": 4,
+     "won": 4,
+     "in_progress": 0
+    },
+    {
+     "ascension": 1,
+     "played": 1,
+     "won": 1,
+     "in_progress": 3
+    },
+    {
+     "ascension": 2,
+     "played": 0,
+     "won": 0,
+     "in_progress": 1
+    },
+    {
+     "ascension": 3,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 4,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 5,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    }
+   ]
   },
   {
    "configuration": "gpt-6-luna (high)",
    "metric": "ascent",
    "cap": 5,
-   "mean_floor": 49.275,
+   "mean_floor": 42.675,
    "floor_interval": [
-    26.44540401845392,
-    72.10459598154608
+    29.421925075332567,
+    55.92807492466743
    ],
    "lower_bound": true,
-   "win_rate": 0.175,
+   "win_rate": 0.1375,
    "win_interval": [
-    0.08745302996883066,
-    0.3195029205439244
+    0.07854633679551142,
+    0.22967297199630554
    ],
-   "cost_per_attempt": 0.19876238000000002,
-   "cost_per_decision": 0.0002743158127178001,
+   "cost_per_attempt": 0.1667103475,
+   "cost_per_decision": 0.00026907210184400586,
    "api_equivalent": true,
    "price_dates": [
     "2026-10-14"
    ],
-   "seconds_measured": 4.509,
-   "attempts": 40
+   "seconds_measured": 4.349,
+   "attempts": 80,
+   "by_rung": [
+    {
+     "ascension": 0,
+     "played": 80,
+     "won": 11,
+     "in_progress": 0
+    },
+    {
+     "ascension": 1,
+     "played": 11,
+     "won": 3,
+     "in_progress": 0
+    },
+    {
+     "ascension": 2,
+     "played": 3,
+     "won": 2,
+     "in_progress": 0
+    },
+    {
+     "ascension": 3,
+     "played": 2,
+     "won": 1,
+     "in_progress": 0
+    },
+    {
+     "ascension": 4,
+     "played": 1,
+     "won": 1,
+     "in_progress": 0
+    },
+    {
+     "ascension": 5,
+     "played": 1,
+     "won": 1,
+     "in_progress": 0
+    }
+   ]
+  },
+  {
+   "configuration": "xiaomi/mimo-v2.6-flash (high)",
+   "metric": "ascent",
+   "cap": 5,
+   "mean_floor": 40.26315789473684,
+   "floor_interval": [
+    24.353148167712654,
+    56.17316762176103
+   ],
+   "lower_bound": true,
+   "win_rate": 0.3,
+   "win_interval": [
+    0.14547527396899385,
+    0.5189767762289793
+   ],
+   "cost_per_attempt": 0.31186235,
+   "cost_per_decision": 0.000479714428549454,
+   "api_equivalent": false,
+   "price_dates": [],
+   "seconds_measured": 12.785499999999999,
+   "attempts": 19,
+   "by_rung": [
+    {
+     "ascension": 0,
+     "played": 20,
+     "won": 6,
+     "in_progress": 0
+    },
+    {
+     "ascension": 1,
+     "played": 5,
+     "won": 1,
+     "in_progress": 0
+    },
+    {
+     "ascension": 2,
+     "played": 0,
+     "won": 0,
+     "in_progress": 1
+    },
+    {
+     "ascension": 3,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 4,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 5,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    }
+   ]
   },
   {
    "configuration": "gpt-5.6-luna (high)",
@@ -86,31 +355,347 @@
     "2026-10-14"
    ],
    "seconds_measured": 2.456,
-   "attempts": 40
+   "attempts": 40,
+   "by_rung": [
+    {
+     "ascension": 0,
+     "played": 40,
+     "won": 2,
+     "in_progress": 0
+    },
+    {
+     "ascension": 1,
+     "played": 2,
+     "won": 1,
+     "in_progress": 0
+    },
+    {
+     "ascension": 2,
+     "played": 1,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 3,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 4,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 5,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    }
+   ]
+  },
+  {
+   "configuration": "z-ai/glm-5.3-flash (high)",
+   "metric": "ascent",
+   "cap": 5,
+   "mean_floor": 28.6,
+   "floor_interval": [
+    19.208588838563298,
+    37.9914111614367
+   ],
+   "lower_bound": false,
+   "win_rate": 0.05,
+   "win_interval": [
+    0.008881219432873136,
+    0.23613589351256675
+   ],
+   "cost_per_attempt": 0.194716,
+   "cost_per_decision": 0.0005130180476880516,
+   "api_equivalent": false,
+   "price_dates": [],
+   "seconds_measured": 13.389,
+   "attempts": 20,
+   "by_rung": [
+    {
+     "ascension": 0,
+     "played": 20,
+     "won": 1,
+     "in_progress": 0
+    },
+    {
+     "ascension": 1,
+     "played": 1,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 2,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 3,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 4,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 5,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    }
+   ]
   },
   {
    "configuration": "claude-haiku-5-5 (high)",
    "metric": "ascent",
    "cap": 5,
-   "mean_floor": 18.9,
+   "mean_floor": 18.441666666666666,
    "floor_interval": [
-    16.534719912156834,
-    21.265280087843163
+    16.52746544503862,
+    20.355867888294714
    ],
    "lower_bound": false,
    "win_rate": 0.0,
    "win_interval": [
-    -6.938893903907228e-18,
-    0.08762453925039232
+    -3.469446951953614e-18,
+    0.031020271055929513
    ],
-   "cost_per_attempt": 0.0605369375,
-   "cost_per_decision": 0.00027516789772727266,
+   "cost_per_attempt": 0.06045520333333333,
+   "cost_per_decision": 0.00027393514329947526,
    "api_equivalent": false,
    "price_dates": [
-    "2026-10-11"
+    "2026-10-17"
    ],
-   "seconds_measured": 1.083,
-   "attempts": 40
+   "seconds_measured": 0.891,
+   "attempts": 120,
+   "by_rung": [
+    {
+     "ascension": 0,
+     "played": 120,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 1,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 2,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 3,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 4,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 5,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    }
+   ]
+  },
+  {
+   "configuration": "d1-ultra (decision API, no memory)",
+   "metric": "ascent",
+   "cap": 5,
+   "mean_floor": 17.6,
+   "floor_interval": [
+    14.615229204250705,
+    20.5847707957493
+   ],
+   "lower_bound": false,
+   "win_rate": 0.0,
+   "win_interval": [
+    -1.3877787807814457e-17,
+    0.16113012549493322
+   ],
+   "cost_per_attempt": 0.0103151,
+   "cost_per_decision": 5.148540054903919e-05,
+   "api_equivalent": false,
+   "price_dates": [],
+   "seconds_measured": 0.207,
+   "attempts": 20,
+   "by_rung": [
+    {
+     "ascension": 0,
+     "played": 20,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 1,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 2,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 3,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 4,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 5,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    }
+   ]
+  },
+  {
+   "configuration": "Jev 1.14 (decision API, no memory)",
+   "metric": "ascent",
+   "cap": 5,
+   "mean_floor": 14.75,
+   "floor_interval": [
+    12.77678181658943,
+    16.72321818341057
+   ],
+   "lower_bound": false,
+   "win_rate": 0.0,
+   "win_interval": [
+    -1.3877787807814457e-17,
+    0.16113012549493322
+   ],
+   "cost_per_attempt": 0.00918705,
+   "cost_per_decision": 6.260340715502555e-05,
+   "api_equivalent": false,
+   "price_dates": [],
+   "seconds_measured": 0.201,
+   "attempts": 20,
+   "by_rung": [
+    {
+     "ascension": 0,
+     "played": 20,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 1,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 2,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 3,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 4,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 5,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    }
+   ]
+  },
+  {
+   "configuration": "Jev 1.14 (decision API, last 10 actions)",
+   "metric": "ascent",
+   "cap": 5,
+   "mean_floor": 14,
+   "floor_interval": [
+    12.14032069827533,
+    15.85967930172467
+   ],
+   "lower_bound": false,
+   "win_rate": 0.0,
+   "win_interval": [
+    -1.3877787807814457e-17,
+    0.16113012549493322
+   ],
+   "cost_per_attempt": 0.0089572,
+   "cost_per_decision": 7.282276422764228e-05,
+   "api_equivalent": false,
+   "price_dates": [],
+   "seconds_measured": 0.184,
+   "attempts": 20,
+   "by_rung": [
+    {
+     "ascension": 0,
+     "played": 20,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 1,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 2,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 3,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 4,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 5,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    }
+   ]
   }
  ],
  "earlier_editions": [
@@ -152,7 +737,8 @@
       "2026-10-14"
      ],
      "seconds_measured": 4.413,
-     "attempts": 40
+     "attempts": 40,
+     "by_rung": null
     },
     {
      "configuration": "gpt-6-luna (high)",
@@ -176,7 +762,8 @@
       "2026-10-14"
      ],
      "seconds_measured": 4.57,
-     "attempts": 40
+     "attempts": 40,
+     "by_rung": null
     },
     {
      "configuration": "gpt-5.6-luna (high)",
@@ -200,7 +787,8 @@
       "2026-10-14"
      ],
      "seconds_measured": 2.905,
-     "attempts": 40
+     "attempts": 40,
+     "by_rung": null
     },
     {
      "configuration": "claude-haiku-5-5 (high)",
@@ -224,7 +812,8 @@
       "2026-10-11"
      ],
      "seconds_measured": 1.208,
-     "attempts": 40
+     "attempts": 40,
+     "by_rung": null
     }
    ]
   },
@@ -258,12 +847,13 @@
       0.08745302996883066,
       0.3195029205439244
      ],
-     "cost_per_attempt": 1.00539675,
+     "cost_per_attempt": 1.0053967500000003,
      "cost_per_decision": null,
      "api_equivalent": false,
      "price_dates": [],
      "seconds_measured": 5.114,
-     "attempts": 40
+     "attempts": 40,
+     "by_rung": null
     },
     {
      "configuration": "z-ai/glm-5.3-flash (high)",
@@ -285,7 +875,8 @@
      "api_equivalent": false,
      "price_dates": [],
      "seconds_measured": 5.341,
-     "attempts": 40
+     "attempts": 40,
+     "by_rung": null
     },
     {
      "configuration": "openai/gpt-5.6-luna (high)",
@@ -302,12 +893,13 @@
       0.0044267174077949195,
       0.1288165948800778
      ],
-     "cost_per_attempt": 0.532492425,
+     "cost_per_attempt": 0.5324924249999998,
      "cost_per_decision": null,
      "api_equivalent": false,
      "price_dates": [],
      "seconds_measured": 1.924,
-     "attempts": 40
+     "attempts": 40,
+     "by_rung": null
     },
     {
      "configuration": "xiaomi/mimo-v2.6-flash (high)",
@@ -324,12 +916,13 @@
       0.013820377146101098,
       0.165041708179252
      ],
-     "cost_per_attempt": 0.196373875,
+     "cost_per_attempt": 0.19637387499999998,
      "cost_per_decision": null,
      "api_equivalent": false,
      "price_dates": [],
      "seconds_measured": 9.7335,
-     "attempts": 40
+     "attempts": 40,
+     "by_rung": null
     },
     {
      "configuration": "openai/gpt-6-luna (high)",
@@ -351,7 +944,8 @@
      "api_equivalent": false,
      "price_dates": [],
      "seconds_measured": 2.174,
-     "attempts": 40
+     "attempts": 40,
+     "by_rung": null
     }
    ]
   }
