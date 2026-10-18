@@ -31,10 +31,10 @@
    "configuration": "gpt-6.1-sol (high)",
    "metric": "ascent",
    "cap": 5,
-   "mean_floor": 124.425,
+   "mean_floor": 157.675,
    "floor_interval": [
-    112.75282072604877,
-    136.0971792739512
+    143.291354351141,
+    172.05864564885903
    ],
    "lower_bound": true,
    "win_rate": 0.95,
@@ -42,13 +42,13 @@
     0.834958291820748,
     0.9861796228538989
    ],
-   "cost_per_attempt": 9.54039685,
-   "cost_per_decision": 0.004812063376374457,
+   "cost_per_attempt": 12.1167501,
+   "cost_per_decision": 0.0048158305660714815,
    "api_equivalent": true,
    "price_dates": [
     "2026-10-14"
    ],
-   "seconds_measured": 2.634,
+   "seconds_measured": 2.566,
    "attempts": 40,
    "by_rung": [
     {
@@ -65,21 +65,21 @@
     },
     {
      "ascension": 2,
-     "played": 21,
-     "won": 20,
-     "in_progress": 16
+     "played": 37,
+     "won": 35,
+     "in_progress": 0
     },
     {
      "ascension": 3,
-     "played": 0,
-     "won": 0,
-     "in_progress": 20
+     "played": 12,
+     "won": 10,
+     "in_progress": 23
     },
     {
      "ascension": 4,
      "played": 0,
      "won": 0,
-     "in_progress": 0
+     "in_progress": 10
     },
     {
      "ascension": 5,
@@ -277,10 +277,10 @@
    "configuration": "xiaomi/mimo-v2.6-flash (high)",
    "metric": "ascent",
    "cap": 5,
-   "mean_floor": 36.05128205128205,
+   "mean_floor": 38.3,
    "floor_interval": [
-    28.211143192731747,
-    44.28885680726825
+    29.46557721484634,
+    47.13442278515365
    ],
    "lower_bound": true,
    "win_rate": 0.175,
@@ -288,12 +288,12 @@
     0.08745302996883066,
     0.3195029205439244
    ],
-   "cost_per_attempt": 0.272181825,
-   "cost_per_decision": 0.0004768636064999343,
+   "cost_per_attempt": 0.287326775,
+   "cost_per_decision": 0.00047871838553815397,
    "api_equivalent": false,
    "price_dates": [],
-   "seconds_measured": 12.462499999999999,
-   "attempts": 39,
+   "seconds_measured": 12.416,
+   "attempts": 40,
    "by_rung": [
     {
      "ascension": 0,
@@ -303,15 +303,15 @@
     },
     {
      "ascension": 1,
-     "played": 5,
-     "won": 1,
-     "in_progress": 1
+     "played": 7,
+     "won": 2,
+     "in_progress": 0
     },
     {
      "ascension": 2,
      "played": 0,
      "won": 0,
-     "in_progress": 1
+     "in_progress": 2
     },
     {
      "ascension": 3,
@@ -399,22 +399,22 @@
    "configuration": "z-ai/glm-5.3-flash (high)",
    "metric": "ascent",
    "cap": 5,
-   "mean_floor": 30.175,
+   "mean_floor": 31,
    "floor_interval": [
-    23.87616847244927,
-    36.473831527550736
+    24.133022434850748,
+    37.866977565149256
    ],
-   "lower_bound": true,
+   "lower_bound": false,
    "win_rate": 0.05,
    "win_interval": [
     0.013820377146101098,
     0.165041708179252
    ],
-   "cost_per_attempt": 0.21414475,
-   "cost_per_decision": 0.0005206850647377059,
+   "cost_per_attempt": 0.220692,
+   "cost_per_decision": 0.0005216996631404763,
    "api_equivalent": false,
    "price_dates": [],
-   "seconds_measured": 13.436,
+   "seconds_measured": 13.399,
    "attempts": 40,
    "by_rung": [
     {
@@ -425,9 +425,9 @@
     },
     {
      "ascension": 1,
-     "played": 1,
+     "played": 2,
      "won": 0,
-     "in_progress": 1
+     "in_progress": 0
     },
     {
      "ascension": 2,
