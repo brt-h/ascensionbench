@@ -64,142 +64,131 @@ figure{margin:0}.chart .pt{stroke:var(--bg);stroke-width:2}
 </tbody></table></div><p class="caption">By rung: games won out of games played at each ascension, over all the row&#x27;s climbs; a climb reaches an ascension only by winning the one below. In progress: climbs that won the ascension below and have not finished this one, counted as neither win nor loss. A dash: no climb has reached that ascension. Games stopped by an infrastructure failure are not counted.</p></div></div><p class="caption">Claude Haiku 5.5&#x27;s row pools three A0 batches, 120 climbs: one under v10 (mean floor 18.9) and two under v10.1 (16.4 and 20.0), which changed nothing Haiku saw (the render diff touches none of its steps).</p><p class="caption">GPT-6 Luna&#x27;s row pools two batches, 80 climbs, each climbing its own winners: one under v10 (mean ascent 49.3, one climb won at Ascension 5) and one under v10.1 (36.1).</p><p class="caption">Climbs per seed differ between rows: two for DeepSeek V4.1 Flash, GLM 5.3 Flash and MiMo V2.6 Flash, one for the three decision-API rows; Claude Opus 5.5 has four climbs in all.</p><p class="caption">Claude Opus 5.5&#x27;s row was pre-registered at four climbs, on seeds E01 to E04; its mean is over those four seeds.</p><p class="caption">Jev 1.14 and d1-ultra (decision API, no memory) are decision models: each picks from the list, with no note and no reasoning.</p><p class="caption">Jev 1.14 (decision API, last 10 actions) is a separately labelled variant, not a track-1 row: the same decision model, shown its last ten actions as well.</p><p class="caption">A win through Act 3&#x27;s Secret Portal ends below floor 51 (one DeepSeek V4.1 Flash climb won Ascension 4 on floor 48); ascent counts every won ascension as 51, so averages of raw floors read such a win low.</p><p class="caption">This edition holds runs under two fingerprints: interface v10 and v10.1, a minor revision of it. v10.1 says which card reward is open when a rewards screen has two or more, and shows a rejected action as it was sent. Nothing else the model sees changed: replayed under v10.1, this edition&#x27;s v10 runs differ at no more than 1.2% of any row&#x27;s decision points.</p>
 <h2>Ascent against cost</h2>
 <figure><svg class="chart chart-a chart-wide" viewBox="0 0 640 400" role="img" aria-label="mean ascent against cost per decision (USD, log scale)" xmlns="http://www.w3.org/2000/svg">
-<rect class="band0" x="52" width="564" y="267.6" height="80.4"/><text class="t" x="612" y="280.6" text-anchor="end">A0</text>
-<rect class="band1" x="52" width="564" y="187.2" height="80.4"/><text class="t" x="612" y="200.2" text-anchor="end">A1</text>
-<rect class="band0" x="52" width="564" y="106.7" height="80.4"/><text class="t" x="612" y="119.7" text-anchor="end">A2</text>
-<rect class="band1" x="52" width="564" y="26.3" height="80.4"/><text class="t" x="612" y="39.3" text-anchor="end">A3</text>
+<rect class="band0" x="52" width="564" y="259.1" height="88.9"/><text class="t" x="612" y="272.1" text-anchor="end">A0</text>
+<rect class="band1" x="52" width="564" y="170.1" height="88.9"/><text class="t" x="612" y="183.1" text-anchor="end">A1</text>
+<rect class="band0" x="52" width="564" y="81.2" height="88.9"/><text class="t" x="612" y="94.2" text-anchor="end">A2</text>
+<rect class="band1" x="52" width="564" y="20.0" height="61.2"/><text class="t" x="612" y="33.0" text-anchor="end">A3</text>
 <line class="g" x1="52" x2="616" y1="348.0" y2="348.0"/><text class="t" x="44" y="352.0" text-anchor="end">0</text>
-<line class="g" x1="52" x2="616" y1="267.6" y2="267.6"/><text class="t" x="44" y="271.6" text-anchor="end">51</text>
-<line class="g" x1="52" x2="616" y1="187.2" y2="187.2"/><text class="t" x="44" y="191.2" text-anchor="end">102</text>
-<line class="g" x1="52" x2="616" y1="106.7" y2="106.7"/><text class="t" x="44" y="110.7" text-anchor="end">153</text>
-<line class="g" x1="52" x2="616" y1="26.3" y2="26.3"/><text class="t" x="44" y="30.3" text-anchor="end">204</text>
+<line class="g" x1="52" x2="616" y1="259.1" y2="259.1"/><text class="t" x="44" y="263.1" text-anchor="end">51</text>
+<line class="g" x1="52" x2="616" y1="170.1" y2="170.1"/><text class="t" x="44" y="174.1" text-anchor="end">102</text>
+<line class="g" x1="52" x2="616" y1="81.2" y2="81.2"/><text class="t" x="44" y="85.2" text-anchor="end">153</text>
 <text class="t" x="58" y="32">scale continues to 306 (A5)</text>
 <line class="ax" x1="52" x2="616" y1="348.0" y2="348.0"/>
 <text class="t" x="334" y="388" text-anchor="middle">cost per decision (USD, log scale)</text><text class="t" transform="translate(14,184) rotate(-90)" text-anchor="middle">mean ascent</text>
-<line class="g" x1="59.9" x2="59.9" y1="20" y2="348.0" stroke-dasharray="2 3"/><text class="t" x="59.9" y="364" text-anchor="middle">$0.00002</text>
-<line class="g" x1="124.6" x2="124.6" y1="20" y2="348.0" stroke-dasharray="2 3"/><text class="t" x="124.6" y="364" text-anchor="middle">$0.00005</text>
-<line class="g" x1="222.4" x2="222.4" y1="20" y2="348.0" stroke-dasharray="2 3"/><text class="t" x="222.4" y="364" text-anchor="middle">$0.0002</text>
-<line class="g" x1="287.1" x2="287.1" y1="20" y2="348.0" stroke-dasharray="2 3"/><text class="t" x="287.1" y="364" text-anchor="middle">$0.0005</text>
-<line class="g" x1="384.9" x2="384.9" y1="20" y2="348.0" stroke-dasharray="2 3"/><text class="t" x="384.9" y="364" text-anchor="middle">$0.002</text>
-<line class="g" x1="449.6" x2="449.6" y1="20" y2="348.0" stroke-dasharray="2 3"/><text class="t" x="449.6" y="364" text-anchor="middle">$0.005</text>
-<line class="g" x1="498.5" x2="498.5" y1="20" y2="348.0" stroke-dasharray="2 3"/><text class="t" x="498.5" y="364" text-anchor="middle">$0.01</text>
-<line class="g" x1="547.4" x2="547.4" y1="20" y2="348.0" stroke-dasharray="2 3"/><text class="t" x="547.4" y="364" text-anchor="middle">$0.02</text>
-<line class="g" x1="612.1" x2="612.1" y1="20" y2="348.0" stroke-dasharray="2 3"/><text class="t" x="612.1" y="364" text-anchor="middle">$0.05</text>
-<path class="fr" d="M126.6,320.2 H243.4 V280.7 H356.6 V240.0 H446.9 V99.4"/>
-<line class="iv" x1="446.9" x2="446.9" y1="76.7" y2="122.0"/>
-<path class="lb" d="M441.9,82.7 L446.9,74.7 L451.9,82.7 Z"/>
-<circle class="ring" cx="446.9" cy="99.4" r="9.5"/>
-<circle class="pt" cx="446.9" cy="99.4" r="5.5"><title>GPT-6.1 Sol (high): ascent at least 157.7 [143.3, 172.1]; cost per decision (USD, log scale) $0.00482†; on the frontier</title></circle>
-<line class="iv" x1="356.6" x2="356.6" y1="201.2" y2="278.8"/>
-<path class="lb" d="M351.6,207.2 L356.6,199.2 L361.6,207.2 Z"/>
-<circle class="ring" cx="356.6" cy="240.0" r="9.5"/>
-<circle class="pt" cx="356.6" cy="240.0" r="5.5"><title>DeepSeek V4.1 Flash (high): ascent at least 68.5 [43.9, 93.1]; cost per decision (USD, log scale) $0.00134; on the frontier</title></circle>
-<line class="iv" x1="541.4" x2="541.4" y1="183.5" y2="311.4"/>
-<path class="lb" d="M536.4,189.5 L541.4,181.5 L546.4,189.5 Z"/>
-<circle class="pt" cx="541.4" cy="247.5" r="5.5"><title>Claude Opus 5.5 (high): ascent at least 63.8 [23.2, 104.3]; cost per decision (USD, log scale) $0.01836</title></circle>
-<line class="iv" x1="243.4" x2="243.4" y1="259.8" y2="301.6"/>
-<path class="lb" d="M238.4,265.8 L243.4,257.8 L248.4,265.8 Z"/>
-<circle class="ring" cx="243.4" cy="280.7" r="9.5"/>
-<circle class="pt" cx="243.4" cy="280.7" r="5.5"><title>GPT-6 Luna (high): ascent at least 42.7 [29.4, 55.9]; cost per decision (USD, log scale) $0.00027†; on the frontier</title></circle>
-<line class="iv" x1="284.0" x2="284.0" y1="273.7" y2="301.5"/>
-<path class="lb" d="M279.0,279.7 L284.0,271.7 L289.0,279.7 Z"/>
-<circle class="pt" cx="284.0" cy="287.6" r="5.5"><title>MiMo V2.6 Flash (high): ascent at least 38.3 [29.5, 47.1]; cost per decision (USD, log scale) $0.00048</title></circle>
-<line class="iv" x1="299.2" x2="299.2" y1="283.2" y2="306.6"/>
-<circle class="pt" cx="299.2" cy="294.9" r="5.5"><title>GPT-5.6 Luna (high): ascent 33.7 [26.3, 41.1]; cost per decision (USD, log scale) $0.00059†</title></circle>
-<line class="iv" x1="290.1" x2="290.1" y1="288.3" y2="309.9"/>
-<circle class="pt" cx="290.1" cy="299.1" r="5.5"><title>GLM 5.3 Flash (high): ascent 31.0 [24.1, 37.9]; cost per decision (USD, log scale) $0.00052</title></circle>
-<line class="iv" x1="244.6" x2="244.6" y1="315.9" y2="321.9"/>
-<circle class="pt" cx="244.6" cy="318.9" r="5.5"><title>Claude Haiku 5.5 (high): ascent 18.4 [16.5, 20.4]; cost per decision (USD, log scale) $0.00027</title></circle>
-<line class="iv" x1="126.6" x2="126.6" y1="315.5" y2="325.0"/>
-<circle class="ring" cx="126.6" cy="320.2" r="9.5"/>
-<circle class="pt" cx="126.6" cy="320.2" r="5.5"><title>d1-ultra (decision API, no memory): ascent 17.6 [14.6, 20.6]; cost per decision (USD, log scale) $0.00005; on the frontier</title></circle>
-<line class="iv" x1="140.4" x2="140.4" y1="321.6" y2="327.9"/>
-<circle class="pt" cx="140.4" cy="324.7" r="5.5"><title>Jev 1.14 (decision API, no memory): ascent 14.8 [12.8, 16.7]; cost per decision (USD, log scale) $0.00006</title></circle>
-<line class="iv" x1="151.1" x2="151.1" y1="323.0" y2="328.9"/>
-<circle class="pt" cx="151.1" cy="325.9" r="5.5"><title>Jev 1.14 (decision API, last 10 actions): ascent 14.0 [12.1, 15.9]; cost per decision (USD, log scale) $0.00007</title></circle>
-<line class="lead" x1="293.5" y1="305.2" x2="298.1" y2="313.5"/>
-<line class="lead" x1="248.9" y1="324.4" x2="252.6" y2="329.1"/>
-<line class="lead" x1="154.3" y1="319.7" x2="159.1" y2="310.3"/>
-<text class="lbl" x="436.9" y="91.4" text-anchor="end">GPT-6.1 Sol† (≥)</text>
-<text class="lbl" x="366.6" y="232.0" text-anchor="start">DeepSeek V4.1 Flash (≥)</text>
-<text class="lbl" x="528.4" y="251.1" text-anchor="end">Claude Opus 5.5 (≥)</text>
-<text class="lbl" x="233.4" y="272.7" text-anchor="end">GPT-6 Luna† (≥)</text>
-<text class="lbl" x="294.0" y="279.6" text-anchor="start">MiMo V2.6 Flash (≥)</text>
-<text class="lbl" x="312.2" y="298.5" text-anchor="start">GPT-5.6 Luna†</text>
-<text class="lbl" x="300.1" y="325.1" text-anchor="start">GLM 5.3 Flash</text>
-<text class="lbl" x="254.6" y="340.7" text-anchor="start">Claude Haiku 5.5</text>
-<text class="lbl" x="116.6" y="312.2" text-anchor="end">d1-ultra</text>
-<text class="lbl" x="130.4" y="342.3" text-anchor="end">Jev 1.14</text>
-<text class="lbl" x="161.1" y="305.3" text-anchor="start">Jev 1.14, last 10</text>
-</svg><svg class="chart chart-a chart-narrow" viewBox="0 0 420 480" role="img" aria-label="mean ascent against cost per decision (USD, log scale)" xmlns="http://www.w3.org/2000/svg">
-<rect class="band0" x="46" width="358" y="329.0" height="101.0"/><text class="t" x="400" y="342.0" text-anchor="end">A0</text>
-<rect class="band1" x="46" width="358" y="228.0" height="101.0"/><text class="t" x="400" y="241.0" text-anchor="end">A1</text>
-<rect class="band0" x="46" width="358" y="126.9" height="101.0"/><text class="t" x="400" y="139.9" text-anchor="end">A2</text>
-<rect class="band1" x="46" width="358" y="25.9" height="101.0"/><text class="t" x="400" y="38.9" text-anchor="end">A3</text>
-<line class="g" x1="46" x2="404" y1="430.0" y2="430.0"/><text class="t" x="38" y="434.0" text-anchor="end">0</text>
-<line class="g" x1="46" x2="404" y1="329.0" y2="329.0"/><text class="t" x="38" y="333.0" text-anchor="end">51</text>
-<line class="g" x1="46" x2="404" y1="228.0" y2="228.0"/><text class="t" x="38" y="232.0" text-anchor="end">102</text>
-<line class="g" x1="46" x2="404" y1="126.9" y2="126.9"/><text class="t" x="38" y="130.9" text-anchor="end">153</text>
-<line class="g" x1="46" x2="404" y1="25.9" y2="25.9"/><text class="t" x="38" y="29.9" text-anchor="end">204</text>
+<line class="g" x1="60.4" x2="60.4" y1="20" y2="348.0" stroke-dasharray="2 3"/><text class="t" x="60.4" y="364" text-anchor="middle">$0.00002</text>
+<line class="g" x1="129.1" x2="129.1" y1="20" y2="348.0" stroke-dasharray="2 3"/><text class="t" x="129.1" y="364" text-anchor="middle">$0.00005</text>
+<line class="g" x1="233.1" x2="233.1" y1="20" y2="348.0" stroke-dasharray="2 3"/><text class="t" x="233.1" y="364" text-anchor="middle">$0.0002</text>
+<line class="g" x1="301.8" x2="301.8" y1="20" y2="348.0" stroke-dasharray="2 3"/><text class="t" x="301.8" y="364" text-anchor="middle">$0.0005</text>
+<line class="g" x1="353.7" x2="353.7" y1="20" y2="348.0" stroke-dasharray="2 3"/><text class="t" x="353.7" y="364" text-anchor="middle">$0.001</text>
+<line class="g" x1="405.7" x2="405.7" y1="20" y2="348.0" stroke-dasharray="2 3"/><text class="t" x="405.7" y="364" text-anchor="middle">$0.002</text>
+<line class="g" x1="474.4" x2="474.4" y1="20" y2="348.0" stroke-dasharray="2 3"/><text class="t" x="474.4" y="364" text-anchor="middle">$0.005</text>
+<line class="g" x1="526.4" x2="526.4" y1="20" y2="348.0" stroke-dasharray="2 3"/><text class="t" x="526.4" y="364" text-anchor="middle">$0.01</text>
+<line class="g" x1="578.4" x2="578.4" y1="20" y2="348.0" stroke-dasharray="2 3"/><text class="t" x="578.4" y="364" text-anchor="middle">$0.02</text>
+<path class="fr" d="M131.3,317.3 H255.3 V273.6 H375.7 V228.6 H471.6 V73.1"/>
+<line class="iv" x1="471.6" x2="471.6" y1="48.0" y2="98.1"/>
+<path class="lb" d="M466.6,54.0 L471.6,46.0 L476.6,54.0 Z"/>
+<circle class="ring" cx="471.6" cy="73.1" r="9.5"/>
+<circle class="pt" cx="471.6" cy="73.1" r="5.5"><title>GPT-6.1 Sol (high): ascent at least 157.7 [143.3, 172.1]; cost per decision (USD, log scale) $0.00482†; on the frontier</title></circle>
+<line class="iv" x1="375.7" x2="375.7" y1="185.7" y2="271.5"/>
+<path class="lb" d="M370.7,191.7 L375.7,183.7 L380.7,191.7 Z"/>
+<circle class="ring" cx="375.7" cy="228.6" r="9.5"/>
+<circle class="pt" cx="375.7" cy="228.6" r="5.5"><title>DeepSeek V4.1 Flash (high): ascent at least 68.5 [43.9, 93.1]; cost per decision (USD, log scale) $0.00134; on the frontier</title></circle>
+<line class="iv" x1="571.9" x2="571.9" y1="166.1" y2="307.6"/>
+<path class="lb" d="M566.9,172.1 L571.9,164.1 L576.9,172.1 Z"/>
+<circle class="pt" cx="571.9" cy="236.8" r="5.5"><title>Claude Opus 5.5 (high): ascent at least 63.8 [23.2, 104.3]; cost per decision (USD, log scale) $0.01836</title></circle>
+<line class="iv" x1="255.3" x2="255.3" y1="250.5" y2="296.7"/>
+<path class="lb" d="M250.3,256.5 L255.3,248.5 L260.3,256.5 Z"/>
+<circle class="ring" cx="255.3" cy="273.6" r="9.5"/>
+<circle class="pt" cx="255.3" cy="273.6" r="5.5"><title>GPT-6 Luna (high): ascent at least 42.7 [29.4, 55.9]; cost per decision (USD, log scale) $0.00027†; on the frontier</title></circle>
+<line class="iv" x1="298.5" x2="298.5" y1="265.8" y2="296.6"/>
+<path class="lb" d="M293.5,271.8 L298.5,263.8 L303.5,271.8 Z"/>
+<circle class="pt" cx="298.5" cy="281.2" r="5.5"><title>MiMo V2.6 Flash (high): ascent at least 38.3 [29.5, 47.1]; cost per decision (USD, log scale) $0.00048</title></circle>
+<line class="iv" x1="314.6" x2="314.6" y1="276.4" y2="302.2"/>
+<circle class="pt" cx="314.6" cy="289.3" r="5.5"><title>GPT-5.6 Luna (high): ascent 33.7 [26.3, 41.1]; cost per decision (USD, log scale) $0.00059†</title></circle>
+<line class="iv" x1="305.0" x2="305.0" y1="282.0" y2="305.9"/>
+<circle class="pt" cx="305.0" cy="293.9" r="5.5"><title>GLM 5.3 Flash (high): ascent 31.0 [24.1, 37.9]; cost per decision (USD, log scale) $0.00052</title></circle>
+<line class="iv" x1="256.7" x2="256.7" y1="312.5" y2="319.2"/>
+<circle class="pt" cx="256.7" cy="315.8" r="5.5"><title>Claude Haiku 5.5 (high): ascent 18.4 [16.5, 20.4]; cost per decision (USD, log scale) $0.00027</title></circle>
+<line class="iv" x1="131.3" x2="131.3" y1="312.1" y2="322.5"/>
+<circle class="ring" cx="131.3" cy="317.3" r="9.5"/>
+<circle class="pt" cx="131.3" cy="317.3" r="5.5"><title>d1-ultra (decision API, no memory): ascent 17.6 [14.6, 20.6]; cost per decision (USD, log scale) $0.00005; on the frontier</title></circle>
+<line class="iv" x1="146.0" x2="146.0" y1="318.8" y2="325.7"/>
+<circle class="pt" cx="146.0" cy="322.3" r="5.5"><title>Jev 1.14 (decision API, no memory): ascent 14.8 [12.8, 16.7]; cost per decision (USD, log scale) $0.00006</title></circle>
+<line class="iv" x1="157.3" x2="157.3" y1="320.3" y2="326.8"/>
+<circle class="pt" cx="157.3" cy="323.6" r="5.5"><title>Jev 1.14 (decision API, last 10 actions): ascent 14.0 [12.1, 15.9]; cost per decision (USD, log scale) $0.00007</title></circle>
+<line class="lead" x1="252.6" y1="310.1" x2="248.7" y2="304.4"/>
+<line class="lead" x1="309.3" y1="299.5" x2="313.0" y2="304.1"/>
+<text class="lbl" x="121.3" y="309.3" text-anchor="end">d1-ultra</text>
+<text class="lbl" x="136.0" y="339.9" text-anchor="end">Jev 1.14</text>
+<text class="lbl" x="167.3" y="341.2" text-anchor="start">Jev 1.14, last 10</text>
+<text class="lbl" x="245.3" y="265.6" text-anchor="end">GPT-6 Luna† (≥)</text>
+<text class="lbl" x="246.7" y="299.4" text-anchor="end">Claude Haiku 5.5</text>
+<text class="lbl" x="308.5" y="273.2" text-anchor="start">MiMo V2.6 Flash (≥)</text>
+<text class="lbl" x="315.0" y="315.7" text-anchor="start">GLM 5.3 Flash</text>
+<text class="lbl" x="327.6" y="292.9" text-anchor="start">GPT-5.6 Luna†</text>
+<text class="lbl" x="385.7" y="220.6" text-anchor="start">DeepSeek V4.1 Flash (≥)</text>
+<text class="lbl" x="461.6" y="65.1" text-anchor="end">GPT-6.1 Sol† (≥)</text>
+<text class="lbl" x="558.9" y="240.4" text-anchor="end">Claude Opus 5.5 (≥)</text>
+</svg><svg class="chart chart-a chart-narrow" viewBox="0 0 420 560" role="img" aria-label="mean ascent against cost per decision (USD, log scale)" xmlns="http://www.w3.org/2000/svg">
+<rect class="band0" x="46" width="358" y="376.6" height="133.4"/><text class="t" x="400" y="389.6" text-anchor="end">A0</text>
+<rect class="band1" x="46" width="358" y="243.2" height="133.4"/><text class="t" x="400" y="256.2" text-anchor="end">A1</text>
+<rect class="band0" x="46" width="358" y="109.8" height="133.4"/><text class="t" x="400" y="122.8" text-anchor="end">A2</text>
+<rect class="band1" x="46" width="358" y="18.0" height="91.8"/><text class="t" x="400" y="31.0" text-anchor="end">A3</text>
+<line class="g" x1="46" x2="404" y1="510.0" y2="510.0"/><text class="t" x="38" y="514.0" text-anchor="end">0</text>
+<line class="g" x1="46" x2="404" y1="376.6" y2="376.6"/><text class="t" x="38" y="380.6" text-anchor="end">51</text>
+<line class="g" x1="46" x2="404" y1="243.2" y2="243.2"/><text class="t" x="38" y="247.2" text-anchor="end">102</text>
+<line class="g" x1="46" x2="404" y1="109.8" y2="109.8"/><text class="t" x="38" y="113.8" text-anchor="end">153</text>
 <text class="t" x="52" y="30">scale continues to 306 (A5)</text>
-<line class="ax" x1="46" x2="404" y1="430.0" y2="430.0"/>
-<text class="t" x="225" y="468" text-anchor="middle">cost per decision (USD, log scale)</text><text class="t" transform="translate(14,224) rotate(-90)" text-anchor="middle">mean ascent</text>
-<line class="g" x1="51.0" x2="51.0" y1="18" y2="430.0" stroke-dasharray="2 3"/><text class="t" x="51.0" y="446" text-anchor="middle">$0.00002</text>
-<line class="g" x1="123.1" x2="123.1" y1="18" y2="430.0" stroke-dasharray="2 3"/><text class="t" x="123.1" y="446" text-anchor="middle">$0.0001</text>
-<line class="g" x1="195.2" x2="195.2" y1="18" y2="430.0" stroke-dasharray="2 3"/><text class="t" x="195.2" y="446" text-anchor="middle">$0.0005</text>
-<line class="g" x1="257.3" x2="257.3" y1="18" y2="430.0" stroke-dasharray="2 3"/><text class="t" x="257.3" y="446" text-anchor="middle">$0.002</text>
-<line class="g" x1="329.4" x2="329.4" y1="18" y2="430.0" stroke-dasharray="2 3"/><text class="t" x="329.4" y="446" text-anchor="middle">$0.01</text>
-<line class="g" x1="401.5" x2="401.5" y1="18" y2="430.0" stroke-dasharray="2 3"/><text class="t" x="401.5" y="446" text-anchor="middle">$0.05</text>
-<path class="fr" d="M93.4,395.1 H167.5 V345.5 H239.4 V294.4 H296.7 V117.7"/>
-<line class="iv" x1="296.7" x2="296.7" y1="89.2" y2="146.2"/>
-<path class="lb" d="M291.7,95.2 L296.7,87.2 L301.7,95.2 Z"/>
-<circle class="ring" cx="296.7" cy="117.7" r="9.5"/>
-<circle class="pt" cx="296.7" cy="117.7" r="5.5"><title>GPT-6.1 Sol (high): ascent at least 157.7 [143.3, 172.1]; cost per decision (USD, log scale) $0.00482†; on the frontier</title></circle>
-<line class="iv" x1="239.4" x2="239.4" y1="245.6" y2="343.1"/>
-<path class="lb" d="M234.4,251.6 L239.4,243.6 L244.4,251.6 Z"/>
-<circle class="ring" cx="239.4" cy="294.4" r="9.5"/>
-<circle class="pt" cx="239.4" cy="294.4" r="5.5"><title>DeepSeek V4.1 Flash (high): ascent at least 68.5 [43.9, 93.1]; cost per decision (USD, log scale) $0.00134; on the frontier</title></circle>
-<line class="iv" x1="356.6" x2="356.6" y1="223.4" y2="384.1"/>
-<path class="lb" d="M351.6,229.4 L356.6,221.4 L361.6,229.4 Z"/>
-<circle class="pt" cx="356.6" cy="303.7" r="5.5"><title>Claude Opus 5.5 (high): ascent at least 63.8 [23.2, 104.3]; cost per decision (USD, log scale) $0.01836</title></circle>
-<line class="iv" x1="167.5" x2="167.5" y1="319.2" y2="371.7"/>
-<path class="lb" d="M162.5,325.2 L167.5,317.2 L172.5,325.2 Z"/>
-<circle class="ring" cx="167.5" cy="345.5" r="9.5"/>
-<circle class="pt" cx="167.5" cy="345.5" r="5.5"><title>GPT-6 Luna (high): ascent at least 42.7 [29.4, 55.9]; cost per decision (USD, log scale) $0.00027†; on the frontier</title></circle>
-<line class="iv" x1="193.3" x2="193.3" y1="336.6" y2="371.6"/>
-<path class="lb" d="M188.3,342.6 L193.3,334.6 L198.3,342.6 Z"/>
-<circle class="pt" cx="193.3" cy="354.1" r="5.5"><title>MiMo V2.6 Flash (high): ascent at least 38.3 [29.5, 47.1]; cost per decision (USD, log scale) $0.00048</title></circle>
-<line class="iv" x1="202.9" x2="202.9" y1="348.6" y2="378.0"/>
-<circle class="pt" cx="202.9" cy="363.3" r="5.5"><title>GPT-5.6 Luna (high): ascent 33.7 [26.3, 41.1]; cost per decision (USD, log scale) $0.00059†</title></circle>
-<line class="iv" x1="197.1" x2="197.1" y1="355.0" y2="382.2"/>
-<circle class="pt" cx="197.1" cy="368.6" r="5.5"><title>GLM 5.3 Flash (high): ascent 31.0 [24.1, 37.9]; cost per decision (USD, log scale) $0.00052</title></circle>
-<line class="iv" x1="168.3" x2="168.3" y1="389.7" y2="397.3"/>
-<circle class="pt" cx="168.3" cy="393.5" r="5.5"><title>Claude Haiku 5.5 (high): ascent 18.4 [16.5, 20.4]; cost per decision (USD, log scale) $0.00027</title></circle>
-<line class="iv" x1="93.4" x2="93.4" y1="389.2" y2="401.1"/>
-<circle class="ring" cx="93.4" cy="395.1" r="9.5"/>
-<circle class="pt" cx="93.4" cy="395.1" r="5.5"><title>d1-ultra (decision API, no memory): ascent 17.6 [14.6, 20.6]; cost per decision (USD, log scale) $0.00005; on the frontier</title></circle>
-<line class="iv" x1="102.1" x2="102.1" y1="396.9" y2="404.7"/>
-<circle class="pt" cx="102.1" cy="400.8" r="5.5"><title>Jev 1.14 (decision API, no memory): ascent 14.8 [12.8, 16.7]; cost per decision (USD, log scale) $0.00006</title></circle>
-<line class="iv" x1="108.9" x2="108.9" y1="398.6" y2="406.0"/>
-<circle class="pt" cx="108.9" cy="402.3" r="5.5"><title>Jev 1.14 (decision API, last 10 actions): ascent 14.0 [12.1, 15.9]; cost per decision (USD, log scale) $0.00007</title></circle>
-<line class="lead" x1="98.5" y1="390.4" x2="101.4" y2="387.8"/>
-<line class="lead" x1="106.3" y1="406.4" x2="110.1" y2="411.5"/>
-<line class="lead" x1="109.4" y1="395.3" x2="116.9" y2="286.2"/>
-<line class="lead" x1="171.3" y1="339.6" x2="175.5" y2="333.4"/>
-<line class="lead" x1="198.7" y1="375.4" x2="205.1" y2="402.9"/>
-<line class="lead" x1="237.3" y1="287.7" x2="231.4" y2="268.1"/>
-<line class="lead" x1="355.7" y1="296.8" x2="348.6" y2="244.4"/>
-<text class="lbl" x="103.4" y="382.4" text-anchor="start">d1-ultra</text>
-<text class="lbl" x="112.1" y="424.3" text-anchor="start">Jev 1.14</text>
-<text class="lbl" x="118.9" y="280.9" text-anchor="start">Jev 1.14, last 10</text>
-<text class="lbl" x="177.5" y="328.0" text-anchor="start">GPT-6 Luna† (≥)</text>
-<text class="lbl" x="181.3" y="397.5" text-anchor="start">Claude Haiku 5.5</text>
-<text class="lbl" x="203.3" y="346.1" text-anchor="start">MiMo V2.6 Flash (≥)</text>
-<text class="lbl" x="207.1" y="415.7" text-anchor="start">GLM 5.3 Flash</text>
-<text class="lbl" x="215.9" y="367.3" text-anchor="start">GPT-5.6 Luna†</text>
-<text class="lbl" x="229.4" y="262.7" text-anchor="end">DeepSeek V4.1 Flash (≥)</text>
-<text class="lbl" x="286.7" y="109.7" text-anchor="end">GPT-6.1 Sol† (≥)</text>
-<text class="lbl" x="346.6" y="239.0" text-anchor="end">Claude Opus 5.5 (≥)</text>
+<line class="ax" x1="46" x2="404" y1="510.0" y2="510.0"/>
+<text class="t" x="225" y="548" text-anchor="middle">cost per decision (USD, log scale)</text><text class="t" transform="translate(14,264) rotate(-90)" text-anchor="middle">mean ascent</text>
+<line class="g" x1="56.4" x2="56.4" y1="18" y2="510.0" stroke-dasharray="2 3"/><text class="t" x="56.4" y="526" text-anchor="middle">$0.00001</text>
+<line class="g" x1="155.2" x2="155.2" y1="18" y2="510.0" stroke-dasharray="2 3"/><text class="t" x="155.2" y="526" text-anchor="middle">$0.0001</text>
+<line class="g" x1="224.2" x2="224.2" y1="18" y2="510.0" stroke-dasharray="2 3"/><text class="t" x="224.2" y="526" text-anchor="middle">$0.0005</text>
+<line class="g" x1="283.7" x2="283.7" y1="18" y2="510.0" stroke-dasharray="2 3"/><text class="t" x="283.7" y="526" text-anchor="middle">$0.002</text>
+<line class="g" x1="352.7" x2="352.7" y1="18" y2="510.0" stroke-dasharray="2 3"/><text class="t" x="352.7" y="526" text-anchor="middle">$0.01</text>
+<path class="fr" d="M126.7,464.0 H197.6 V398.4 H266.5 V330.9 H321.4 V97.6"/>
+<line class="iv" x1="321.4" x2="321.4" y1="60.0" y2="135.2"/>
+<path class="lb" d="M316.4,66.0 L321.4,58.0 L326.4,66.0 Z"/>
+<circle class="ring" cx="321.4" cy="97.6" r="9.5"/>
+<circle class="pt" cx="321.4" cy="97.6" r="5.5"><title>GPT-6.1 Sol (high): ascent at least 157.7 [143.3, 172.1]; cost per decision (USD, log scale) $0.00482†; on the frontier</title></circle>
+<line class="iv" x1="266.5" x2="266.5" y1="266.5" y2="395.3"/>
+<path class="lb" d="M261.5,272.5 L266.5,264.5 L271.5,272.5 Z"/>
+<circle class="ring" cx="266.5" cy="330.9" r="9.5"/>
+<circle class="pt" cx="266.5" cy="330.9" r="5.5"><title>DeepSeek V4.1 Flash (high): ascent at least 68.5 [43.9, 93.1]; cost per decision (USD, log scale) $0.00134; on the frontier</title></circle>
+<line class="iv" x1="378.8" x2="378.8" y1="237.1" y2="449.4"/>
+<path class="lb" d="M373.8,243.1 L378.8,235.1 L383.8,243.1 Z"/>
+<circle class="pt" cx="378.8" cy="343.3" r="5.5"><title>Claude Opus 5.5 (high): ascent at least 63.8 [23.2, 104.3]; cost per decision (USD, log scale) $0.01836</title></circle>
+<line class="iv" x1="197.6" x2="197.6" y1="363.7" y2="433.0"/>
+<path class="lb" d="M192.6,369.7 L197.6,361.7 L202.6,369.7 Z"/>
+<circle class="ring" cx="197.6" cy="398.4" r="9.5"/>
+<circle class="pt" cx="197.6" cy="398.4" r="5.5"><title>GPT-6 Luna (high): ascent at least 42.7 [29.4, 55.9]; cost per decision (USD, log scale) $0.00027†; on the frontier</title></circle>
+<line class="iv" x1="222.3" x2="222.3" y1="386.7" y2="432.9"/>
+<path class="lb" d="M217.3,392.7 L222.3,384.7 L227.3,392.7 Z"/>
+<circle class="pt" cx="222.3" cy="409.8" r="5.5"><title>MiMo V2.6 Flash (high): ascent at least 38.3 [29.5, 47.1]; cost per decision (USD, log scale) $0.00048</title></circle>
+<line class="iv" x1="231.6" x2="231.6" y1="402.5" y2="441.3"/>
+<circle class="pt" cx="231.6" cy="421.9" r="5.5"><title>GPT-5.6 Luna (high): ascent 33.7 [26.3, 41.1]; cost per decision (USD, log scale) $0.00059†</title></circle>
+<line class="iv" x1="226.0" x2="226.0" y1="411.0" y2="446.9"/>
+<circle class="pt" cx="226.0" cy="428.9" r="5.5"><title>GLM 5.3 Flash (high): ascent 31.0 [24.1, 37.9]; cost per decision (USD, log scale) $0.00052</title></circle>
+<line class="iv" x1="198.4" x2="198.4" y1="456.8" y2="466.8"/>
+<circle class="pt" cx="198.4" cy="461.8" r="5.5"><title>Claude Haiku 5.5 (high): ascent 18.4 [16.5, 20.4]; cost per decision (USD, log scale) $0.00027</title></circle>
+<line class="iv" x1="126.7" x2="126.7" y1="456.2" y2="471.8"/>
+<circle class="ring" cx="126.7" cy="464.0" r="9.5"/>
+<circle class="pt" cx="126.7" cy="464.0" r="5.5"><title>d1-ultra (decision API, no memory): ascent 17.6 [14.6, 20.6]; cost per decision (USD, log scale) $0.00005; on the frontier</title></circle>
+<line class="iv" x1="135.1" x2="135.1" y1="466.3" y2="476.6"/>
+<circle class="pt" cx="135.1" cy="471.4" r="5.5"><title>Jev 1.14 (decision API, no memory): ascent 14.8 [12.8, 16.7]; cost per decision (USD, log scale) $0.00006</title></circle>
+<line class="iv" x1="141.6" x2="141.6" y1="468.5" y2="478.2"/>
+<circle class="pt" cx="141.6" cy="473.4" r="5.5"><title>Jev 1.14 (decision API, last 10 actions): ascent 14.0 [12.1, 15.9]; cost per decision (USD, log scale) $0.00007</title></circle>
+<text class="lbl" x="311.4" y="89.6" text-anchor="end">GPT-6.1 Sol† (≥)</text>
+<text class="lbl" x="256.5" y="322.9" text-anchor="end">DeepSeek V4.1 Flash (≥)</text>
+<text class="lbl" x="368.8" y="362.1" text-anchor="end">Claude Opus 5.5 (≥)</text>
+<text class="lbl" x="187.6" y="390.4" text-anchor="end">GPT-6 Luna† (≥)</text>
+<text class="lbl" x="212.3" y="428.6" text-anchor="end">MiMo V2.6 Flash (≥)</text>
+<text class="lbl" x="241.6" y="413.9" text-anchor="start">GPT-5.6 Luna†</text>
+<text class="lbl" x="236.0" y="447.7" text-anchor="start">GLM 5.3 Flash</text>
+<text class="lbl" x="211.4" y="465.8" text-anchor="start">Claude Haiku 5.5</text>
+<text class="lbl" x="136.7" y="456.0" text-anchor="start">d1-ultra</text>
+<text class="lbl" x="125.1" y="490.2" text-anchor="end">Jev 1.14</text>
+<text class="lbl" x="151.6" y="492.2" text-anchor="start">Jev 1.14, last 10</text>
 </svg></figure>
 <p class="caption">Each point is one configuration; the bar is its 95% interval. Cost is per decision (one model request), on a log scale, at the vendor&#x27;s list price (†: what a subscription&#x27;s tokens would cost at that price). Ringed points are the frontier: no other configuration has both a higher mean ascent and a lower cost per decision; the dashed line joins them. A bar ending in an arrowhead marks a lower bound (≥), as in the table. Each band is one ascension.</p>
 <h2>Edition 2: earlier interface</h2><p class="edition">Slay the Spire 1 · Ironclad, Ascension 0 · text interface · model only · edition 2 · fingerprint 4a21e171…</p><div class="scroll"><table><thead><tr><th>configuration</th><th class="n">mean floor (95%)</th><th class="n">attempts</th><th class="n">win rate</th><th class="n">cost per attempt</th><th class="n">cost per decision</th><th class="n">seconds per decision</th></tr></thead><tbody>
