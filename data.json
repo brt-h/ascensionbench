@@ -521,27 +521,27 @@
    "configuration": "d1-ultra (decision API, no memory)",
    "metric": "ascent",
    "cap": 5,
-   "mean_floor": 17.6,
+   "mean_floor": 17.325,
    "floor_interval": [
-    14.615229204250705,
-    20.5847707957493
+    14.951600608200671,
+    19.698399391799327
    ],
    "lower_bound": false,
    "win_rate": 0.0,
    "win_interval": [
-    -1.3877787807814457e-17,
-    0.16113012549493322
+    -6.938893903907228e-18,
+    0.08762453925039232
    ],
-   "cost_per_attempt": 0.0103151,
-   "cost_per_decision": 5.148540054903919e-05,
+   "cost_per_attempt": 0.01006305,
+   "cost_per_decision": 5.128322079245764e-05,
    "api_equivalent": false,
    "price_dates": [],
-   "seconds_measured": 0.207,
-   "attempts": 20,
+   "seconds_measured": 0.217,
+   "attempts": 40,
    "by_rung": [
     {
      "ascension": 0,
-     "played": 20,
+     "played": 40,
      "won": 0,
      "in_progress": 0
     },
@@ -581,27 +581,27 @@
    "configuration": "Jev 1.14 (decision API, no memory)",
    "metric": "ascent",
    "cap": 5,
-   "mean_floor": 14.75,
+   "mean_floor": 15.8,
    "floor_interval": [
-    12.77678181658943,
-    16.72321818341057
+    13.756608168162295,
+    17.843391831837707
    ],
    "lower_bound": false,
    "win_rate": 0.0,
    "win_interval": [
-    -1.3877787807814457e-17,
-    0.16113012549493322
+    -6.938893903907228e-18,
+    0.08762453925039232
    ],
-   "cost_per_attempt": 0.00918705,
-   "cost_per_decision": 6.260340715502555e-05,
+   "cost_per_attempt": 0.0101218,
+   "cost_per_decision": 6.339993736298151e-05,
    "api_equivalent": false,
    "price_dates": [],
    "seconds_measured": 0.201,
-   "attempts": 20,
+   "attempts": 40,
    "by_rung": [
     {
      "ascension": 0,
-     "played": 20,
+     "played": 40,
      "won": 0,
      "in_progress": 0
     },
