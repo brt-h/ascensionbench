@@ -25,16 +25,16 @@
   ],
   "fingerprint_note": "This edition holds runs under two fingerprints: interface v10 and v10.1, a minor revision of it. v10.1 says which card reward is open when a rewards screen has two or more, and shows a rejected action as it was sent. Nothing else the model sees changed: replayed under v10.1, this edition's v10 runs differ at no more than 1.2% of any row's decision points."
  },
- "generated": "2026-10-17",
+ "generated": "2026-10-18",
  "rows": [
   {
    "configuration": "gpt-6.1-sol (high)",
    "metric": "ascent",
    "cap": 5,
-   "mean_floor": 110.85,
+   "mean_floor": 124.425,
    "floor_interval": [
-    99.37709492641467,
-    122.32290507358532
+    112.75282072604877,
+    136.0971792739512
    ],
    "lower_bound": true,
    "win_rate": 0.95,
@@ -42,13 +42,13 @@
     0.834958291820748,
     0.9861796228538989
    ],
-   "cost_per_attempt": 8.472339400000001,
-   "cost_per_decision": 0.004805774071868175,
+   "cost_per_attempt": 9.54039685,
+   "cost_per_decision": 0.004812063376374457,
    "api_equivalent": true,
    "price_dates": [
     "2026-10-14"
    ],
-   "seconds_measured": 2.698,
+   "seconds_measured": 2.634,
    "attempts": 40,
    "by_rung": [
     {
@@ -65,15 +65,15 @@
     },
     {
      "ascension": 2,
-     "played": 10,
-     "won": 10,
-     "in_progress": 27
+     "played": 21,
+     "won": 20,
+     "in_progress": 16
     },
     {
      "ascension": 3,
      "played": 0,
      "won": 0,
-     "in_progress": 10
+     "in_progress": 20
     },
     {
      "ascension": 4,
@@ -277,35 +277,35 @@
    "configuration": "xiaomi/mimo-v2.6-flash (high)",
    "metric": "ascent",
    "cap": 5,
-   "mean_floor": 40.26315789473684,
+   "mean_floor": 36.05128205128205,
    "floor_interval": [
-    24.353148167712654,
-    56.17316762176103
+    28.211143192731747,
+    44.28885680726825
    ],
    "lower_bound": true,
-   "win_rate": 0.3,
+   "win_rate": 0.175,
    "win_interval": [
-    0.14547527396899385,
-    0.5189767762289793
+    0.08745302996883066,
+    0.3195029205439244
    ],
-   "cost_per_attempt": 0.31186235,
-   "cost_per_decision": 0.000479714428549454,
+   "cost_per_attempt": 0.272181825,
+   "cost_per_decision": 0.0004768636064999343,
    "api_equivalent": false,
    "price_dates": [],
-   "seconds_measured": 12.785499999999999,
-   "attempts": 19,
+   "seconds_measured": 12.462499999999999,
+   "attempts": 39,
    "by_rung": [
     {
      "ascension": 0,
-     "played": 20,
-     "won": 6,
+     "played": 40,
+     "won": 7,
      "in_progress": 0
     },
     {
      "ascension": 1,
      "played": 5,
      "won": 1,
-     "in_progress": 0
+     "in_progress": 1
     },
     {
      "ascension": 2,
@@ -399,35 +399,35 @@
    "configuration": "z-ai/glm-5.3-flash (high)",
    "metric": "ascent",
    "cap": 5,
-   "mean_floor": 28.6,
+   "mean_floor": 30.175,
    "floor_interval": [
-    19.208588838563298,
-    37.9914111614367
+    23.87616847244927,
+    36.473831527550736
    ],
-   "lower_bound": false,
+   "lower_bound": true,
    "win_rate": 0.05,
    "win_interval": [
-    0.008881219432873136,
-    0.23613589351256675
+    0.013820377146101098,
+    0.165041708179252
    ],
-   "cost_per_attempt": 0.194716,
-   "cost_per_decision": 0.0005130180476880516,
+   "cost_per_attempt": 0.21414475,
+   "cost_per_decision": 0.0005206850647377059,
    "api_equivalent": false,
    "price_dates": [],
-   "seconds_measured": 13.389,
-   "attempts": 20,
+   "seconds_measured": 13.436,
+   "attempts": 40,
    "by_rung": [
     {
      "ascension": 0,
-     "played": 20,
-     "won": 1,
+     "played": 40,
+     "won": 2,
      "in_progress": 0
     },
     {
      "ascension": 1,
      "played": 1,
      "won": 0,
-     "in_progress": 0
+     "in_progress": 1
     },
     {
      "ascension": 2,
