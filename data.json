@@ -5,12 +5,13 @@
   "input": "text",
   "track": "model only (track 1, fixed interface)",
   "character": "Ironclad",
-  "ascension": "A0",
+  "start_ascension": "A0",
   "climb_cap": 5,
   "interface": "v10; v10.1 (minor) from campaign 009",
   "interface_sha256": "7f6185014f45f1228ef5e5417c916121b29ee539abd4ba13b653233b2dd97f28",
   "scoring_rule": 2,
   "seed_set": "eval-v1",
+  "seed_list_sha256": "a8a08dddb99e405c68bb35c868a47b351f51f0a725e734f01df5f1c2cb82326d",
   "replicates": 2,
   "request_sha256": "ca13391e50416d18f26230cec671a029aed956bcd7f187e9f118f3187a449bdc",
   "fingerprints": [
@@ -25,7 +26,7 @@
   ],
   "fingerprint_note": "This edition holds runs under two fingerprints: interface v10 and v10.1, a minor revision of it. v10.1 says which card reward is open when a rewards screen has two or more, and shows a rejected action as it was sent. Nothing else the model sees changed: replayed under v10.1, this edition's v10 runs differ at no more than 1.2% of any row's decision points."
  },
- "generated": "2026-10-21",
+ "generated": "2026-11-01",
  "rows": [
   {
    "configuration": "gpt-6.1-sol (high)",
@@ -36,7 +37,8 @@
     240.08802760101926,
     292.8619723989808
    ],
-   "lower_bound": true,
+   "lower_bound": false,
+   "preliminary": false,
    "win_rate": 0.95,
    "win_interval": [
     0.834958291820748,
@@ -45,11 +47,22 @@
    "cost_per_attempt": 20.17839655,
    "cost_per_decision": 0.0048012364642198565,
    "api_equivalent": true,
+   "price_basis": "list",
    "price_dates": [
     "2026-10-14"
    ],
    "seconds_measured": 2.662,
    "attempts": 40,
+   "seeds": 20,
+   "per_seed": 2,
+   "decisions_per_attempt": 4202.75,
+   "games": {
+    "started": 218,
+    "completed": 215,
+    "excluded": 3,
+    "excluded_cutoff": 0,
+    "rerun": 3
+   },
    "by_rung": [
     {
      "ascension": 0,
@@ -98,7 +111,8 @@
     43.85800670444256,
     93.09199329555743
    ],
-   "lower_bound": true,
+   "lower_bound": false,
+   "preliminary": false,
    "win_rate": 0.325,
    "win_interval": [
     0.20084316962661725,
@@ -107,9 +121,20 @@
    "cost_per_attempt": 1.3505389,
    "cost_per_decision": 0.0013395877699804103,
    "api_equivalent": false,
+   "price_basis": "recorded",
    "price_dates": [],
    "seconds_measured": 4.335,
    "attempts": 40,
+   "seeds": 20,
+   "per_seed": 2,
+   "decisions_per_attempt": 1008.175,
+   "games": {
+    "started": 75,
+    "completed": 66,
+    "excluded": 9,
+    "excluded_cutoff": 5,
+    "rerun": 9
+   },
    "by_rung": [
     {
      "ascension": 0,
@@ -159,6 +184,7 @@
     104.32050000000001
    ],
    "lower_bound": true,
+   "preliminary": true,
    "win_rate": 1.0,
    "win_interval": [
     0.5100999795960008,
@@ -167,11 +193,22 @@
    "cost_per_attempt": 17.056533,
    "cost_per_decision": 0.018355160613397904,
    "api_equivalent": false,
+   "price_basis": "list",
    "price_dates": [
     "2026-10-17"
    ],
    "seconds_measured": 3.211,
    "attempts": 4,
+   "seeds": 4,
+   "per_seed": 1,
+   "decisions_per_attempt": 929.25,
+   "games": {
+    "started": 5,
+    "completed": 5,
+    "excluded": 0,
+    "excluded_cutoff": 0,
+    "rerun": 0
+   },
    "by_rung": [
     {
      "ascension": 0,
@@ -221,6 +258,7 @@
     57.19050876095616
    ],
    "lower_bound": false,
+   "preliminary": false,
    "win_rate": 0.175,
    "win_interval": [
     0.08745302996883066,
@@ -229,9 +267,20 @@
    "cost_per_attempt": 0.32614025,
    "cost_per_decision": 0.0004841390187782974,
    "api_equivalent": false,
+   "price_basis": "recorded",
    "price_dates": [],
    "seconds_measured": 12.423,
    "attempts": 40,
+   "seeds": 20,
+   "per_seed": 2,
+   "decisions_per_attempt": 673.65,
+   "games": {
+    "started": 71,
+    "completed": 51,
+    "excluded": 20,
+    "excluded_cutoff": 16,
+    "rerun": 20
+   },
    "by_rung": [
     {
      "ascension": 0,
@@ -280,7 +329,8 @@
     29.421925075332567,
     55.92807492466743
    ],
-   "lower_bound": true,
+   "lower_bound": false,
+   "preliminary": false,
    "win_rate": 0.1375,
    "win_interval": [
     0.07854633679551142,
@@ -289,11 +339,22 @@
    "cost_per_attempt": 0.1667103475,
    "cost_per_decision": 0.00026907210184400586,
    "api_equivalent": true,
+   "price_basis": "list",
    "price_dates": [
     "2026-10-14"
    ],
    "seconds_measured": 4.349,
    "attempts": 80,
+   "seeds": 20,
+   "per_seed": 4,
+   "decisions_per_attempt": 619.575,
+   "games": {
+    "started": 98,
+    "completed": 98,
+    "excluded": 0,
+    "excluded_cutoff": 0,
+    "rerun": 0
+   },
    "by_rung": [
     {
      "ascension": 0,
@@ -343,6 +404,7 @@
     41.08743185346104
    ],
    "lower_bound": false,
+   "preliminary": false,
    "win_rate": 0.05,
    "win_interval": [
     0.013820377146101098,
@@ -351,11 +413,22 @@
    "cost_per_attempt": 0.282300735,
    "cost_per_decision": 0.0005936611850060457,
    "api_equivalent": true,
+   "price_basis": "list",
    "price_dates": [
     "2026-10-14"
    ],
    "seconds_measured": 2.456,
    "attempts": 40,
+   "seeds": 20,
+   "per_seed": 2,
+   "decisions_per_attempt": 475.525,
+   "games": {
+    "started": 43,
+    "completed": 43,
+    "excluded": 0,
+    "excluded_cutoff": 0,
+    "rerun": 0
+   },
    "by_rung": [
     {
      "ascension": 0,
@@ -405,6 +478,7 @@
     37.866977565149256
    ],
    "lower_bound": false,
+   "preliminary": false,
    "win_rate": 0.05,
    "win_interval": [
     0.013820377146101098,
@@ -413,9 +487,20 @@
    "cost_per_attempt": 0.220692,
    "cost_per_decision": 0.0005216996631404763,
    "api_equivalent": false,
+   "price_basis": "recorded",
    "price_dates": [],
    "seconds_measured": 13.399,
    "attempts": 40,
+   "seeds": 20,
+   "per_seed": 2,
+   "decisions_per_attempt": 423.025,
+   "games": {
+    "started": 47,
+    "completed": 42,
+    "excluded": 5,
+    "excluded_cutoff": 5,
+    "rerun": 5
+   },
    "by_rung": [
     {
      "ascension": 0,
@@ -465,6 +550,7 @@
     20.355867888294714
    ],
    "lower_bound": false,
+   "preliminary": false,
    "win_rate": 0.0,
    "win_interval": [
     -3.469446951953614e-18,
@@ -473,11 +559,22 @@
    "cost_per_attempt": 0.06045520333333333,
    "cost_per_decision": 0.00027393514329947526,
    "api_equivalent": false,
+   "price_basis": "list",
    "price_dates": [
     "2026-10-17"
    ],
    "seconds_measured": 0.891,
    "attempts": 120,
+   "seeds": 20,
+   "per_seed": 6,
+   "decisions_per_attempt": 220.69166666666666,
+   "games": {
+    "started": 120,
+    "completed": 120,
+    "excluded": 0,
+    "excluded_cutoff": 0,
+    "rerun": 0
+   },
    "by_rung": [
     {
      "ascension": 0,
@@ -527,6 +624,7 @@
     19.698399391799327
    ],
    "lower_bound": false,
+   "preliminary": false,
    "win_rate": 0.0,
    "win_interval": [
     -6.938893903907228e-18,
@@ -535,9 +633,20 @@
    "cost_per_attempt": 0.01006305,
    "cost_per_decision": 5.128322079245764e-05,
    "api_equivalent": false,
+   "price_basis": "recorded",
    "price_dates": [],
    "seconds_measured": 0.217,
    "attempts": 40,
+   "seeds": 20,
+   "per_seed": 2,
+   "decisions_per_attempt": 196.225,
+   "games": {
+    "started": 40,
+    "completed": 40,
+    "excluded": 0,
+    "excluded_cutoff": 0,
+    "rerun": 0
+   },
    "by_rung": [
     {
      "ascension": 0,
@@ -587,6 +696,7 @@
     17.843391831837707
    ],
    "lower_bound": false,
+   "preliminary": false,
    "win_rate": 0.0,
    "win_interval": [
     -6.938893903907228e-18,
@@ -595,9 +705,20 @@
    "cost_per_attempt": 0.0101218,
    "cost_per_decision": 6.339993736298151e-05,
    "api_equivalent": false,
+   "price_basis": "recorded",
    "price_dates": [],
    "seconds_measured": 0.201,
    "attempts": 40,
+   "seeds": 20,
+   "per_seed": 2,
+   "decisions_per_attempt": 159.65,
+   "games": {
+    "started": 40,
+    "completed": 40,
+    "excluded": 0,
+    "excluded_cutoff": 0,
+    "rerun": 0
+   },
    "by_rung": [
     {
      "ascension": 0,
@@ -647,6 +768,7 @@
     15.85967930172467
    ],
    "lower_bound": false,
+   "preliminary": false,
    "win_rate": 0.0,
    "win_interval": [
     -1.3877787807814457e-17,
@@ -655,9 +777,20 @@
    "cost_per_attempt": 0.0089572,
    "cost_per_decision": 7.282276422764228e-05,
    "api_equivalent": false,
+   "price_basis": "recorded",
    "price_dates": [],
    "seconds_measured": 0.184,
    "attempts": 20,
+   "seeds": 20,
+   "per_seed": 1,
+   "decisions_per_attempt": 123.0,
+   "games": {
+    "started": 20,
+    "completed": 20,
+    "excluded": 0,
+    "excluded_cutoff": 0,
+    "rerun": 0
+   },
    "by_rung": [
     {
      "ascension": 0,
@@ -706,7 +839,7 @@
     "input": "text",
     "track": "model only (track 1, fixed interface)",
     "character": "Ironclad",
-    "ascension": "A0",
+    "start_ascension": "A0",
     "interface": "v9",
     "interface_sha256": "4a21e17156a5f400fff0d63eb5327909ef20867cabdd93f46acd3b538e41be03",
     "scoring_rule": 2,
@@ -725,6 +858,7 @@
       52.748799999999996
      ],
      "lower_bound": false,
+     "preliminary": false,
      "win_rate": 0.95,
      "win_interval": [
       0.834958291820748,
@@ -733,11 +867,22 @@
      "cost_per_attempt": 3.87016135,
      "cost_per_decision": 0.00463492377245509,
      "api_equivalent": true,
+     "price_basis": "list",
      "price_dates": [
       "2026-10-14"
      ],
      "seconds_measured": 4.413,
      "attempts": 40,
+     "seeds": 20,
+     "per_seed": 2,
+     "decisions_per_attempt": 835.0,
+     "games": {
+      "started": 56,
+      "completed": 40,
+      "excluded": 16,
+      "excluded_cutoff": 0,
+      "rerun": 16
+     },
      "by_rung": null
     },
     {
@@ -750,6 +895,7 @@
       37.43277452777873
      ],
      "lower_bound": false,
+     "preliminary": false,
      "win_rate": 0.075,
      "win_interval": [
       0.025835556771858226,
@@ -758,11 +904,22 @@
      "cost_per_attempt": 0.1338212525,
      "cost_per_decision": 0.0002634017370337565,
      "api_equivalent": true,
+     "price_basis": "list",
      "price_dates": [
       "2026-10-14"
      ],
      "seconds_measured": 4.57,
      "attempts": 40,
+     "seeds": 20,
+     "per_seed": 2,
+     "decisions_per_attempt": 508.05,
+     "games": {
+      "started": 41,
+      "completed": 40,
+      "excluded": 1,
+      "excluded_cutoff": 0,
+      "rerun": 1
+     },
      "by_rung": null
     },
     {
@@ -775,6 +932,7 @@
       37.520234968912035
      ],
      "lower_bound": false,
+     "preliminary": false,
      "win_rate": 0.075,
      "win_interval": [
       0.025835556771858226,
@@ -783,11 +941,22 @@
      "cost_per_attempt": 0.29446109,
      "cost_per_decision": 0.0006021699182004091,
      "api_equivalent": true,
+     "price_basis": "list",
      "price_dates": [
       "2026-10-14"
      ],
      "seconds_measured": 2.905,
      "attempts": 40,
+     "seeds": 20,
+     "per_seed": 2,
+     "decisions_per_attempt": 489.0,
+     "games": {
+      "started": 40,
+      "completed": 40,
+      "excluded": 0,
+      "excluded_cutoff": 0,
+      "rerun": 0
+     },
      "by_rung": null
     },
     {
@@ -800,6 +969,7 @@
       20.482260790655967
      ],
      "lower_bound": false,
+     "preliminary": false,
      "win_rate": 0.0,
      "win_interval": [
       -6.938893903907228e-18,
@@ -808,11 +978,22 @@
      "cost_per_attempt": 0.0594928325,
      "cost_per_decision": 0.0002664852519596865,
      "api_equivalent": false,
+     "price_basis": "list",
      "price_dates": [
       "2026-10-11"
      ],
      "seconds_measured": 1.208,
      "attempts": 40,
+     "seeds": 20,
+     "per_seed": 2,
+     "decisions_per_attempt": 223.25,
+     "games": {
+      "started": 41,
+      "completed": 40,
+      "excluded": 1,
+      "excluded_cutoff": 0,
+      "rerun": 1
+     },
      "by_rung": null
     }
    ]
@@ -824,7 +1005,7 @@
     "input": "text",
     "track": "model only (track 1, fixed interface)",
     "character": "Ironclad",
-    "ascension": "A0",
+    "start_ascension": "A0",
     "interface": "v8.1",
     "interface_sha256": "dd5104516def0764801168b41ebbdbfbdbc48f88826b2b7aebc722a6611a8db5",
     "scoring_rule": 2,
@@ -842,17 +1023,29 @@
       42.47142246004955
      ],
      "lower_bound": false,
+     "preliminary": false,
      "win_rate": 0.175,
      "win_interval": [
       0.08745302996883066,
       0.3195029205439244
      ],
      "cost_per_attempt": 1.0053967500000003,
-     "cost_per_decision": null,
+     "cost_per_decision": 0.0017808990874872005,
      "api_equivalent": false,
+     "price_basis": "recorded",
      "price_dates": [],
      "seconds_measured": 5.114,
      "attempts": 40,
+     "seeds": 20,
+     "per_seed": 2,
+     "decisions_per_attempt": 610.375,
+     "games": {
+      "started": 44,
+      "completed": 40,
+      "excluded": 4,
+      "excluded_cutoff": 0,
+      "rerun": 4
+     },
      "by_rung": null
     },
     {
@@ -865,17 +1058,29 @@
       34.23840973083165
      ],
      "lower_bound": false,
+     "preliminary": false,
      "win_rate": 0.05,
      "win_interval": [
       0.013820377146101098,
       0.165041708179252
      ],
      "cost_per_attempt": 0.167873575,
-     "cost_per_decision": null,
+     "cost_per_decision": 0.00043185682937809506,
      "api_equivalent": false,
+     "price_basis": "recorded",
      "price_dates": [],
      "seconds_measured": 5.341,
      "attempts": 40,
+     "seeds": 20,
+     "per_seed": 2,
+     "decisions_per_attempt": 388.725,
+     "games": {
+      "started": 40,
+      "completed": 40,
+      "excluded": 0,
+      "excluded_cutoff": 0,
+      "rerun": 0
+     },
      "by_rung": null
     },
     {
@@ -888,17 +1093,29 @@
       33.21425505044273
      ],
      "lower_bound": false,
+     "preliminary": false,
      "win_rate": 0.025,
      "win_interval": [
       0.0044267174077949195,
       0.1288165948800778
      ],
      "cost_per_attempt": 0.5324924249999998,
-     "cost_per_decision": null,
+     "cost_per_decision": 0.0005467399244410177,
      "api_equivalent": false,
+     "price_basis": "recorded",
      "price_dates": [],
      "seconds_measured": 1.924,
      "attempts": 40,
+     "seeds": 20,
+     "per_seed": 2,
+     "decisions_per_attempt": 1297.0,
+     "games": {
+      "started": 55,
+      "completed": 40,
+      "excluded": 15,
+      "excluded_cutoff": 0,
+      "rerun": 15
+     },
      "by_rung": null
     },
     {
@@ -911,17 +1128,29 @@
       33.73559610096487
      ],
      "lower_bound": false,
+     "preliminary": false,
      "win_rate": 0.05,
      "win_interval": [
       0.013820377146101098,
       0.165041708179252
      ],
      "cost_per_attempt": 0.19637387499999998,
-     "cost_per_decision": null,
+     "cost_per_decision": 0.00037695341702658603,
      "api_equivalent": false,
+     "price_basis": "recorded",
      "price_dates": [],
      "seconds_measured": 9.7335,
      "attempts": 40,
+     "seeds": 20,
+     "per_seed": 2,
+     "decisions_per_attempt": 520.95,
+     "games": {
+      "started": 40,
+      "completed": 40,
+      "excluded": 0,
+      "excluded_cutoff": 0,
+      "rerun": 0
+     },
      "by_rung": null
     },
     {
@@ -934,17 +1163,29 @@
       25.693479089311
      ],
      "lower_bound": false,
+     "preliminary": false,
      "win_rate": 0.05,
      "win_interval": [
       0.013820377146101098,
       0.165041708179252
      ],
      "cost_per_attempt": 0.294904975,
-     "cost_per_decision": null,
+     "cost_per_decision": 0.00022563261421892997,
      "api_equivalent": false,
+     "price_basis": "recorded",
      "price_dates": [],
      "seconds_measured": 2.174,
      "attempts": 40,
+     "seeds": 20,
+     "per_seed": 2,
+     "decisions_per_attempt": 2213.95,
+     "games": {
+      "started": 68,
+      "completed": 40,
+      "excluded": 28,
+      "excluded_cutoff": 0,
+      "rerun": 28
+     },
      "by_rung": null
     }
    ]
