@@ -26,7 +26,7 @@
   ],
   "fingerprint_note": "This edition holds runs under two fingerprints: interface v10 and v10.1, a minor revision of it. v10.1 says which card reward is open when a rewards screen has two or more, and shows a rejected action as it was sent. Nothing else the model sees changed: replayed under v10.1, this edition's v10 runs differ at no more than 1.2% of any row's decision points."
  },
- "generated": "2026-11-01",
+ "generated": "2026-11-02",
  "rows": [
   {
    "configuration": "gpt-6.1-sol (high)",
@@ -100,7 +100,13 @@
      "won": 26,
      "in_progress": 0
     }
-   ]
+   ],
+   "interface_versions": [
+    "v10"
+   ],
+   "memory": "own note",
+   "track": "track 1",
+   "cohort": "default"
   },
   {
    "configuration": "deepseek/deepseek-v4.1-flash (high)",
@@ -172,7 +178,13 @@
      "won": 1,
      "in_progress": 0
     }
-   ]
+   ],
+   "interface_versions": [
+    "v10.1"
+   ],
+   "memory": "own note",
+   "track": "track 1",
+   "cohort": "default"
   },
   {
    "configuration": "claude-opus-5-5 (high)",
@@ -246,7 +258,13 @@
      "won": 0,
      "in_progress": 0
     }
-   ]
+   ],
+   "interface_versions": [
+    "v10.1"
+   ],
+   "memory": "own note",
+   "track": "track 1",
+   "cohort": "default"
   },
   {
    "configuration": "xiaomi/mimo-v2.6-flash (high)",
@@ -318,7 +336,13 @@
      "won": 0,
      "in_progress": 0
     }
-   ]
+   ],
+   "interface_versions": [
+    "v10.1"
+   ],
+   "memory": "own note",
+   "track": "track 1",
+   "cohort": "default"
   },
   {
    "configuration": "gpt-6-luna (high)",
@@ -392,7 +416,14 @@
      "won": 1,
      "in_progress": 0
     }
-   ]
+   ],
+   "interface_versions": [
+    "v10",
+    "v10.1"
+   ],
+   "memory": "own note",
+   "track": "track 1",
+   "cohort": "default"
   },
   {
    "configuration": "gpt-5.6-luna (high)",
@@ -466,7 +497,13 @@
      "won": 0,
      "in_progress": 0
     }
-   ]
+   ],
+   "interface_versions": [
+    "v10"
+   ],
+   "memory": "own note",
+   "track": "track 1",
+   "cohort": "default"
   },
   {
    "configuration": "z-ai/glm-5.3-flash (high)",
@@ -538,7 +575,13 @@
      "won": 0,
      "in_progress": 0
     }
-   ]
+   ],
+   "interface_versions": [
+    "v10.1"
+   ],
+   "memory": "own note",
+   "track": "track 1",
+   "cohort": "default"
   },
   {
    "configuration": "claude-haiku-5-5 (high)",
@@ -612,7 +655,14 @@
      "won": 0,
      "in_progress": 0
     }
-   ]
+   ],
+   "interface_versions": [
+    "v10",
+    "v10.1"
+   ],
+   "memory": "own note",
+   "track": "track 1",
+   "cohort": "default"
   },
   {
    "configuration": "d1-ultra (decision API, no memory)",
@@ -684,7 +734,13 @@
      "won": 0,
      "in_progress": 0
     }
-   ]
+   ],
+   "interface_versions": [
+    "v10.1"
+   ],
+   "memory": "none",
+   "track": "track 1",
+   "cohort": "other"
   },
   {
    "configuration": "Jev 1.14 (decision API, no memory)",
@@ -756,7 +812,13 @@
      "won": 0,
      "in_progress": 0
     }
-   ]
+   ],
+   "interface_versions": [
+    "v10.1"
+   ],
+   "memory": "none",
+   "track": "track 1",
+   "cohort": "other"
   },
   {
    "configuration": "Jev 1.14 (decision API, last 10 actions)",
@@ -828,7 +890,13 @@
      "won": 0,
      "in_progress": 0
     }
-   ]
+   ],
+   "interface_versions": [
+    "v10.1"
+   ],
+   "memory": "last 10 actions",
+   "track": "labelled variant",
+   "cohort": "other"
   }
  ],
  "earlier_editions": [
@@ -883,7 +951,13 @@
       "excluded_cutoff": 0,
       "rerun": 16
      },
-     "by_rung": null
+     "by_rung": null,
+     "interface_versions": [
+      "v9"
+     ],
+     "memory": "own note",
+     "track": "track 1",
+     "cohort": "default"
     },
     {
      "configuration": "gpt-6-luna (high)",
@@ -920,7 +994,13 @@
       "excluded_cutoff": 0,
       "rerun": 1
      },
-     "by_rung": null
+     "by_rung": null,
+     "interface_versions": [
+      "v9"
+     ],
+     "memory": "own note",
+     "track": "track 1",
+     "cohort": "default"
     },
     {
      "configuration": "gpt-5.6-luna (high)",
@@ -957,7 +1037,13 @@
       "excluded_cutoff": 0,
       "rerun": 0
      },
-     "by_rung": null
+     "by_rung": null,
+     "interface_versions": [
+      "v9"
+     ],
+     "memory": "own note",
+     "track": "track 1",
+     "cohort": "default"
     },
     {
      "configuration": "claude-haiku-5-5 (high)",
@@ -994,7 +1080,13 @@
       "excluded_cutoff": 0,
       "rerun": 1
      },
-     "by_rung": null
+     "by_rung": null,
+     "interface_versions": [
+      "v9"
+     ],
+     "memory": "own note",
+     "track": "track 1",
+     "cohort": "default"
     }
    ]
   },
@@ -1046,7 +1138,13 @@
       "excluded_cutoff": 0,
       "rerun": 4
      },
-     "by_rung": null
+     "by_rung": null,
+     "interface_versions": [
+      "v8.1"
+     ],
+     "memory": "own note",
+     "track": "track 1",
+     "cohort": "default"
     },
     {
      "configuration": "z-ai/glm-5.3-flash (high)",
@@ -1081,7 +1179,13 @@
       "excluded_cutoff": 0,
       "rerun": 0
      },
-     "by_rung": null
+     "by_rung": null,
+     "interface_versions": [
+      "v8.1"
+     ],
+     "memory": "own note",
+     "track": "track 1",
+     "cohort": "default"
     },
     {
      "configuration": "openai/gpt-5.6-luna (high)",
@@ -1116,7 +1220,13 @@
       "excluded_cutoff": 0,
       "rerun": 15
      },
-     "by_rung": null
+     "by_rung": null,
+     "interface_versions": [
+      "v8.1"
+     ],
+     "memory": "own note",
+     "track": "track 1",
+     "cohort": "default"
     },
     {
      "configuration": "xiaomi/mimo-v2.6-flash (high)",
@@ -1151,7 +1261,13 @@
       "excluded_cutoff": 0,
       "rerun": 0
      },
-     "by_rung": null
+     "by_rung": null,
+     "interface_versions": [
+      "v8.1"
+     ],
+     "memory": "own note",
+     "track": "track 1",
+     "cohort": "default"
     },
     {
      "configuration": "openai/gpt-6-luna (high)",
@@ -1186,7 +1302,13 @@
       "excluded_cutoff": 0,
       "rerun": 28
      },
-     "by_rung": null
+     "by_rung": null,
+     "interface_versions": [
+      "v8.1"
+     ],
+     "memory": "own note",
+     "track": "track 1",
+     "cohort": "default"
     }
    ]
   }
