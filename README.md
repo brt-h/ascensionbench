@@ -1,5 +1,5 @@
-# AscensionBench
+# Ascension Bench
 
-Public results site for AscensionBench, a Slay the Spire benchmark.
+Public results site for Ascension Bench, a Slay the Spire benchmark.
 
 Visit [ascensionbench.com](https://ascensionbench.com).
