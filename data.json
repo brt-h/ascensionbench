@@ -57,6 +57,7 @@
    "seeds": 20,
    "per_seed": 2,
    "decisions_per_attempt": 4202.75,
+   "decisions_per_floor": 15.741276697590086,
    "games": {
     "started": 218,
     "completed": 215,
@@ -135,6 +136,7 @@
    "seeds": 20,
    "per_seed": 2,
    "decisions_per_attempt": 1008.175,
+   "decisions_per_floor": 14.578857951659518,
    "games": {
     "started": 75,
     "completed": 66,
@@ -215,6 +217,7 @@
    "seeds": 4,
    "per_seed": 1,
    "decisions_per_attempt": 929.25,
+   "decisions_per_floor": 14.811274509803921,
    "games": {
     "started": 5,
     "completed": 5,
@@ -293,6 +296,7 @@
    "seeds": 20,
    "per_seed": 2,
    "decisions_per_attempt": 673.65,
+   "decisions_per_floor": 15.877303976050403,
    "games": {
     "started": 71,
     "completed": 51,
@@ -373,6 +377,7 @@
    "seeds": 20,
    "per_seed": 4,
    "decisions_per_attempt": 619.575,
+   "decisions_per_floor": 14.459623931018797,
    "games": {
     "started": 98,
     "completed": 98,
@@ -454,6 +459,7 @@
    "seeds": 20,
    "per_seed": 2,
    "decisions_per_attempt": 475.525,
+   "decisions_per_floor": 14.034247712662523,
    "games": {
     "started": 43,
     "completed": 43,
@@ -532,6 +538,7 @@
    "seeds": 20,
    "per_seed": 2,
    "decisions_per_attempt": 423.025,
+   "decisions_per_floor": 13.342381524227628,
    "games": {
     "started": 47,
     "completed": 42,
@@ -612,6 +619,7 @@
    "seeds": 20,
    "per_seed": 6,
    "decisions_per_attempt": 220.69166666666666,
+   "decisions_per_floor": 12.148572664984815,
    "games": {
     "started": 120,
     "completed": 120,
@@ -691,6 +699,7 @@
    "seeds": 20,
    "per_seed": 2,
    "decisions_per_attempt": 196.225,
+   "decisions_per_floor": 12.39235466885064,
    "games": {
     "started": 40,
     "completed": 40,
@@ -769,6 +778,7 @@
    "seeds": 20,
    "per_seed": 2,
    "decisions_per_attempt": 159.65,
+   "decisions_per_floor": 12.524849837662337,
    "games": {
     "started": 40,
     "completed": 40,
@@ -847,6 +857,7 @@
    "seeds": 20,
    "per_seed": 1,
    "decisions_per_attempt": 123.0,
+   "decisions_per_floor": 11.427110816814764,
    "games": {
     "started": 20,
     "completed": 20,
@@ -945,6 +956,7 @@
      "seeds": 20,
      "per_seed": 2,
      "decisions_per_attempt": 835.0,
+     "decisions_per_floor": 18.849329205366352,
      "games": {
       "started": 56,
       "completed": 40,
@@ -988,6 +1000,7 @@
      "seeds": 20,
      "per_seed": 2,
      "decisions_per_attempt": 508.05,
+     "decisions_per_floor": 15.287085075672593,
      "games": {
       "started": 41,
       "completed": 40,
@@ -1031,6 +1044,7 @@
      "seeds": 20,
      "per_seed": 2,
      "decisions_per_attempt": 489.0,
+     "decisions_per_floor": 14.170552059364635,
      "games": {
       "started": 40,
       "completed": 40,
@@ -1074,6 +1088,7 @@
      "seeds": 20,
      "per_seed": 2,
      "decisions_per_attempt": 223.25,
+     "decisions_per_floor": 12.3726146040145,
      "games": {
       "started": 41,
       "completed": 40,
@@ -1132,6 +1147,7 @@
      "seeds": 20,
      "per_seed": 2,
      "decisions_per_attempt": 610.375,
+     "decisions_per_floor": 14.31150660217221,
      "games": {
       "started": 44,
       "completed": 40,
@@ -1173,6 +1189,7 @@
      "seeds": 20,
      "per_seed": 2,
      "decisions_per_attempt": 388.725,
+     "decisions_per_floor": 13.004268800607893,
      "games": {
       "started": 40,
       "completed": 40,
@@ -1214,6 +1231,7 @@
      "seeds": 20,
      "per_seed": 2,
      "decisions_per_attempt": 1297.0,
+     "decisions_per_floor": 46.31009191283616,
      "games": {
       "started": 55,
       "completed": 40,
@@ -1255,6 +1273,7 @@
      "seeds": 20,
      "per_seed": 2,
      "decisions_per_attempt": 520.95,
+     "decisions_per_floor": 15.296453889987529,
      "games": {
       "started": 40,
       "completed": 40,
@@ -1296,6 +1315,7 @@
      "seeds": 20,
      "per_seed": 2,
      "decisions_per_attempt": 2213.95,
+     "decisions_per_floor": 129.70560303537954,
      "games": {
       "started": 68,
       "completed": 40,
