@@ -26,7 +26,7 @@
   ],
   "fingerprint_note": "This edition holds runs under two fingerprints: interface v10 and v10.1, a minor revision of it. v10.1 says which card reward is open when a rewards screen has two or more, and shows a rejected action as it was sent. Nothing else the model sees changed: replayed under v10.1, this edition's v10 runs differ at no more than 1.2% of any row's decision points."
  },
- "generated": "2026-11-11",
+ "generated": "2026-11-14",
  "results_as_of": "2026-10-20",
  "rows": [
   {
@@ -57,7 +57,7 @@
    "seeds": 20,
    "per_seed": 2,
    "decisions_per_attempt": 4202.75,
-   "decisions_per_floor": 15.741276697590086,
+   "decisions_per_floor": 15.74127669759008,
    "games": {
     "started": 218,
     "completed": 215,
@@ -136,7 +136,7 @@
    "seeds": 20,
    "per_seed": 2,
    "decisions_per_attempt": 1008.175,
-   "decisions_per_floor": 14.578857951659518,
+   "decisions_per_floor": 14.57885795165952,
    "games": {
     "started": 75,
     "completed": 66,
@@ -296,7 +296,7 @@
    "seeds": 20,
    "per_seed": 2,
    "decisions_per_attempt": 673.65,
-   "decisions_per_floor": 15.877303976050403,
+   "decisions_per_floor": 15.8773039760504,
    "games": {
     "started": 71,
     "completed": 51,
@@ -619,7 +619,7 @@
    "seeds": 20,
    "per_seed": 6,
    "decisions_per_attempt": 220.69166666666666,
-   "decisions_per_floor": 12.148572664984815,
+   "decisions_per_floor": 12.148572664984814,
    "games": {
     "started": 120,
     "completed": 120,
@@ -956,7 +956,7 @@
      "seeds": 20,
      "per_seed": 2,
      "decisions_per_attempt": 835.0,
-     "decisions_per_floor": 18.849329205366352,
+     "decisions_per_floor": 18.849329205366356,
      "games": {
       "started": 56,
       "completed": 40,
@@ -1000,7 +1000,7 @@
      "seeds": 20,
      "per_seed": 2,
      "decisions_per_attempt": 508.05,
-     "decisions_per_floor": 15.287085075672593,
+     "decisions_per_floor": 15.28708507567259,
      "games": {
       "started": 41,
       "completed": 40,
@@ -1044,7 +1044,7 @@
      "seeds": 20,
      "per_seed": 2,
      "decisions_per_attempt": 489.0,
-     "decisions_per_floor": 14.170552059364635,
+     "decisions_per_floor": 14.170552059364638,
      "games": {
       "started": 40,
       "completed": 40,
@@ -1088,7 +1088,7 @@
      "seeds": 20,
      "per_seed": 2,
      "decisions_per_attempt": 223.25,
-     "decisions_per_floor": 12.3726146040145,
+     "decisions_per_floor": 12.372614604014498,
      "games": {
       "started": 41,
       "completed": 40,
@@ -1137,7 +1137,7 @@
       0.08745302996883066,
       0.3195029205439244
      ],
-     "cost_per_attempt": 1.0053967500000003,
+     "cost_per_attempt": 1.00539675,
      "cost_per_decision": 0.0017808990874872005,
      "api_equivalent": false,
      "price_basis": "recorded",
@@ -1147,7 +1147,7 @@
      "seeds": 20,
      "per_seed": 2,
      "decisions_per_attempt": 610.375,
-     "decisions_per_floor": 14.31150660217221,
+     "decisions_per_floor": 14.311506602172212,
      "games": {
       "started": 44,
       "completed": 40,
@@ -1189,7 +1189,7 @@
      "seeds": 20,
      "per_seed": 2,
      "decisions_per_attempt": 388.725,
-     "decisions_per_floor": 13.004268800607893,
+     "decisions_per_floor": 13.004268800607889,
      "games": {
       "started": 40,
       "completed": 40,
@@ -1221,7 +1221,7 @@
       0.0044267174077949195,
       0.1288165948800778
      ],
-     "cost_per_attempt": 0.5324924249999998,
+     "cost_per_attempt": 0.532492425,
      "cost_per_decision": 0.0005467399244410177,
      "api_equivalent": false,
      "price_basis": "recorded",
@@ -1231,7 +1231,7 @@
      "seeds": 20,
      "per_seed": 2,
      "decisions_per_attempt": 1297.0,
-     "decisions_per_floor": 46.31009191283616,
+     "decisions_per_floor": 46.310091912836164,
      "games": {
       "started": 55,
       "completed": 40,
@@ -1263,7 +1263,7 @@
       0.013820377146101098,
       0.165041708179252
      ],
-     "cost_per_attempt": 0.19637387499999998,
+     "cost_per_attempt": 0.196373875,
      "cost_per_decision": 0.00037695341702658603,
      "api_equivalent": false,
      "price_basis": "recorded",
@@ -1273,7 +1273,7 @@
      "seeds": 20,
      "per_seed": 2,
      "decisions_per_attempt": 520.95,
-     "decisions_per_floor": 15.296453889987529,
+     "decisions_per_floor": 15.296453889987527,
      "games": {
       "started": 40,
       "completed": 40,
@@ -1315,7 +1315,7 @@
      "seeds": 20,
      "per_seed": 2,
      "decisions_per_attempt": 2213.95,
-     "decisions_per_floor": 129.70560303537954,
+     "decisions_per_floor": 129.7056030353795,
      "games": {
       "started": 68,
       "completed": 40,
