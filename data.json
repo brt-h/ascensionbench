@@ -26,8 +26,8 @@
   ],
   "fingerprint_note": "This edition holds runs under two fingerprints: interface v10 and v10.1, a minor revision of it. v10.1 says which card reward is open when a rewards screen has two or more, and shows a rejected action as it was sent. Nothing else the model sees changed: replayed under v10.1, this edition's v10 runs differ at no more than 1.2% of any row's decision points."
  },
- "generated": "2026-11-14",
- "results_as_of": "2026-10-20",
+ "generated": "2026-11-15",
+ "results_as_of": "2026-11-15",
  "rows": [
   {
    "configuration": "gpt-6.1-sol (high)",
@@ -115,10 +115,10 @@
    "configuration": "gpt-6.1-terra (high)",
    "metric": "ascent",
    "cap": 5,
-   "mean_floor": 113.85,
+   "mean_floor": 168.05,
    "floor_interval": [
-    90.86544967231993,
-    136.83455032768006
+    118.1746457832246,
+    217.92535421677542
    ],
    "lower_bound": false,
    "preliminary": false,
@@ -127,22 +127,22 @@
     0.5312949900419365,
     0.888139947210597
    ],
-   "cost_per_attempt": 4.1123441000000005,
-   "cost_per_decision": 0.002298875869972329,
+   "cost_per_attempt": 6.08862635,
+   "cost_per_decision": 0.0022957755552203917,
    "api_equivalent": true,
    "price_basis": "list",
    "price_dates": [
     "2026-10-14"
    ],
-   "seconds_measured": 2.926,
+   "seconds_measured": 2.7525,
    "attempts": 20,
    "seeds": 20,
    "per_seed": 1,
-   "decisions_per_attempt": 1788.85,
-   "decisions_per_floor": 15.516273459876842,
+   "decisions_per_attempt": 2652.1,
+   "decisions_per_floor": 15.524363760802455,
    "games": {
-    "started": 50,
-    "completed": 48,
+    "started": 73,
+    "completed": 71,
     "excluded": 2,
     "excluded_cutoff": 0,
     "rerun": 2
@@ -168,36 +168,30 @@
     },
     {
      "ascension": 3,
-     "played": 0,
-     "won": 0,
-     "in_progress": 10
+     "played": 10,
+     "won": 8,
+     "in_progress": 0
     },
     {
      "ascension": 4,
-     "played": 0,
-     "won": 0,
+     "played": 8,
+     "won": 5,
      "in_progress": 0
     },
     {
      "ascension": 5,
-     "played": 0,
-     "won": 0,
+     "played": 5,
+     "won": 5,
      "in_progress": 0
     }
    ],
    "interface_versions": [
-    "v10",
     "v10.1"
    ],
    "memory": "own note",
    "track": "track 1",
    "cohort": "default",
-   "in_progress": {
-    "label": "in progress \u00b7 A0 done \u00b7 A1 done \u00b7 A2 done \u00b7 0 of 10 climbs at A3 \u00b7 10 climbing",
-    "since": "2026-11-11",
-    "planned": 20,
-    "games_finished": 48
-   }
+   "in_progress": null
   },
   {
    "configuration": "deepseek/deepseek-v4.1-flash (high)",
