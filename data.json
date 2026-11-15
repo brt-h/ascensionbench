@@ -359,10 +359,10 @@
    "configuration": "meta/muse-ember (high)",
    "metric": "ascent",
    "cap": 5,
-   "mean_floor": 48.666666666666664,
+   "mean_floor": 50.666666666666664,
    "floor_interval": [
-    19.37029997384961,
-    77.96303335948372
+    16.50900747579118,
+    84.82432585754215
    ],
    "lower_bound": false,
    "preliminary": false,
@@ -371,20 +371,20 @@
     0.03005258587173032,
     0.563509436563646
    ],
-   "cost_per_attempt": 0.4243966666666667,
-   "cost_per_decision": 0.0005018486401261332,
+   "cost_per_attempt": 0.4363165,
+   "cost_per_decision": 0.0005010333014354067,
    "api_equivalent": false,
    "price_basis": "recorded",
    "price_dates": [],
-   "seconds_measured": 1.786,
+   "seconds_measured": 1.787,
    "attempts": 6,
    "seeds": 6,
    "per_seed": 1,
-   "decisions_per_attempt": 845.6666666666666,
-   "decisions_per_floor": 17.63524286243975,
+   "decisions_per_attempt": 870.8333333333334,
+   "decisions_per_floor": 17.625008944311094,
    "games": {
-    "started": 7,
-    "completed": 7,
+    "started": 8,
+    "completed": 8,
     "excluded": 0,
     "excluded_cutoff": 0,
     "rerun": 0
@@ -404,9 +404,9 @@
     },
     {
      "ascension": 2,
-     "played": 0,
+     "played": 1,
      "won": 0,
-     "in_progress": 1
+     "in_progress": 0
     },
     {
      "ascension": 3,
@@ -434,10 +434,10 @@
    "track": "track 1",
    "cohort": "default",
    "in_progress": {
-    "label": "in progress \u00b7 6 of 40 climbs at A0 \u00b7 1 climbing",
+    "label": "in progress \u00b7 6 of 40 climbs at A0",
     "since": "2026-11-15",
     "planned": 40,
-    "games_finished": 7
+    "games_finished": 8
    }
   },
   {
