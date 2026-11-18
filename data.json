@@ -26,7 +26,7 @@
   ],
   "fingerprint_note": "This edition holds runs under two fingerprints: interface v10 and v10.1, a minor revision of it. v10.1 says which card reward is open when a rewards screen has two or more, and shows a rejected action as it was sent. Nothing else the model sees changed: replayed under v10.1, this edition's v10 runs differ at no more than 1.2% of any row's decision points."
  },
- "generated": "2026-11-15",
+ "generated": "2026-11-18",
  "results_as_of": "2026-11-15",
  "rows": [
   {
@@ -356,91 +356,6 @@
    "in_progress": null
   },
   {
-   "configuration": "meta/muse-ember (high)",
-   "metric": "ascent",
-   "cap": 5,
-   "mean_floor": 50.666666666666664,
-   "floor_interval": [
-    16.50900747579118,
-    84.82432585754215
-   ],
-   "lower_bound": false,
-   "preliminary": false,
-   "win_rate": 0.16666666666666666,
-   "win_interval": [
-    0.03005258587173032,
-    0.563509436563646
-   ],
-   "cost_per_attempt": 0.4363165,
-   "cost_per_decision": 0.0005010333014354067,
-   "api_equivalent": false,
-   "price_basis": "recorded",
-   "price_dates": [],
-   "seconds_measured": 1.787,
-   "attempts": 6,
-   "seeds": 6,
-   "per_seed": 1,
-   "decisions_per_attempt": 870.8333333333334,
-   "decisions_per_floor": 17.625008944311094,
-   "games": {
-    "started": 8,
-    "completed": 8,
-    "excluded": 0,
-    "excluded_cutoff": 0,
-    "rerun": 0
-   },
-   "by_rung": [
-    {
-     "ascension": 0,
-     "played": 6,
-     "won": 1,
-     "in_progress": 0
-    },
-    {
-     "ascension": 1,
-     "played": 1,
-     "won": 1,
-     "in_progress": 0
-    },
-    {
-     "ascension": 2,
-     "played": 1,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 3,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 4,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 5,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    }
-   ],
-   "interface_versions": [
-    "v10.1"
-   ],
-   "memory": "own note",
-   "track": "track 1",
-   "cohort": "default",
-   "in_progress": {
-    "label": "in progress \u00b7 6 of 40 climbs at A0",
-    "since": "2026-11-15",
-    "planned": 40,
-    "games_finished": 8
-   }
-  },
-  {
    "configuration": "xiaomi/mimo-v2.6-flash (high)",
    "metric": "ascent",
    "cap": 5,
@@ -684,6 +599,91 @@
    "track": "track 1",
    "cohort": "default",
    "in_progress": null
+  },
+  {
+   "configuration": "meta/muse-ember (high)",
+   "metric": "ascent",
+   "cap": 5,
+   "mean_floor": 32.51282051282051,
+   "floor_interval": [
+    26.084459097139863,
+    38.965540902860134
+   ],
+   "lower_bound": false,
+   "preliminary": false,
+   "win_rate": 0.05128205128205128,
+   "win_interval": [
+    0.014177657646399527,
+    0.1688593904563791
+   ],
+   "cost_per_attempt": 0.2504339230769231,
+   "cost_per_decision": 0.00048524061009538953,
+   "api_equivalent": false,
+   "price_basis": "recorded",
+   "price_dates": [],
+   "seconds_measured": 2.84,
+   "attempts": 39,
+   "seeds": 20,
+   "per_seed": null,
+   "decisions_per_attempt": 516.1025641025641,
+   "decisions_per_floor": 15.795396176180029,
+   "games": {
+    "started": 69,
+    "completed": 42,
+    "excluded": 27,
+    "excluded_cutoff": 0,
+    "rerun": 25
+   },
+   "by_rung": [
+    {
+     "ascension": 0,
+     "played": 39,
+     "won": 2,
+     "in_progress": 0
+    },
+    {
+     "ascension": 1,
+     "played": 2,
+     "won": 1,
+     "in_progress": 0
+    },
+    {
+     "ascension": 2,
+     "played": 1,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 3,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 4,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 5,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    }
+   ],
+   "interface_versions": [
+    "v10.1"
+   ],
+   "memory": "own note",
+   "track": "track 1",
+   "cohort": "default",
+   "in_progress": {
+    "label": "in progress \u00b7 39 of 40 climbs at A0",
+    "since": "2026-11-15",
+    "planned": 40,
+    "games_finished": 42
+   }
   },
   {
    "configuration": "z-ai/glm-5.3-flash (high)",
