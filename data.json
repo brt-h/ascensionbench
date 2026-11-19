@@ -6,7 +6,7 @@
   "track": "model only (track 1, fixed interface)",
   "character": "Ironclad",
   "start_ascension": "A0",
-  "climb_cap": 5,
+  "climb_cap": 20,
   "interface": "v10; v10.1 (minor) from campaign 009",
   "interface_sha256": "7f6185014f45f1228ef5e5417c916121b29ee539abd4ba13b653233b2dd97f28",
   "scoring_rule": 2,
@@ -24,7 +24,7 @@
     "sha256": "47957193ea379cfb7f1c5b1d0f54459182fc687f66deaf2cd592b995f442cee0"
    }
   ],
-  "fingerprint_note": "This edition holds runs under two fingerprints: interface v10 and v10.1, a minor revision of it. v10.1 says which card reward is open when a rewards screen has two or more, and shows a rejected action as it was sent. Nothing else the model sees changed: replayed under v10.1, this edition's v10 runs differ at no more than 1.2% of any row's decision points."
+  "fingerprint_note": "This edition holds runs under two fingerprints: interface v10 and v10.1, a minor revision of it. A climb continued above Ascension 5 after the cap was raised plays its higher ascensions under v10.1 whichever version its first six were played under; its own page says which. v10.1 says which card reward is open when a rewards screen has two or more, and shows a rejected action as it was sent. Nothing else the model sees changed: replayed under v10.1, this edition's v10 runs differ at no more than 1.2% of any row's decision points."
  },
  "generated": "2026-11-19",
  "results_as_of": "2026-11-18",
@@ -32,13 +32,13 @@
   {
    "configuration": "gpt-6.1-sol (high)",
    "metric": "ascent",
-   "cap": 5,
+   "cap": 20,
    "mean_floor": 266.475,
    "floor_interval": [
     240.08802760101926,
     292.8619723989808
    ],
-   "lower_bound": false,
+   "lower_bound": true,
    "preliminary": false,
    "win_rate": 0.95,
    "win_interval": [
@@ -46,7 +46,7 @@
     0.9861796228538989
    ],
    "cost_per_attempt": 20.17839655,
-   "cost_per_decision": 0.0048012364642198565,
+   "cost_per_decision": 0.004801236464219856,
    "api_equivalent": true,
    "price_basis": "list",
    "price_dates": [
@@ -101,6 +101,96 @@
      "played": 32,
      "won": 26,
      "in_progress": 0
+    },
+    {
+     "ascension": 6,
+     "played": 0,
+     "won": 0,
+     "in_progress": 26
+    },
+    {
+     "ascension": 7,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 8,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 9,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 10,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 11,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 12,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 13,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 14,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 15,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 16,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 17,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 18,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 19,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 20,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
     }
    ],
    "interface_versions": [
@@ -109,40 +199,54 @@
    "memory": "own note",
    "track": "track 1",
    "cohort": "default",
-   "in_progress": null
+   "in_progress": {
+    "kind": "continuation",
+    "label": "in progress \u00b7 14 of 40 climbs finished \u00b7 26 still climbing above A5",
+    "short": "in progress \u00b7 26 still climbing above A5",
+    "since": "2026-11-19",
+    "planned": 40,
+    "climbs": 40,
+    "finished": 14,
+    "still_climbing": 26,
+    "above": 5,
+    "highest_rung": 5,
+    "bound": true,
+    "games_finished": 215
+   },
+   "single_climb": false
   },
   {
    "configuration": "gpt-6.1-terra (high)",
    "metric": "ascent",
-   "cap": 5,
-   "mean_floor": 168.05,
+   "cap": 20,
+   "mean_floor": 162.47619047619048,
    "floor_interval": [
-    118.1746457832246,
-    217.92535421677542
+    116.0452342637042,
+    216.80476573629582
    ],
    "lower_bound": false,
    "preliminary": false,
-   "win_rate": 0.75,
+   "win_rate": 0.7619047619047619,
    "win_interval": [
-    0.5312949900419365,
-    0.888139947210597
+    0.5490841802765406,
+    0.8937214361088773
    ],
-   "cost_per_attempt": 6.08862635,
-   "cost_per_decision": 0.0022957755552203917,
+   "cost_per_attempt": 5.870317,
+   "cost_per_decision": 0.002293092578125,
    "api_equivalent": true,
    "price_basis": "list",
    "price_dates": [
     "2026-10-14"
    ],
    "seconds_measured": 2.7525,
-   "attempts": 20,
+   "attempts": 21,
    "seeds": 20,
-   "per_seed": 1,
-   "decisions_per_attempt": 2652.1,
-   "decisions_per_floor": 15.524363760802455,
+   "per_seed": null,
+   "decisions_per_attempt": 2560.0,
+   "decisions_per_floor": 15.455509837552293,
    "games": {
-    "started": 73,
-    "completed": 71,
+    "started": 74,
+    "completed": 72,
     "excluded": 2,
     "excluded_cutoff": 0,
     "rerun": 2
@@ -150,15 +254,15 @@
    "by_rung": [
     {
      "ascension": 0,
-     "played": 20,
-     "won": 15,
+     "played": 21,
+     "won": 16,
      "in_progress": 0
     },
     {
      "ascension": 1,
      "played": 15,
      "won": 13,
-     "in_progress": 0
+     "in_progress": 1
     },
     {
      "ascension": 2,
@@ -183,6 +287,96 @@
      "played": 5,
      "won": 5,
      "in_progress": 0
+    },
+    {
+     "ascension": 6,
+     "played": 0,
+     "won": 0,
+     "in_progress": 5
+    },
+    {
+     "ascension": 7,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 8,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 9,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 10,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 11,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 12,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 13,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 14,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 15,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 16,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 17,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 18,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 19,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 20,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
     }
    ],
    "interface_versions": [
@@ -191,18 +385,32 @@
    "memory": "own note",
    "track": "track 1",
    "cohort": "default",
-   "in_progress": null
+   "in_progress": {
+    "kind": "continuation",
+    "label": "in progress \u00b7 15 of 40 climbs finished \u00b7 6 still climbing",
+    "short": "in progress \u00b7 6 still climbing",
+    "since": "2026-11-19",
+    "planned": 40,
+    "climbs": 21,
+    "finished": 15,
+    "still_climbing": 6,
+    "above": 0,
+    "highest_rung": 5,
+    "bound": false,
+    "games_finished": 72
+   },
+   "single_climb": false
   },
   {
    "configuration": "deepseek/deepseek-v4.1-flash (high)",
    "metric": "ascent",
-   "cap": 5,
+   "cap": 20,
    "mean_floor": 68.475,
    "floor_interval": [
     43.85800670444256,
     93.09199329555743
    ],
-   "lower_bound": false,
+   "lower_bound": true,
    "preliminary": false,
    "win_rate": 0.325,
    "win_interval": [
@@ -263,6 +471,96 @@
      "played": 1,
      "won": 1,
      "in_progress": 0
+    },
+    {
+     "ascension": 6,
+     "played": 0,
+     "won": 0,
+     "in_progress": 1
+    },
+    {
+     "ascension": 7,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 8,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 9,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 10,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 11,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 12,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 13,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 14,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 15,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 16,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 17,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 18,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 19,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 20,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
     }
    ],
    "interface_versions": [
@@ -271,12 +569,26 @@
    "memory": "own note",
    "track": "track 1",
    "cohort": "default",
-   "in_progress": null
+   "in_progress": {
+    "kind": "continuation",
+    "label": "in progress \u00b7 39 of 40 climbs finished \u00b7 1 still climbing above A5",
+    "short": "in progress \u00b7 1 still climbing above A5",
+    "since": "2026-11-19",
+    "planned": 40,
+    "climbs": 40,
+    "finished": 39,
+    "still_climbing": 1,
+    "above": 5,
+    "highest_rung": 5,
+    "bound": true,
+    "games_finished": 66
+   },
+   "single_climb": false
   },
   {
    "configuration": "claude-opus-5-5 (high)",
    "metric": "ascent",
-   "cap": 5,
+   "cap": 20,
    "mean_floor": 63.75,
    "floor_interval": [
     23.179499999999997,
@@ -345,6 +657,96 @@
      "played": 0,
      "won": 0,
      "in_progress": 0
+    },
+    {
+     "ascension": 6,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 7,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 8,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 9,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 10,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 11,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 12,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 13,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 14,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 15,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 16,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 17,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 18,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 19,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 20,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
     }
    ],
    "interface_versions": [
@@ -353,12 +755,13 @@
    "memory": "own note",
    "track": "track 1",
    "cohort": "default",
-   "in_progress": null
+   "in_progress": null,
+   "single_climb": false
   },
   {
    "configuration": "xiaomi/mimo-v2.6-flash (high)",
    "metric": "ascent",
-   "cap": 5,
+   "cap": 20,
    "mean_floor": 42.775,
    "floor_interval": [
     28.359491239043834,
@@ -425,6 +828,96 @@
      "played": 0,
      "won": 0,
      "in_progress": 0
+    },
+    {
+     "ascension": 6,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 7,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 8,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 9,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 10,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 11,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 12,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 13,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 14,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 15,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 16,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 17,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 18,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 19,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 20,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
     }
    ],
    "interface_versions": [
@@ -433,18 +926,19 @@
    "memory": "own note",
    "track": "track 1",
    "cohort": "default",
-   "in_progress": null
+   "in_progress": null,
+   "single_climb": false
   },
   {
    "configuration": "gpt-6-luna (high)",
    "metric": "ascent",
-   "cap": 5,
+   "cap": 20,
    "mean_floor": 42.675,
    "floor_interval": [
     29.421925075332567,
     55.92807492466743
    ],
-   "lower_bound": false,
+   "lower_bound": true,
    "preliminary": false,
    "win_rate": 0.1375,
    "win_interval": [
@@ -452,7 +946,7 @@
     0.22967297199630554
    ],
    "cost_per_attempt": 0.1667103475,
-   "cost_per_decision": 0.00026907210184400586,
+   "cost_per_decision": 0.00026907210184400597,
    "api_equivalent": true,
    "price_basis": "list",
    "price_dates": [
@@ -507,6 +1001,96 @@
      "played": 1,
      "won": 1,
      "in_progress": 0
+    },
+    {
+     "ascension": 6,
+     "played": 0,
+     "won": 0,
+     "in_progress": 1
+    },
+    {
+     "ascension": 7,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 8,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 9,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 10,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 11,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 12,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 13,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 14,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 15,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 16,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 17,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 18,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 19,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 20,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
     }
    ],
    "interface_versions": [
@@ -516,12 +1100,26 @@
    "memory": "own note",
    "track": "track 1",
    "cohort": "default",
-   "in_progress": null
+   "in_progress": {
+    "kind": "continuation",
+    "label": "in progress \u00b7 79 of 80 climbs finished \u00b7 1 still climbing above A5",
+    "short": "in progress \u00b7 1 still climbing above A5",
+    "since": "2026-11-19",
+    "planned": 80,
+    "climbs": 80,
+    "finished": 79,
+    "still_climbing": 1,
+    "above": 5,
+    "highest_rung": 5,
+    "bound": true,
+    "games_finished": 98
+   },
+   "single_climb": false
   },
   {
    "configuration": "gpt-5.6-luna (high)",
    "metric": "ascent",
-   "cap": 5,
+   "cap": 20,
    "mean_floor": 33.675,
    "floor_interval": [
     26.262568146538953,
@@ -590,6 +1188,96 @@
      "played": 0,
      "won": 0,
      "in_progress": 0
+    },
+    {
+     "ascension": 6,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 7,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 8,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 9,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 10,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 11,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 12,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 13,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 14,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 15,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 16,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 17,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 18,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 19,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 20,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
     }
    ],
    "interface_versions": [
@@ -598,12 +1286,13 @@
    "memory": "own note",
    "track": "track 1",
    "cohort": "default",
-   "in_progress": null
+   "in_progress": null,
+   "single_climb": false
   },
   {
    "configuration": "meta/muse-ember (high)",
    "metric": "ascent",
-   "cap": 5,
+   "cap": 20,
    "mean_floor": 32.1,
    "floor_interval": [
     25.60548438636187,
@@ -670,6 +1359,96 @@
      "played": 0,
      "won": 0,
      "in_progress": 0
+    },
+    {
+     "ascension": 6,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 7,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 8,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 9,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 10,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 11,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 12,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 13,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 14,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 15,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 16,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 17,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 18,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 19,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 20,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
     }
    ],
    "interface_versions": [
@@ -678,12 +1457,13 @@
    "memory": "own note",
    "track": "track 1",
    "cohort": "default",
-   "in_progress": null
+   "in_progress": null,
+   "single_climb": false
   },
   {
    "configuration": "z-ai/glm-5.3-flash (high)",
    "metric": "ascent",
-   "cap": 5,
+   "cap": 20,
    "mean_floor": 31,
    "floor_interval": [
     24.133022434850748,
@@ -750,6 +1530,96 @@
      "played": 0,
      "won": 0,
      "in_progress": 0
+    },
+    {
+     "ascension": 6,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 7,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 8,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 9,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 10,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 11,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 12,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 13,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 14,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 15,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 16,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 17,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 18,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 19,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 20,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
     }
    ],
    "interface_versions": [
@@ -758,12 +1628,13 @@
    "memory": "own note",
    "track": "track 1",
    "cohort": "default",
-   "in_progress": null
+   "in_progress": null,
+   "single_climb": false
   },
   {
    "configuration": "claude-haiku-5-5 (high)",
    "metric": "ascent",
-   "cap": 5,
+   "cap": 20,
    "mean_floor": 18.441666666666666,
    "floor_interval": [
     16.52746544503862,
@@ -832,6 +1703,96 @@
      "played": 0,
      "won": 0,
      "in_progress": 0
+    },
+    {
+     "ascension": 6,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 7,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 8,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 9,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 10,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 11,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 12,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 13,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 14,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 15,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 16,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 17,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 18,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 19,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 20,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
     }
    ],
    "interface_versions": [
@@ -841,12 +1802,13 @@
    "memory": "own note",
    "track": "track 1",
    "cohort": "default",
-   "in_progress": null
+   "in_progress": null,
+   "single_climb": false
   },
   {
    "configuration": "d1-ultra (decision API, no memory)",
    "metric": "ascent",
-   "cap": 5,
+   "cap": 20,
    "mean_floor": 17.325,
    "floor_interval": [
     14.951600608200671,
@@ -913,6 +1875,96 @@
      "played": 0,
      "won": 0,
      "in_progress": 0
+    },
+    {
+     "ascension": 6,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 7,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 8,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 9,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 10,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 11,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 12,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 13,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 14,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 15,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 16,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 17,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 18,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 19,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 20,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
     }
    ],
    "interface_versions": [
@@ -921,12 +1973,13 @@
    "memory": "none",
    "track": "track 1",
    "cohort": "other",
-   "in_progress": null
+   "in_progress": null,
+   "single_climb": false
   },
   {
    "configuration": "Jev 1.14 (decision API, no memory)",
    "metric": "ascent",
-   "cap": 5,
+   "cap": 20,
    "mean_floor": 15.8,
    "floor_interval": [
     13.756608168162295,
@@ -993,6 +2046,96 @@
      "played": 0,
      "won": 0,
      "in_progress": 0
+    },
+    {
+     "ascension": 6,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 7,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 8,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 9,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 10,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 11,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 12,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 13,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 14,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 15,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 16,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 17,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 18,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 19,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 20,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
     }
    ],
    "interface_versions": [
@@ -1001,12 +2144,13 @@
    "memory": "none",
    "track": "track 1",
    "cohort": "other",
-   "in_progress": null
+   "in_progress": null,
+   "single_climb": false
   },
   {
    "configuration": "Jev 1.14 (decision API, last 10 actions)",
    "metric": "ascent",
-   "cap": 5,
+   "cap": 20,
    "mean_floor": 14,
    "floor_interval": [
     12.14032069827533,
@@ -1073,6 +2217,96 @@
      "played": 0,
      "won": 0,
      "in_progress": 0
+    },
+    {
+     "ascension": 6,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 7,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 8,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 9,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 10,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 11,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 12,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 13,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 14,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 15,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 16,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 17,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 18,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 19,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 20,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
     }
    ],
    "interface_versions": [
@@ -1081,7 +2315,8 @@
    "memory": "last 10 actions",
    "track": "labelled variant",
    "cohort": "other",
-   "in_progress": null
+   "in_progress": null,
+   "single_climb": false
   }
  ],
  "earlier_editions": [
@@ -1144,7 +2379,8 @@
      "memory": "own note",
      "track": "track 1",
      "cohort": "default",
-     "in_progress": null
+     "in_progress": null,
+     "single_climb": false
     },
     {
      "configuration": "gpt-6-luna (high)",
@@ -1189,7 +2425,8 @@
      "memory": "own note",
      "track": "track 1",
      "cohort": "default",
-     "in_progress": null
+     "in_progress": null,
+     "single_climb": false
     },
     {
      "configuration": "gpt-5.6-luna (high)",
@@ -1234,7 +2471,8 @@
      "memory": "own note",
      "track": "track 1",
      "cohort": "default",
-     "in_progress": null
+     "in_progress": null,
+     "single_climb": false
     },
     {
      "configuration": "claude-haiku-5-5 (high)",
@@ -1279,7 +2517,8 @@
      "memory": "own note",
      "track": "track 1",
      "cohort": "default",
-     "in_progress": null
+     "in_progress": null,
+     "single_climb": false
     }
    ]
   },
@@ -1339,7 +2578,8 @@
      "memory": "own note",
      "track": "track 1",
      "cohort": "default",
-     "in_progress": null
+     "in_progress": null,
+     "single_climb": false
     },
     {
      "configuration": "z-ai/glm-5.3-flash (high)",
@@ -1382,7 +2622,8 @@
      "memory": "own note",
      "track": "track 1",
      "cohort": "default",
-     "in_progress": null
+     "in_progress": null,
+     "single_climb": false
     },
     {
      "configuration": "openai/gpt-5.6-luna (high)",
@@ -1425,7 +2666,8 @@
      "memory": "own note",
      "track": "track 1",
      "cohort": "default",
-     "in_progress": null
+     "in_progress": null,
+     "single_climb": false
     },
     {
      "configuration": "xiaomi/mimo-v2.6-flash (high)",
@@ -1468,7 +2710,8 @@
      "memory": "own note",
      "track": "track 1",
      "cohort": "default",
-     "in_progress": null
+     "in_progress": null,
+     "single_climb": false
     },
     {
      "configuration": "openai/gpt-6-luna (high)",
@@ -1511,7 +2754,8 @@
      "memory": "own note",
      "track": "track 1",
      "cohort": "default",
-     "in_progress": null
+     "in_progress": null,
+     "single_climb": false
     }
    ]
   }
