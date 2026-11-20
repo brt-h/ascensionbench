@@ -402,6 +402,177 @@
    "single_climb": false
   },
   {
+   "configuration": "google/gemini-4-hydrogen (high)",
+   "metric": "ascent",
+   "cap": 20,
+   "mean_floor": 102,
+   "floor_interval": null,
+   "lower_bound": false,
+   "preliminary": false,
+   "win_rate": 1.0,
+   "win_interval": null,
+   "cost_per_attempt": 21.943128,
+   "cost_per_decision": 0.01258206880733945,
+   "api_equivalent": false,
+   "price_basis": "recorded",
+   "price_dates": [],
+   "seconds_measured": 6.923,
+   "attempts": 1,
+   "seeds": 1,
+   "per_seed": 1,
+   "decisions_per_attempt": 1744.0,
+   "decisions_per_floor": 17.098039215686274,
+   "games": {
+    "started": 2,
+    "completed": 2,
+    "excluded": 0,
+    "excluded_cutoff": 0,
+    "rerun": 0
+   },
+   "by_rung": [
+    {
+     "ascension": 0,
+     "played": 1,
+     "won": 1,
+     "in_progress": 0
+    },
+    {
+     "ascension": 1,
+     "played": 1,
+     "won": 1,
+     "in_progress": 0
+    },
+    {
+     "ascension": 2,
+     "played": 0,
+     "won": 0,
+     "in_progress": 1
+    },
+    {
+     "ascension": 3,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 4,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 5,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 6,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 7,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 8,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 9,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 10,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 11,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 12,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 13,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 14,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 15,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 16,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 17,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 18,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 19,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 20,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    }
+   ],
+   "interface_versions": [
+    "v10.1"
+   ],
+   "memory": "own note",
+   "track": "track 1",
+   "cohort": "default",
+   "in_progress": {
+    "kind": "new",
+    "label": "in progress \u00b7 A0 done \u00b7 A1 done \u00b7 0 of 1 climbs at A2 \u00b7 1 climbing",
+    "since": "2026-11-20",
+    "planned": 1,
+    "games_finished": 2
+   },
+   "single_climb": true
+  },
+  {
    "configuration": "deepseek/deepseek-v4.1-flash (high)",
    "metric": "ascent",
    "cap": 20,
@@ -757,177 +928,6 @@
    "cohort": "default",
    "in_progress": null,
    "single_climb": false
-  },
-  {
-   "configuration": "google/gemini-4-hydrogen (high)",
-   "metric": "ascent",
-   "cap": 20,
-   "mean_floor": 51,
-   "floor_interval": null,
-   "lower_bound": false,
-   "preliminary": false,
-   "win_rate": 1.0,
-   "win_interval": null,
-   "cost_per_attempt": 11.623554,
-   "cost_per_decision": 0.012566004324324325,
-   "api_equivalent": false,
-   "price_basis": "recorded",
-   "price_dates": [],
-   "seconds_measured": 7.414,
-   "attempts": 1,
-   "seeds": 1,
-   "per_seed": 1,
-   "decisions_per_attempt": 925.0,
-   "decisions_per_floor": 18.137254901960784,
-   "games": {
-    "started": 1,
-    "completed": 1,
-    "excluded": 0,
-    "excluded_cutoff": 0,
-    "rerun": 0
-   },
-   "by_rung": [
-    {
-     "ascension": 0,
-     "played": 1,
-     "won": 1,
-     "in_progress": 0
-    },
-    {
-     "ascension": 1,
-     "played": 0,
-     "won": 0,
-     "in_progress": 1
-    },
-    {
-     "ascension": 2,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 3,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 4,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 5,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 6,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 7,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 8,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 9,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 10,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 11,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 12,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 13,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 14,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 15,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 16,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 17,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 18,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 19,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 20,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    }
-   ],
-   "interface_versions": [
-    "v10.1"
-   ],
-   "memory": "own note",
-   "track": "track 1",
-   "cohort": "default",
-   "in_progress": {
-    "kind": "new",
-    "label": "in progress \u00b7 A0 done \u00b7 0 of 1 climbs at A1 \u00b7 1 climbing",
-    "since": "2026-11-20",
-    "planned": 1,
-    "games_finished": 1
-   },
-   "single_climb": true
   },
   {
    "configuration": "xiaomi/mimo-v2.6-flash (high)",
