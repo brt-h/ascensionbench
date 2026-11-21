@@ -405,26 +405,26 @@
    "configuration": "google/gemini-4-hydrogen (high)",
    "metric": "ascent",
    "cap": 20,
-   "mean_floor": 102,
+   "mean_floor": 153,
    "floor_interval": null,
    "lower_bound": false,
    "preliminary": false,
    "win_rate": 1.0,
    "win_interval": null,
-   "cost_per_attempt": 21.943128,
-   "cost_per_decision": 0.01258206880733945,
+   "cost_per_attempt": 33.446435,
+   "cost_per_decision": 0.012517378368263473,
    "api_equivalent": false,
    "price_basis": "recorded",
    "price_dates": [],
-   "seconds_measured": 6.923,
+   "seconds_measured": 6.827500000000001,
    "attempts": 1,
    "seeds": 1,
    "per_seed": 1,
-   "decisions_per_attempt": 1744.0,
-   "decisions_per_floor": 17.098039215686274,
+   "decisions_per_attempt": 2672.0,
+   "decisions_per_floor": 17.464052287581698,
    "games": {
-    "started": 2,
-    "completed": 2,
+    "started": 3,
+    "completed": 3,
     "excluded": 0,
     "excluded_cutoff": 0,
     "rerun": 0
@@ -444,15 +444,15 @@
     },
     {
      "ascension": 2,
-     "played": 0,
-     "won": 0,
-     "in_progress": 1
+     "played": 1,
+     "won": 1,
+     "in_progress": 0
     },
     {
      "ascension": 3,
      "played": 0,
      "won": 0,
-     "in_progress": 0
+     "in_progress": 1
     },
     {
      "ascension": 4,
@@ -565,10 +565,10 @@
    "cohort": "default",
    "in_progress": {
     "kind": "new",
-    "label": "in progress \u00b7 A0 done \u00b7 A1 done \u00b7 0 of 1 climbs at A2 \u00b7 1 climbing",
+    "label": "in progress \u00b7 A0 done \u00b7 A1 done \u00b7 A2 done \u00b7 0 of 1 climbs at A3 \u00b7 1 climbing",
     "since": "2026-11-20",
     "planned": 1,
-    "games_finished": 2
+    "games_finished": 3
    },
    "single_climb": true
   },
