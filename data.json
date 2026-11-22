@@ -33,10 +33,10 @@
    "configuration": "gpt-6.1-sol (high)",
    "metric": "ascent",
    "cap": 20,
-   "mean_floor": 288.475,
+   "mean_floor": 289.75,
    "floor_interval": [
-    246.90250283397953,
-    330.04749716602055
+    246.73090382019893,
+    332.76909617980107
    ],
    "lower_bound": true,
    "preliminary": false,
@@ -45,8 +45,8 @@
     0.834958291820748,
     0.9861796228538989
    ],
-   "cost_per_attempt": 22.058733999999998,
-   "cost_per_decision": 0.004809727720208666,
+   "cost_per_attempt": 22.1800866,
+   "cost_per_decision": 0.004810933356469682,
    "api_equivalent": true,
    "price_basis": "list",
    "price_dates": [
@@ -56,11 +56,11 @@
    "attempts": 40,
    "seeds": 20,
    "per_seed": 2,
-   "decisions_per_attempt": 4586.275,
-   "decisions_per_floor": 15.773299217711303,
+   "decisions_per_attempt": 4610.35,
+   "decisions_per_floor": 15.774484307131686,
    "games": {
-    "started": 236,
-    "completed": 233,
+    "started": 237,
+    "completed": 234,
     "excluded": 3,
     "excluded_cutoff": 0,
     "rerun": 3
@@ -146,15 +146,15 @@
     },
     {
      "ascension": 13,
-     "played": 1,
-     "won": 1,
-     "in_progress": 1
+     "played": 2,
+     "won": 2,
+     "in_progress": 0
     },
     {
      "ascension": 14,
      "played": 1,
      "won": 1,
-     "in_progress": 0
+     "in_progress": 1
     },
     {
      "ascension": 15,
@@ -211,7 +211,7 @@
     "above": 5,
     "highest_rung": 16,
     "bound": true,
-    "games_finished": 233
+    "games_finished": 234
    },
    "single_climb": false
   },
