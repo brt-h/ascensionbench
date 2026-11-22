@@ -33,10 +33,10 @@
    "configuration": "gpt-6.1-sol (high)",
    "metric": "ascent",
    "cap": 20,
-   "mean_floor": 298.15,
+   "mean_floor": 300.15,
    "floor_interval": [
-    243.26046461944415,
-    353.0395353805558
+    242.00623615546476,
+    358.2937638445352
    ],
    "lower_bound": true,
    "preliminary": false,
@@ -45,8 +45,8 @@
     0.834958291820748,
     0.9861796228538989
    ],
-   "cost_per_attempt": 23.0006279,
-   "cost_per_decision": 0.004818298118820178,
+   "cost_per_attempt": 23.15309345,
+   "cost_per_decision": 0.004817288624187256,
    "api_equivalent": true,
    "price_basis": "list",
    "price_dates": [
@@ -56,11 +56,11 @@
    "attempts": 40,
    "seeds": 20,
    "per_seed": 2,
-   "decisions_per_attempt": 4773.6,
-   "decisions_per_floor": 15.786702093045367,
+   "decisions_per_attempt": 4806.25,
+   "decisions_per_floor": 15.77668168153372,
    "games": {
-    "started": 244,
-    "completed": 241,
+    "started": 246,
+    "completed": 243,
     "excluded": 3,
     "excluded_cutoff": 0,
     "rerun": 3
@@ -134,13 +134,13 @@
     },
     {
      "ascension": 11,
-     "played": 2,
-     "won": 2,
-     "in_progress": 1
+     "played": 3,
+     "won": 3,
+     "in_progress": 0
     },
     {
      "ascension": 12,
-     "played": 2,
+     "played": 3,
      "won": 2,
      "in_progress": 0
     },
@@ -201,17 +201,17 @@
    "cohort": "default",
    "in_progress": {
     "kind": "continuation",
-    "label": "in progress \u00b7 16 of 40 climbs finished \u00b7 24 still climbing above A5",
-    "short": "in progress \u00b7 24 still climbing above A5",
+    "label": "in progress \u00b7 17 of 40 climbs finished \u00b7 23 still climbing above A5",
+    "short": "in progress \u00b7 23 still climbing above A5",
     "since": "2026-11-19",
     "planned": 40,
     "climbs": 40,
-    "finished": 16,
-    "still_climbing": 24,
+    "finished": 17,
+    "still_climbing": 23,
     "above": 5,
     "highest_rung": 16,
     "bound": true,
-    "games_finished": 241
+    "games_finished": 243
    },
    "single_climb": false
   },
