@@ -33,10 +33,10 @@
    "configuration": "gpt-6.1-sol (high)",
    "metric": "ascent",
    "cap": 20,
-   "mean_floor": 331.975,
+   "mean_floor": 332.375,
    "floor_interval": [
-    251.43440724740208,
-    412.51559275259797
+    251.26864267561135,
+    413.4813573243887
    ],
    "lower_bound": true,
    "preliminary": false,
@@ -45,8 +45,8 @@
     0.834958291820748,
     0.9861796228538989
    ],
-   "cost_per_attempt": 25.822054400000003,
-   "cost_per_decision": 0.004843686198374625,
+   "cost_per_attempt": 25.83896555,
+   "cost_per_decision": 0.004842498287534846,
    "api_equivalent": true,
    "price_basis": "list",
    "price_dates": [
@@ -56,11 +56,11 @@
    "attempts": 40,
    "seeds": 20,
    "per_seed": 2,
-   "decisions_per_attempt": 5331.075,
-   "decisions_per_floor": 15.79194554369575,
+   "decisions_per_attempt": 5335.875,
+   "decisions_per_floor": 15.7896638978869,
    "games": {
-    "started": 272,
-    "completed": 269,
+    "started": 273,
+    "completed": 270,
     "excluded": 3,
     "excluded_cutoff": 0,
     "rerun": 3
@@ -170,9 +170,9 @@
     },
     {
      "ascension": 17,
-     "played": 0,
+     "played": 1,
      "won": 0,
-     "in_progress": 1
+     "in_progress": 0
     },
     {
      "ascension": 18,
@@ -201,17 +201,17 @@
    "cohort": "default",
    "in_progress": {
     "kind": "continuation",
-    "label": "in progress \u00b7 19 of 40 climbs finished \u00b7 21 still climbing above A5",
-    "short": "in progress \u00b7 21 still climbing above A5",
+    "label": "in progress \u00b7 20 of 40 climbs finished \u00b7 20 still climbing above A5",
+    "short": "in progress \u00b7 20 still climbing above A5",
     "since": "2026-11-19",
     "planned": 40,
     "climbs": 40,
-    "finished": 19,
-    "still_climbing": 21,
+    "finished": 20,
+    "still_climbing": 20,
     "above": 5,
-    "highest_rung": 16,
+    "highest_rung": 17,
     "bound": true,
-    "games_finished": 269
+    "games_finished": 270
    },
    "single_climb": false
   },
