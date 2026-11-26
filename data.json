@@ -26,17 +26,17 @@
   ],
   "fingerprint_note": "This edition holds runs under two fingerprints: interface v10 and v10.1, a minor revision of it. A climb continued above Ascension 5 after the cap was raised plays its higher ascensions under v10.1 whichever version its first six were played under; its own page says which. v10.1 says which card reward is open when a rewards screen has two or more, and shows a rejected action as it was sent. Nothing else the model sees changed: replayed under v10.1, this edition's v10 runs differ at no more than 1.2% of any row's decision points."
  },
- "generated": "2026-11-25",
+ "generated": "2026-11-26",
  "results_as_of": "2026-11-21",
  "rows": [
   {
    "configuration": "gpt-6.1-sol (high)",
    "metric": "ascent",
    "cap": 20,
-   "mean_floor": 359.975,
+   "mean_floor": 361.25,
    "floor_interval": [
-    262.09971513689186,
-    457.8502848631082
+    261.8543455510908,
+    460.6456544489092
    ],
    "lower_bound": true,
    "preliminary": false,
@@ -45,8 +45,8 @@
     0.834958291820748,
     0.9861796228538989
    ],
-   "cost_per_attempt": 28.258869949999998,
-   "cost_per_decision": 0.004853599544849499,
+   "cost_per_attempt": 28.359011399999996,
+   "cost_per_decision": 0.004854291113564588,
    "api_equivalent": true,
    "price_basis": "list",
    "price_dates": [
@@ -56,11 +56,11 @@
    "attempts": 40,
    "seeds": 20,
    "per_seed": 2,
-   "decisions_per_attempt": 5822.25,
-   "decisions_per_floor": 15.808524980331573,
+   "decisions_per_attempt": 5842.05,
+   "decisions_per_floor": 15.805535070917514,
    "games": {
-    "started": 295,
-    "completed": 292,
+    "started": 296,
+    "completed": 293,
     "excluded": 3,
     "excluded_cutoff": 0,
     "rerun": 3
@@ -176,15 +176,15 @@
     },
     {
      "ascension": 18,
-     "played": 0,
-     "won": 0,
-     "in_progress": 1
+     "played": 1,
+     "won": 1,
+     "in_progress": 0
     },
     {
      "ascension": 19,
      "played": 0,
      "won": 0,
-     "in_progress": 0
+     "in_progress": 1
     },
     {
      "ascension": 20,
@@ -209,9 +209,9 @@
     "finished": 21,
     "still_climbing": 19,
     "above": 5,
-    "highest_rung": 17,
+    "highest_rung": 18,
     "bound": true,
-    "games_finished": 292
+    "games_finished": 293
    },
    "single_climb": false
   },
