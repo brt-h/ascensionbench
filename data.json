@@ -570,10 +570,10 @@
    "configuration": "claude-opus-5-5 (high)",
    "metric": "ascent",
    "cap": 20,
-   "mean_floor": 101.5,
+   "mean_floor": 114.25,
    "floor_interval": [
-    0.0,
-    215.50193162544804
+    12.77982503423317,
+    215.72017496576683
    ],
    "lower_bound": true,
    "preliminary": false,
@@ -582,8 +582,8 @@
     0.5100999795960008,
     1.0
    ],
-   "cost_per_attempt": 26.745339,
-   "cost_per_decision": 0.01840381145707896,
+   "cost_per_attempt": 29.827536000000002,
+   "cost_per_decision": 0.018397863377023902,
    "api_equivalent": false,
    "price_basis": "list",
    "price_dates": [
@@ -593,11 +593,11 @@
    "attempts": 4,
    "seeds": 4,
    "per_seed": 1,
-   "decisions_per_attempt": 1453.25,
-   "decisions_per_floor": 14.591283389422687,
+   "decisions_per_attempt": 1621.25,
+   "decisions_per_floor": 14.39275397765798,
    "games": {
-    "started": 8,
-    "completed": 8,
+    "started": 9,
+    "completed": 9,
     "excluded": 0,
     "excluded_cutoff": 0,
     "rerun": 0
@@ -611,15 +611,15 @@
     },
     {
      "ascension": 1,
-     "played": 2,
-     "won": 1,
-     "in_progress": 2
+     "played": 3,
+     "won": 2,
+     "in_progress": 1
     },
     {
      "ascension": 2,
      "played": 1,
      "won": 1,
-     "in_progress": 0
+     "in_progress": 1
     },
     {
      "ascension": 3,
@@ -738,17 +738,17 @@
    "cohort": "default",
    "in_progress": {
     "kind": "continuation",
-    "label": "in progress \u00b7 2 of 4 climbs finished \u00b7 1 still climbing \u00b7 1 open, not played",
-    "short": "in progress \u00b7 1 still climbing \u00b7 1 open, not played",
+    "label": "in progress \u00b7 2 of 4 climbs finished \u00b7 1 still climbing above A1 \u00b7 1 open, not played",
+    "short": "in progress \u00b7 1 still climbing above A1 \u00b7 1 open, not played",
     "since": "2026-11-27",
     "planned": 4,
     "climbs": 4,
     "finished": 2,
     "still_climbing": 1,
-    "above": 0,
+    "above": 1,
     "highest_rung": 3,
     "bound": true,
-    "games_finished": 8,
+    "games_finished": 9,
     "seeds_played": [
      "E01",
      "E02",
