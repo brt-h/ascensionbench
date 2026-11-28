@@ -26,7 +26,7 @@
   ],
   "fingerprint_note": "This edition holds runs under two fingerprints: interface v10 and v10.1, a minor revision of it. A climb continued above Ascension 5 after the cap was raised plays its higher ascensions under v10.1 whichever version its first six were played under; its own page says which. v10.1 says which card reward is open when a rewards screen has two or more, and shows a rejected action as it was sent. Nothing else the model sees changed: replayed under v10.1, this edition's v10 runs differ at no more than 1.2% of any row's decision points."
  },
- "generated": "2026-11-27",
+ "generated": "2026-11-28",
  "results_as_of": "2026-11-21",
  "rows": [
   {
@@ -567,6 +567,196 @@
    "single_climb": false
   },
   {
+   "configuration": "claude-opus-5-5 (high)",
+   "metric": "ascent",
+   "cap": 20,
+   "mean_floor": 76.5,
+   "floor_interval": [
+    0.0,
+    157.64100000000002
+   ],
+   "lower_bound": true,
+   "preliminary": false,
+   "win_rate": 1.0,
+   "win_interval": [
+    0.5100999795960008,
+    1.0
+   ],
+   "cost_per_attempt": 20.201061000000003,
+   "cost_per_decision": 0.01833543090537781,
+   "api_equivalent": false,
+   "price_basis": "list",
+   "price_dates": [
+    "2026-10-17"
+   ],
+   "seconds_measured": 3.211,
+   "attempts": 4,
+   "seeds": 4,
+   "per_seed": 1,
+   "decisions_per_attempt": 1101.75,
+   "decisions_per_floor": 14.802287581699346,
+   "games": {
+    "started": 6,
+    "completed": 6,
+    "excluded": 0,
+    "excluded_cutoff": 0,
+    "rerun": 0
+   },
+   "by_rung": [
+    {
+     "ascension": 0,
+     "played": 4,
+     "won": 4,
+     "in_progress": 0
+    },
+    {
+     "ascension": 1,
+     "played": 1,
+     "won": 1,
+     "in_progress": 3
+    },
+    {
+     "ascension": 2,
+     "played": 1,
+     "won": 1,
+     "in_progress": 0
+    },
+    {
+     "ascension": 3,
+     "played": 0,
+     "won": 0,
+     "in_progress": 1
+    },
+    {
+     "ascension": 4,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 5,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 6,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 7,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 8,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 9,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 10,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 11,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 12,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 13,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 14,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 15,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 16,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 17,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 18,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 19,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 20,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    }
+   ],
+   "interface_versions": [
+    "v10.1"
+   ],
+   "memory": "own note",
+   "track": "track 1",
+   "cohort": "default",
+   "in_progress": {
+    "kind": "continuation",
+    "label": "in progress \u00b7 0 of 4 climbs finished \u00b7 1 still climbing above A2 \u00b7 3 open, not played",
+    "short": "in progress \u00b7 1 still climbing above A2 \u00b7 3 open, not played",
+    "since": "2026-11-27",
+    "planned": 4,
+    "climbs": 4,
+    "finished": 0,
+    "still_climbing": 1,
+    "above": 2,
+    "highest_rung": 2,
+    "bound": true,
+    "games_finished": 6,
+    "seeds_played": [
+     "E01"
+    ],
+    "open_not_played": 3
+   },
+   "single_climb": false
+  },
+  {
    "configuration": "deepseek/deepseek-v4.1-flash (high)",
    "metric": "ascent",
    "cap": 20,
@@ -748,179 +938,6 @@
     "bound": true,
     "games_finished": 66
    },
-   "single_climb": false
-  },
-  {
-   "configuration": "claude-opus-5-5 (high)",
-   "metric": "ascent",
-   "cap": 20,
-   "mean_floor": 63.75,
-   "floor_interval": [
-    23.179499999999997,
-    104.32050000000001
-   ],
-   "lower_bound": true,
-   "preliminary": true,
-   "win_rate": 1.0,
-   "win_interval": [
-    0.5100999795960008,
-    1.0
-   ],
-   "cost_per_attempt": 17.056533,
-   "cost_per_decision": 0.018355160613397904,
-   "api_equivalent": false,
-   "price_basis": "list",
-   "price_dates": [
-    "2026-10-17"
-   ],
-   "seconds_measured": 3.211,
-   "attempts": 4,
-   "seeds": 4,
-   "per_seed": 1,
-   "decisions_per_attempt": 929.25,
-   "decisions_per_floor": 14.811274509803921,
-   "games": {
-    "started": 5,
-    "completed": 5,
-    "excluded": 0,
-    "excluded_cutoff": 0,
-    "rerun": 0
-   },
-   "by_rung": [
-    {
-     "ascension": 0,
-     "played": 4,
-     "won": 4,
-     "in_progress": 0
-    },
-    {
-     "ascension": 1,
-     "played": 1,
-     "won": 1,
-     "in_progress": 3
-    },
-    {
-     "ascension": 2,
-     "played": 0,
-     "won": 0,
-     "in_progress": 1
-    },
-    {
-     "ascension": 3,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 4,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 5,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 6,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 7,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 8,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 9,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 10,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 11,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 12,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 13,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 14,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 15,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 16,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 17,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 18,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 19,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 20,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    }
-   ],
-   "interface_versions": [
-    "v10.1"
-   ],
-   "memory": "own note",
-   "track": "track 1",
-   "cohort": "default",
-   "in_progress": null,
    "single_climb": false
   },
   {
