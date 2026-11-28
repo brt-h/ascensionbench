@@ -570,10 +570,10 @@
    "configuration": "claude-opus-5-5 (high)",
    "metric": "ascent",
    "cap": 20,
-   "mean_floor": 114.25,
+   "mean_floor": 122.5,
    "floor_interval": [
-    12.77982503423317,
-    215.72017496576683
+    20.99552999826396,
+    224.00447000173602
    ],
    "lower_bound": true,
    "preliminary": false,
@@ -582,8 +582,8 @@
     0.5100999795960008,
     1.0
    ],
-   "cost_per_attempt": 29.827536000000002,
-   "cost_per_decision": 0.018397863377023902,
+   "cost_per_attempt": 31.638971,
+   "cost_per_decision": 0.018296354488940292,
    "api_equivalent": false,
    "price_basis": "list",
    "price_dates": [
@@ -593,11 +593,11 @@
    "attempts": 4,
    "seeds": 4,
    "per_seed": 1,
-   "decisions_per_attempt": 1621.25,
-   "decisions_per_floor": 14.39275397765798,
+   "decisions_per_attempt": 1729.25,
+   "decisions_per_floor": 14.33899580772334,
    "games": {
-    "started": 9,
-    "completed": 9,
+    "started": 10,
+    "completed": 10,
     "excluded": 0,
     "excluded_cutoff": 0,
     "rerun": 0
@@ -617,9 +617,9 @@
     },
     {
      "ascension": 2,
-     "played": 1,
+     "played": 2,
      "won": 1,
-     "in_progress": 1
+     "in_progress": 0
     },
     {
      "ascension": 3,
@@ -738,25 +738,26 @@
    "cohort": "default",
    "in_progress": {
     "kind": "continuation",
-    "label": "in progress \u00b7 2 of 4 climbs finished \u00b7 1 still climbing above A1 \u00b7 1 open, not played",
-    "short": "in progress \u00b7 1 still climbing above A1 \u00b7 1 open, not played",
+    "label": "in progress \u00b7 3 of 4 climbs finished \u00b7 1 still climbing",
+    "short": "in progress \u00b7 1 still climbing",
     "since": "2026-11-27",
     "planned": 4,
     "climbs": 4,
-    "finished": 2,
+    "finished": 3,
     "still_climbing": 1,
-    "above": 1,
+    "above": 0,
     "highest_rung": 3,
     "bound": true,
-    "games_finished": 9,
+    "games_finished": 10,
     "seeds_played": [
      "E01",
      "E02",
-     "E03"
+     "E03",
+     "E04"
     ],
-    "open_not_played": 1,
+    "open_not_played": 0,
     "seeds_climbing": [
-     "E03"
+     "E04"
     ]
    },
    "single_climb": false
