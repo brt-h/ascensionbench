@@ -765,20 +765,20 @@
    "configuration": "deepseek/deepseek-v4.1-flash (high)",
    "metric": "ascent",
    "cap": 20,
-   "mean_floor": 68.475,
+   "mean_floor": 69.525,
    "floor_interval": [
-    43.85800670444256,
-    93.09199329555743
+    43.29401908960677,
+    95.75598091039325
    ],
-   "lower_bound": true,
+   "lower_bound": false,
    "preliminary": false,
    "win_rate": 0.325,
    "win_interval": [
     0.20084316962661725,
     0.4798254191110201
    ],
-   "cost_per_attempt": 1.3505389,
-   "cost_per_decision": 0.0013395877699804103,
+   "cost_per_attempt": 1.3648963250000001,
+   "cost_per_decision": 0.0013346661369970177,
    "api_equivalent": false,
    "price_basis": "recorded",
    "price_dates": [],
@@ -786,11 +786,11 @@
    "attempts": 40,
    "seeds": 20,
    "per_seed": 2,
-   "decisions_per_attempt": 1008.175,
-   "decisions_per_floor": 14.57885795165952,
+   "decisions_per_attempt": 1022.65,
+   "decisions_per_floor": 14.570541837439404,
    "games": {
-    "started": 75,
-    "completed": 66,
+    "started": 76,
+    "completed": 67,
     "excluded": 9,
     "excluded_cutoff": 5,
     "rerun": 9
@@ -834,9 +834,9 @@
     },
     {
      "ascension": 6,
-     "played": 0,
+     "played": 1,
      "won": 0,
-     "in_progress": 1
+     "in_progress": 0
     },
     {
      "ascension": 7,
@@ -929,20 +929,7 @@
    "memory": "own note",
    "track": "track 1",
    "cohort": "default",
-   "in_progress": {
-    "kind": "continuation",
-    "label": "in progress \u00b7 39 of 40 climbs finished \u00b7 1 still climbing above A5",
-    "short": "in progress \u00b7 1 still climbing above A5",
-    "since": "2026-11-19",
-    "planned": 40,
-    "climbs": 40,
-    "finished": 39,
-    "still_climbing": 1,
-    "above": 5,
-    "highest_rung": 5,
-    "bound": true,
-    "games_finished": 66
-   },
+   "in_progress": null,
    "single_climb": false
   },
   {
