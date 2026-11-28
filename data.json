@@ -941,6 +941,193 @@
    "single_climb": false
   },
   {
+   "configuration": "gpt-6-luna (high)",
+   "metric": "ascent",
+   "cap": 20,
+   "mean_floor": 43.3125,
+   "floor_interval": [
+    28.866735755550735,
+    57.758264244449265
+   ],
+   "lower_bound": true,
+   "preliminary": false,
+   "win_rate": 0.1375,
+   "win_interval": [
+    0.07854633679551142,
+    0.22967297199630554
+   ],
+   "cost_per_attempt": 0.16927335999999998,
+   "cost_per_decision": 0.0002693827093694052,
+   "api_equivalent": true,
+   "price_basis": "list",
+   "price_dates": [
+    "2026-10-14"
+   ],
+   "seconds_measured": 4.349,
+   "attempts": 80,
+   "seeds": 20,
+   "per_seed": 4,
+   "decisions_per_attempt": 628.375,
+   "decisions_per_floor": 14.460032427750823,
+   "games": {
+    "started": 99,
+    "completed": 99,
+    "excluded": 0,
+    "excluded_cutoff": 0,
+    "rerun": 0
+   },
+   "by_rung": [
+    {
+     "ascension": 0,
+     "played": 80,
+     "won": 11,
+     "in_progress": 0
+    },
+    {
+     "ascension": 1,
+     "played": 11,
+     "won": 3,
+     "in_progress": 0
+    },
+    {
+     "ascension": 2,
+     "played": 3,
+     "won": 2,
+     "in_progress": 0
+    },
+    {
+     "ascension": 3,
+     "played": 2,
+     "won": 1,
+     "in_progress": 0
+    },
+    {
+     "ascension": 4,
+     "played": 1,
+     "won": 1,
+     "in_progress": 0
+    },
+    {
+     "ascension": 5,
+     "played": 1,
+     "won": 1,
+     "in_progress": 0
+    },
+    {
+     "ascension": 6,
+     "played": 1,
+     "won": 1,
+     "in_progress": 0
+    },
+    {
+     "ascension": 7,
+     "played": 0,
+     "won": 0,
+     "in_progress": 1
+    },
+    {
+     "ascension": 8,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 9,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 10,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 11,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 12,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 13,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 14,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 15,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 16,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 17,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 18,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 19,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    },
+    {
+     "ascension": 20,
+     "played": 0,
+     "won": 0,
+     "in_progress": 0
+    }
+   ],
+   "interface_versions": [
+    "v10",
+    "v10.1"
+   ],
+   "memory": "own note",
+   "track": "track 1",
+   "cohort": "default",
+   "in_progress": {
+    "kind": "continuation",
+    "label": "in progress \u00b7 79 of 80 climbs finished \u00b7 1 still climbing above A6",
+    "short": "in progress \u00b7 1 still climbing above A6",
+    "since": "2026-11-19",
+    "planned": 80,
+    "climbs": 80,
+    "finished": 79,
+    "still_climbing": 1,
+    "above": 6,
+    "highest_rung": 6,
+    "bound": true,
+    "games_finished": 99
+   },
+   "single_climb": false
+  },
+  {
    "configuration": "xiaomi/mimo-v2.6-flash (high)",
    "metric": "ascent",
    "cap": 20,
@@ -1109,193 +1296,6 @@
    "track": "track 1",
    "cohort": "default",
    "in_progress": null,
-   "single_climb": false
-  },
-  {
-   "configuration": "gpt-6-luna (high)",
-   "metric": "ascent",
-   "cap": 20,
-   "mean_floor": 42.675,
-   "floor_interval": [
-    29.421925075332567,
-    55.92807492466743
-   ],
-   "lower_bound": true,
-   "preliminary": false,
-   "win_rate": 0.1375,
-   "win_interval": [
-    0.07854633679551142,
-    0.22967297199630554
-   ],
-   "cost_per_attempt": 0.1667103475,
-   "cost_per_decision": 0.00026907210184400597,
-   "api_equivalent": true,
-   "price_basis": "list",
-   "price_dates": [
-    "2026-10-14"
-   ],
-   "seconds_measured": 4.349,
-   "attempts": 80,
-   "seeds": 20,
-   "per_seed": 4,
-   "decisions_per_attempt": 619.575,
-   "decisions_per_floor": 14.459623931018797,
-   "games": {
-    "started": 98,
-    "completed": 98,
-    "excluded": 0,
-    "excluded_cutoff": 0,
-    "rerun": 0
-   },
-   "by_rung": [
-    {
-     "ascension": 0,
-     "played": 80,
-     "won": 11,
-     "in_progress": 0
-    },
-    {
-     "ascension": 1,
-     "played": 11,
-     "won": 3,
-     "in_progress": 0
-    },
-    {
-     "ascension": 2,
-     "played": 3,
-     "won": 2,
-     "in_progress": 0
-    },
-    {
-     "ascension": 3,
-     "played": 2,
-     "won": 1,
-     "in_progress": 0
-    },
-    {
-     "ascension": 4,
-     "played": 1,
-     "won": 1,
-     "in_progress": 0
-    },
-    {
-     "ascension": 5,
-     "played": 1,
-     "won": 1,
-     "in_progress": 0
-    },
-    {
-     "ascension": 6,
-     "played": 0,
-     "won": 0,
-     "in_progress": 1
-    },
-    {
-     "ascension": 7,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 8,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 9,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 10,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 11,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 12,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 13,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 14,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 15,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 16,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 17,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 18,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 19,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    },
-    {
-     "ascension": 20,
-     "played": 0,
-     "won": 0,
-     "in_progress": 0
-    }
-   ],
-   "interface_versions": [
-    "v10",
-    "v10.1"
-   ],
-   "memory": "own note",
-   "track": "track 1",
-   "cohort": "default",
-   "in_progress": {
-    "kind": "continuation",
-    "label": "in progress \u00b7 79 of 80 climbs finished \u00b7 1 still climbing above A5",
-    "short": "in progress \u00b7 1 still climbing above A5",
-    "since": "2026-11-19",
-    "planned": 80,
-    "climbs": 80,
-    "finished": 79,
-    "still_climbing": 1,
-    "above": 5,
-    "highest_rung": 5,
-    "bound": true,
-    "games_finished": 98
-   },
    "single_climb": false
   },
   {
